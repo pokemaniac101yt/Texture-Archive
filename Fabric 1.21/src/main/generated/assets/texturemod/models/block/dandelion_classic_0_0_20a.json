@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "texturemod:block/dandelion_classic_0_0_20a"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/glass",
+  "textures": {
+    "all": "texturemod:block/classic_0_0_19a_01/glass_classic_0_0_19a_01"
+  }
+}

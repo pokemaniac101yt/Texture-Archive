@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "texturemod:block/oak_pressure_plate_classic_0_0_14a"
+    },
+    "powered=true": {
+      "model": "texturemod:block/oak_pressure_plate_classic_0_0_14a_down"
+    }
+  }
+}

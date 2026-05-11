@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "texturemod:gold_block_classic_0_26"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:gold_ingot"
+  }
+}

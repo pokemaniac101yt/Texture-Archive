@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "texturemod:block/classic_0_0_20a/dandelion_classic_0_0_20a"
+  }
+}

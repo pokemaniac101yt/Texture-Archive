@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "texturemod:block/classic_0_0_19a/glass_classic_0_0_19a"
+  }
+}

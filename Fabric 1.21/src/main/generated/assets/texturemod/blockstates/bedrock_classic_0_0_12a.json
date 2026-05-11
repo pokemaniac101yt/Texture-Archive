@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "texturemod:block/bedrock_classic_0_0_12a"
+      },
+      {
+        "model": "texturemod:block/bedrock_classic_0_0_12a_mirrored"
+      },
+      {
+        "model": "texturemod:block/bedrock_classic_0_0_12a",
+        "y": 180
+      },
+      {
+        "model": "texturemod:block/bedrock_classic_0_0_12a_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

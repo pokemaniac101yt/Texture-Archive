@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "texturemod:oak_planks_pre_classic_rd_161348"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "texturemod:oak_slab_pre_classic_rd_161348"
+  }
+}

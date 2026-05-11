@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "texturemod:block/oak_sapling_classic_0_0_13a"
+  }
+}

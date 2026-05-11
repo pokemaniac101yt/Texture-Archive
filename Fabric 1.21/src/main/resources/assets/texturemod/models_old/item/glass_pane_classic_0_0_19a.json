@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "texturemod:block/classic_0_0_19a/glass_classic_0_0_19a"
+  }
+}

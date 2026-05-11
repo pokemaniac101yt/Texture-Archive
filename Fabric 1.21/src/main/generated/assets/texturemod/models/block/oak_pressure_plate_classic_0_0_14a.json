@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "texturemod:block/oak_planks_classic_0_0_14a"
+  }
+}

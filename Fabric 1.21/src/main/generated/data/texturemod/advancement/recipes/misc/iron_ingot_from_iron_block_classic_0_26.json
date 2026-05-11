@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_block_classic_0_26": {
+      "conditions": {
+        "items": [
+          {
+            "items": "texturemod:iron_block_classic_0_26"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "texturemod:iron_ingot_from_iron_block_classic_0_26"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_block_classic_0_26"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "texturemod:iron_ingot_from_iron_block_classic_0_26"
+    ]
+  }
+}
