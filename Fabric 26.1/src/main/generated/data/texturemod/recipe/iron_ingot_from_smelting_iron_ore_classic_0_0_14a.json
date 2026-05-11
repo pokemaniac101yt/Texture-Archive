@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iron",
+  "ingredient": {
+    "item": "texturemod:iron_ore_classic_0_0_14a"
+  },
+  "result": {
+    "id": "minecraft:iron_ingot"
+  }
+}

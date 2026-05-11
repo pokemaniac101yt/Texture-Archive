@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "texturemod:block/oak_slab_pre_classic_rd_161348"
+    },
+    "type=double": {
+      "model": "texturemod:block/oak_planks_pre_classic_rd_161348"
+    },
+    "type=top": {
+      "model": "texturemod:block/oak_slab_pre_classic_rd_161348_top"
+    }
+  }
+}

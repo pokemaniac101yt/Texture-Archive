@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_side"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_side",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_side_alt"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_side_alt",
+        "y": 90
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_noside"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_noside_alt"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_noside_alt",
+        "y": 90
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "texturemod:block/classic_0_0_19a_01/glass_pane_classic_0_0_19a_01_noside",
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    }
+  ]
+}

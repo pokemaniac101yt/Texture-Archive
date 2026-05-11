@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sponge_classic_0_0_19a_from_smelting_wet_sponge_classic_0_0_19a"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wet_sponge_classic_0_0_19a": {
+      "conditions": {
+        "items": [
+          {
+            "items": "texturemod:wet_sponge_classic_0_0_19a"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wet_sponge_classic_0_0_19a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sponge_classic_0_0_19a_from_smelting_wet_sponge_classic_0_0_19a"
+    ]
+  }
+}

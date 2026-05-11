@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "texturemod:oak_planks_pre_classic_rd_161348"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "texturemod:oak_pressure_plate_pre_classic_rd_161348"
+  }
+}

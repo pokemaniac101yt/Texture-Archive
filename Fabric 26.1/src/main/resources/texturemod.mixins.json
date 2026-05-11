@@ -1,9 +1,9 @@
 {
 	"required": true,
 	"package": "net.pokemaniac.texturemod.mixin",
-	"compatibilityLevel": "JAVA_25",
+	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"FireBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

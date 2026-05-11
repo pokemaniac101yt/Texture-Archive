@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "texturemod:block/classic_0_0_13a/oak_sapling_classic_0_0_13a"
+  }
+}

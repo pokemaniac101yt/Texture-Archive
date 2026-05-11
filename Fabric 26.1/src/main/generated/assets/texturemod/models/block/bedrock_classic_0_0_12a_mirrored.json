@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_mirrored_all",
+  "textures": {
+    "all": "texturemod:block/bedrock_classic_0_0_12a"
+  }
+}

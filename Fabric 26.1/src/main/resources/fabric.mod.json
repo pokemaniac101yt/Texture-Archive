@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "texturemod",
 	"version": "${version}",
-	"name": "TextureMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Texture Mod",
+	"description": "Texture mod by Pokemaniac_101",
 	"authors": [
-		"Me!"
+		"Pokemaniac_101"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,15 +20,18 @@
 		],
 		"fabric-datagen": [
 			"net.pokemaniac.texturemod.TextureModDataGenerator"
+		],
+		"client": [
+			"net.pokemaniac.texturemod.TextureModClient"
 		]
 	},
 	"mixins": [
 		"texturemod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.2",
-		"minecraft": "~26.1",
-		"java": ">=25",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
