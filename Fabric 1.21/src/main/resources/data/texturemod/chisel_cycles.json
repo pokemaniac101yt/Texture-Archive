@@ -142,7 +142,7 @@
   ],
   "wet_sponge": [
     "texturemod:wet_sponge_classic_0_0_19a",
-    "minecraft:sponge"
+    "minecraft:wet_sponge"
   ],
   "glass": [
     "texturemod:glass_classic_0_0_19a",
@@ -260,10 +260,12 @@
   ],
   "torch" : [
     "texturemod:torch_indev_0_31_20091223_1457",
+    "texturemod:torch_indev_0_31_20091231_1856",
     "minecraft:torch"
   ],
   "wall_torch" : [
     "texturemod:wall_torch_indev_0_31_20091223_1457",
+    "texturemod:wall_torch_indev_0_31_20091231_1856",
     "minecraft:wall_torch"
   ],
   "crafting_table": [
