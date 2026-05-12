@@ -289,6 +289,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 ModBlocks.WALL_TORCH_INDEV_0_31_20091223_1457,
                 ModBlocks.TORCH_INDEV_0_31_20091223_1457);
 
+        addDrop(ModBlocks.TORCH_INDEV_0_31_20091231_1856);
+        addDrop(
+                ModBlocks.WALL_TORCH_INDEV_0_31_20091231_1856,
+                ModBlocks.TORCH_INDEV_0_31_20091231_1856);
+
 
 
     }

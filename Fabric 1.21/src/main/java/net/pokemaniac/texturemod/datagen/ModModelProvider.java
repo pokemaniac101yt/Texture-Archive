@@ -262,6 +262,7 @@ public class ModModelProvider extends FabricModelProvider {
         );
 
         blockStateModelGenerator.registerTorch(ModBlocks.TORCH_INDEV_0_31_20091223_1457, ModBlocks.WALL_TORCH_INDEV_0_31_20091223_1457);
+        blockStateModelGenerator.registerTorch(ModBlocks.TORCH_INDEV_0_31_20091231_1856, ModBlocks.WALL_TORCH_INDEV_0_31_20091231_1856);
 
     }
 
@@ -274,7 +275,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.IRON_CHISEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_CHISEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_CHISEL, Models.HANDHELD);
-
     }
 }
 

@@ -1,7 +1,0 @@
-{   "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "texturemod:block/classic_0_26/gold_block_bottom_classic_0_26",
-    "top": "texturemod:block/classic_0_26/gold_block_top_classic_0_26",
-    "side": "texturemod:block/classic_0_26/gold_block_side_classic_0_26"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "texturemod:block/torch_indev_0_31_20091231_1856"
+  }
+}

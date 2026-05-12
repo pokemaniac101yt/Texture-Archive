@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "texturemod:block/pre_classic_rd_20090515/cobblestone_pre_classic_rd_20090515",
-    "side": "texturemod:block/pre_classic_rd_20090515/cobblestone_pre_classic_rd_20090515",
-    "top": "texturemod:block/pre_classic_rd_20090515/cobblestone_pre_classic_rd_20090515"
-  }
-}

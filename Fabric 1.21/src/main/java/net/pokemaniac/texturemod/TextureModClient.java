@@ -2,15 +2,15 @@ package net.pokemaniac.texturemod;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.minecraft.block.Block;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.pokemaniac.texturemod.block.ModBlocks;
+import net.pokemaniac.texturemod.entity.ModEntities;
 
 public class TextureModClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-
 
         BlockRenderLayerMap.INSTANCE.putBlocks(
                 RenderLayer.getCutout(),
@@ -28,7 +28,9 @@ public class TextureModClient implements ClientModInitializer {
                 ModBlocks.BROWN_MUSHROOM_CLASSIC_0_0_20a,
                 ModBlocks.POTTED_BROWN_MUSHROOM_CLASSIC_0_0_20a,
                 ModBlocks.TORCH_INDEV_0_31_20091223_1457,
-                ModBlocks.WALL_TORCH_INDEV_0_31_20091223_1457
+                ModBlocks.WALL_TORCH_INDEV_0_31_20091223_1457,
+                ModBlocks.TORCH_INDEV_0_31_20091231_1856,
+                ModBlocks.WALL_TORCH_INDEV_0_31_20091231_1856
         );
 
 

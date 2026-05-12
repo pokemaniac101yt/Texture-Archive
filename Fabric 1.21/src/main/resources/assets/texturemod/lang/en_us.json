@@ -3,7 +3,13 @@
   "tooltip.texturemod.cave_game.tooltip" : "Cave Game",
   "tooltip.texturemod.order_of_the_stone.tooltip" : "Order of the Stone",
 
-  "item.texturemod.chisel": "Chisel",
+  "item.texturemod.wooden_chisel": "Wooden Chisel",
+  "item.texturemod.stone_chisel": "Stone Chisel",
+  "item.texturemod.golden_chisel": "Golden Chisel",
+  "item.texturemod.copper_chisel": "Copper Chisel",
+  "item.texturemod.iron_chisel": "Iron Chisel",
+  "item.texturemod.diamond_chisel": "Diamond Chisel",
+  "item.texturemod.netherite_chisel": "Netherite Chisel",
 
   "tooltip.texturemod.pre_classic_rd_131655.tooltip" : "Pre-Classic rd-131655",
   "block.texturemod.grass_block_pre_classic_rd_131655" : "Grass Block",
@@ -127,6 +133,10 @@
   "tooltip.texturemod.indev_0_31.tooltip" : "Indev 0.31",
   "tooltip.texturemod.snapshot_20100129_2332.tooltip" : "20100129-2332",
   "block.texturemod.crafting_table_indev_0_31_20100129_2332" : "Workbench",
+  "tooltip.texturemod.snapshot_20091223_1457.tooltip" : "20091223-1457",
+  "block.texturemod.torch_indev_0_31_20091223_1457" : "Torch",
+  "tooltip.texturemod.snapshot_20091231_1856" : "20091231-1856",
+  "block.texturemod.torch_indev_0_31_20091231_1856" : "Torch",
 
   "itemgroup.texturemod.pre_classic_blocks" : "Pre-Classic Blocks",
   "itemgroup.texturemod.classic_blocks" : "Classic Blocks",

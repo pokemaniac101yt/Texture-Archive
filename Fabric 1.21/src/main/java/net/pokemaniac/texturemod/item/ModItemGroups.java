@@ -137,6 +137,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.texturemod.indev_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.CRAFTING_TABLE_INDEV_0_31_20100129_2332);
+                        entries.add(ModItems.TORCH_INDEV_0_31_20091223_1457);
+                        entries.add(ModItems.TORCH_INDEV_0_31_20091231_1856);
                     }).build());
 
 

@@ -380,7 +380,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_161348)
                 .add(ModBlocks.OAK_PRESSURE_PLATE_CLASSIC_0_0_14a)
-                .add(ModBlocks.TORCH_INDEV_0_31_20091223_1457);
+                .add(ModBlocks.TORCH_INDEV_0_31_20091223_1457)
+                .add(ModBlocks.TORCH_INDEV_0_31_20091231_1856);
 
         getOrCreateTagBuilder(BlockTags.WITHER_IMMUNE)
                 .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a);

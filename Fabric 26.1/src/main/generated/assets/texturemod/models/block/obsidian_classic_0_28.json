@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "texturemod:block/obsidian_classic_0_28"
-  }
-}
