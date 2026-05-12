@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "axis=y": { "model": "texturemod:block/classic_0_0_15a/oak_log_classic_0_0_15a" },
-    "axis=x": { "model": "texturemod:block/classic_0_0_15a/oak_log_classic_0_0_15a", "x": 90, "y": 90 },
-    "axis=z": { "model": "texturemod:block/classic_0_0_15a/oak_log_classic_0_0_15a", "x": 90 }
-  }
-}

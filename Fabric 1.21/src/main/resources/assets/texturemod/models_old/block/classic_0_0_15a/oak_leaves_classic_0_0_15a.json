@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/leaves",
-  "textures": {
-    "all": "texturemod:block/classic_0_0_15a/oak_leaves_classic_0_0_15a"
-  }
-}

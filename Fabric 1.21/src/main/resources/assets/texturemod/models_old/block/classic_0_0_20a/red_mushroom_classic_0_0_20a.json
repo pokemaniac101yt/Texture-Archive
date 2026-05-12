@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "texturemod:block/classic_0_0_20a/red_mushroom_classic_0_0_20a"
-  }
-}

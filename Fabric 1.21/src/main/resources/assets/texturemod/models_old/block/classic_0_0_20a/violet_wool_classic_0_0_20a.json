@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "texturemod:block/classic_0_0_20a/violet_wool_classic_0_0_20a"
-  }
-}
