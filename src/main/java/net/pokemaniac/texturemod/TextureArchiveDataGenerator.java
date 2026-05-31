@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.pokemaniac.texturemod.datagen.ModBlockLootTableProvider;
 import net.pokemaniac.texturemod.datagen.ModBlockTagsProvider;
+import net.pokemaniac.texturemod.datagen.ModItemTagsProvider;
 import net.pokemaniac.texturemod.datagen.ModModelProvider;
 
 public class TextureArchiveDataGenerator implements DataGeneratorEntrypoint {
@@ -12,7 +13,9 @@ public class TextureArchiveDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
-		pack.addProvider(ModBlockTagsProvider::new);
+		var blockTags = pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider((output, registriesFuture) ->
+				new ModItemTagsProvider(output, registriesFuture, blockTags));
 		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }
