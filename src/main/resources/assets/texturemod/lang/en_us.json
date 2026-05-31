@@ -135,7 +135,7 @@
   "block.texturemod.crafting_table_indev_0_31_20100129_2332" : "Workbench",
   "tooltip.texturemod.snapshot_20091223_1457.tooltip" : "20091223-1457",
   "block.texturemod.torch_indev_0_31_20091223_1457" : "Torch",
-  "tooltip.texturemod.snapshot_20091231_1856" : "20091231-1856",
+  "tooltip.texturemod.snapshot_20091231_1856.tooltip" : "20091231-1856",
   "block.texturemod.torch_indev_0_31_20091231_1856" : "Torch",
 
   "itemgroup.texturemod.pre_classic_blocks" : "Pre-Classic Blocks",
