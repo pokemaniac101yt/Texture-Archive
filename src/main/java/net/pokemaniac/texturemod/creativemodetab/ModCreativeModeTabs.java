@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
             Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "pre_classic_blocks"),
             FabricCreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
-                    .title(Component.translatable("itemgroup.texturemod.pre_classic_blocks"))
+                    .title(Component.translatable("creativetab.texturemod.pre_classic_blocks"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
                     }).build());
