@@ -21,7 +21,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> PRE_CLASSIC_BLOCKS = CREATIVE_MODE_TABS.register("pre_classic_blocks_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
-                    .title(Component.translatable("itemgroup.texturemod.pre_classic_blocks"))
+                    .title(Component.translatable("creativetab.texturemod.pre_classic_blocks"))
                     .withTabsAfter(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "classic_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
