@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/pressure_plate_down",
-  "textures": {
-    "texture": "texturemod:block/stone_pre_classic_rd_20090515"
-  }
-}
