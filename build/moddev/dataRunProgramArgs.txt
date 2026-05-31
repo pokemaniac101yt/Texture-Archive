@@ -1,0 +1,17 @@
+# Main Class
+net.neoforged.fml.startup.DataClient
+
+# NeoForge Run-Type Program Arguments
+--assetIndex
+30
+--assetsDir
+"C:\\Users\\Minecraft Dev\\.gradle\\caches\\neoformruntime\\assets"
+
+# User Supplied Program Arguments
+--mod
+texturemod
+--all
+--output
+"C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\src\\generated\\resources"
+--existing
+"C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\src\\main\\resources"
