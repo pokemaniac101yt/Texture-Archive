@@ -138,7 +138,7 @@
   "tooltip.texturemod.snapshot_20091231_1856.tooltip" : "20091231-1856",
   "block.texturemod.torch_indev_0_31_20091231_1856" : "Torch",
 
-  "creativetab.texturemod.pre_classic_blocks" : "Pre-Classic Blocks",
-  "creativetab.texturemod.classic_blocks" : "Classic Blocks",
-  "creativetab.texturemod.indev_blocks" : "Indev Blocks"
+  "itemgroup.texturemod.pre_classic_blocks" : "Pre-Classic Blocks",
+  "itemgroup.texturemod.classic_blocks" : "Classic Blocks",
+  "itemgroup.texturemod.indev_blocks" : "Indev Blocks"
 }
