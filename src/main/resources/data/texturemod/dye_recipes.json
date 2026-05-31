@@ -1,0 +1,72 @@
+{
+  "block_sets" : [
+    {
+      "set" : "classic_0_0_20a",
+      "blank" : "white_wool_classic_0_0_20a",
+      "white" : "NULL",
+      "light_gray" : "light_gray_wool_classic_0_0_20a",
+      "gray" : "gray_wool_classic_0_0_20a",
+      "black" : "NULL",
+      "brown" : "NULL",
+      "red" : "red_wool_classic_0_0_20a",
+      "orange" : "orange_wool_classic_0_0_20a",
+      "yellow" : "yellow_wool_classic_0_0_20a",
+      "lime" : "chartreuse_wool_classic_0_0_20a",
+      "green" : "green_wool_classic_0_0_20a",
+      "cyan" : "cyan_wool_classic_0_0_20a",
+      "light_blue" : "capri_wool_classic_0_0_20a",
+      "blue" : "ultramarine_wool_classic_0_0_20a",
+      "purple" : "purple_wool_classic_0_0_20a",
+      "magenta" : "magenta_wool_classic_0_0_20a",
+      "pink" : "rose_wool_classic_0_0_20a"
+    }
+  ],
+  "white_dyes" : [
+      "minecraft:white_dye"
+  ],
+  "light_gray_dyes" : [
+      "minecraft:light_gray_dye"
+  ],
+  "gray_dyes" : [
+      "minecraft:gray_dye"
+  ],
+  "black_dyes" : [
+      "minecraft:black_dye"
+  ],
+  "brown_dyes" : [
+      "minecraft:brown_dye"
+  ],
+  "red_dyes" : [
+      "minecraft:red_dye"
+  ],
+  "orange_dyes" : [
+      "minecraft:orange_dye"
+  ],
+  "yellow_dyes" : [
+      "minecraft:yellow_dye"
+  ],
+  "lime_dyes" : [
+      "minecraft:lime_dye"
+  ],
+  "green_dyes" : [
+      "minecraft:green_dye"
+  ],
+  "cyan_dyes" : [
+      "minecraft:cyan_dye"
+  ],
+  "light_blue_dyes" : [
+      "minecraft:light_blue_dye"
+  ],
+  "blue_dyes" : [
+      "minecraft:blue_dye"
+  ],
+  "purple_dyes" : [
+      "minecraft:purple_dye"
+  ],
+  "magenta_dyes" : [
+      "minecraft:magenta_dye"
+  ],
+  "pink_dyes" : [
+      "minecraft:pink_dye"
+  ]
+}
