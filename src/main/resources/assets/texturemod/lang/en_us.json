@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+//test
+=======
+// test
+>>>>>>> Stashed changes
+
+>>>>>>> common
 {
   "tooltip.texturemod.programmer_art.tooltip" : "Programmer Art",
   "tooltip.texturemod.cave_game.tooltip" : "Cave Game",
