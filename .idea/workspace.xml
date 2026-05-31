@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a6cb5d-8f57-4cbb-9262-cf8c5152146c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" afterDir="false" />
-    </list>
+    <list default="true" id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,9 +133,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Data Generation" />
-      <item itemvalue="Application.Minecraft Client" />
-      <item itemvalue="Application.Minecraft Server" />
       <item itemvalue="Gradle.Fabric 1.21 [runClient]" />
       <item itemvalue="Gradle.Fabric 1.21 [runServer]" />
     </list>
