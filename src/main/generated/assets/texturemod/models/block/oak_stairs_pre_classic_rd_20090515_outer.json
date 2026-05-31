@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "texturemod:block/oak_planks_pre_classic_rd_20090515",
-    "side": "texturemod:block/oak_planks_pre_classic_rd_20090515",
-    "top": "texturemod:block/oak_planks_pre_classic_rd_20090515"
-  }
-}

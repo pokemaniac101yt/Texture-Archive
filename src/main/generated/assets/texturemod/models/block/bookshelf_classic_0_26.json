@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "texturemod:block/oak_planks_classic_0_0_14a",
-    "side": "texturemod:block/bookshelf_classic_0_26",
-    "top": "texturemod:block/oak_planks_classic_0_0_14a"
-  }
-}

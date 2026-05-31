@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "texturemod:block/cobblestone_classic_0_0_14a"
-  }
-}

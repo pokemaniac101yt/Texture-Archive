@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_post",
-  "textures": {
-    "edge": "texturemod:block/glass_pane_classic_0_0_19a_top",
-    "pane": "texturemod:block/glass_classic_0_0_19a"
-  }
-}
