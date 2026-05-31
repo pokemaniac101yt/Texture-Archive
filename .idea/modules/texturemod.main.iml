@@ -13,7 +13,7 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="minecraftVersion" value="26.1.2" />
   </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
@@ -23,7 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:26.0.2" level="project" />
     <orderEntry type="library" name="Gradle: net.fabricmc:fabric-loader:0.19.2" level="project" />

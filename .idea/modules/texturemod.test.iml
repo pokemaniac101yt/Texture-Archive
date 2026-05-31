@@ -13,13 +13,13 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="minecraftVersion" value="26.1.2" />
   </component>
   <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test" />
-    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="texturemod.main" />
     <orderEntry type="library" name="Gradle: net.fabricmc:fabric-loader:0.19.2" level="project" />
