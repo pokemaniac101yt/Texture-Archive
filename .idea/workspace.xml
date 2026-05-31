@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="texturemod" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="texturemod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pokemaniac101yt&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pokemaniac101yt/Texture-Archive.git&quot;,
+    &quot;accountId&quot;: &quot;0f3d0b5a-aaf5-48f4-b91f-d15b3300c760&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DZdrtTSuZFsQd4jdkrJBzzUa1l" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Fabric 1.21 [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "Gradle.Fabric 1.21 [runClient].executor": "Run",
+    "Gradle.Fabric 1.21 [runServer].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "common",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Minecraft Dev/Desktop/Texture-Archive/Fabric 1.21/src/main/generated/assets/texturemod/models/block",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Minecraft Dev\Desktop\Texture-Archive\Fabric 1.21\src\main\generated\assets\texturemod\models\block" />
+      <recent name="C:\Users\Minecraft Dev\Desktop\Texture-Archive\Fabric 1.21\src\main\generated\assets\texturemod\models\item" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Fabric 1.21 [runClient]">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Texture-Archive.main" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\clientRunProgramArgs.txt&quot;" />
+      <option name="VM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\clientRunVmArgs.txt&quot; &quot;-Dfml.modFolders=texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\classes\\java\\main;texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\resources\\main&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Texture-Archive.main" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\dataRunProgramArgs.txt&quot;" />
+      <option name="VM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\dataRunVmArgs.txt&quot; &quot;-Dfml.modFolders=texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\classes\\java\\main;texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\resources\\main&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTestServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Texture-Archive.main" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\gameTestServerRunProgramArgs.txt&quot;" />
+      <option name="VM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\gameTestServerRunVmArgs.txt&quot; &quot;-Dfml.modFolders=texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\classes\\java\\main;texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\resources\\main&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="Texture-Archive.main" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\serverRunProgramArgs.txt&quot;" />
+      <option name="VM_PARAMETERS" value="&quot;@C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\moddev\\serverRunVmArgs.txt&quot; &quot;-Dfml.modFolders=texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\classes\\java\\main;texturemod%%C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\build\\resources\\main&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fabric 1.21 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Fabric 1.21 [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Data" />
+      <item itemvalue="Application.Data Generation" />
+      <item itemvalue="Application.GameTestServer" />
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Gradle.Fabric 1.21 [runClient]" />
+      <item itemvalue="Gradle.Fabric 1.21 [runServer]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Fabric 1.21 [runClient]" />
+        <item itemvalue="Gradle.Fabric 1.21 [runServer]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="" />
+      <created>1778493729039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778493729039</updated>
+      <workItem from="1778493730766" duration="459000" />
+      <workItem from="1778540804200" duration="3524000" />
+      <workItem from="1778551954630" duration="273000" />
+      <workItem from="1778552289588" duration="12907000" />
+      <workItem from="1780185667315" duration="368000" />
+      <workItem from="1780211459386" duration="248000" />
+      <workItem from="1780211718431" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
