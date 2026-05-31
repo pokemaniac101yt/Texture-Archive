@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.pokemaniac.texturemod.datagen.ModBlockLootTableProvider;
 import net.pokemaniac.texturemod.datagen.ModBlockTagsProvider;
+import net.pokemaniac.texturemod.datagen.ModItemTagsProvider;
 import net.pokemaniac.texturemod.datagen.ModModelProvider;
 
 import java.util.Collections;
@@ -25,6 +26,7 @@ public class TextureArchiveDataGen {
 
         generator.addProvider(true, new ModModelProvider(packOutput));
         generator.addProvider(true, new ModBlockTagsProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
