@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "texturemod:oak_log_classic_0_0_15a"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "texturemod:oak_planks_classic_0_0_14a"
+  }
+}

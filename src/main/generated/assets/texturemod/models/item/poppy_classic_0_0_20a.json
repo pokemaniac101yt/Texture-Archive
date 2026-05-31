@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "texturemod:block/poppy_classic_0_0_20a"
+  }
+}

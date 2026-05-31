@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "glass",
+  "ingredient": {
+    "item": "texturemod:sand_classic_0_0_15a"
+  },
+  "result": {
+    "id": "texturemod:glass_classic_0_0_19a"
+  }
+}

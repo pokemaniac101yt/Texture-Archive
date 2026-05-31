@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "gold",
+  "ingredient": {
+    "item": "texturemod:gold_ore_classic_0_26"
+  },
+  "result": {
+    "id": "minecraft:gold_ingot"
+  }
+}

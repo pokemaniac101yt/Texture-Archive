@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "texturemod:block/oak_sapling_pre_classic_rd_161348"
+  }
+}

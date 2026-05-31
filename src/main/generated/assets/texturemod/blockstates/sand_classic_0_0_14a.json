@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "texturemod:block/sand_classic_0_0_14a"
+      },
+      {
+        "model": "texturemod:block/sand_classic_0_0_14a",
+        "y": 90
+      },
+      {
+        "model": "texturemod:block/sand_classic_0_0_14a",
+        "y": 180
+      },
+      {
+        "model": "texturemod:block/sand_classic_0_0_14a",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "texturemod:block/wall_torch_indev_0_31_20091231_1856"
+    },
+    "facing=north": {
+      "model": "texturemod:block/wall_torch_indev_0_31_20091231_1856",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "texturemod:block/wall_torch_indev_0_31_20091231_1856",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "texturemod:block/wall_torch_indev_0_31_20091231_1856",
+      "y": 180
+    }
+  }
+}
