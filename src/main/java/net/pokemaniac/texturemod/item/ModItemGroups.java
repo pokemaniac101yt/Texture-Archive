@@ -15,7 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup PRE_CLASSIC_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TextureMod.MOD_ID, "pre_classic_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
-                    .displayName(Text.translatable("itemgroup.texturemod.pre_classic_blocks"))
+                    .displayName(Text.translatable("creativetab.texturemod.pre_classic_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
                         entries.add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
@@ -56,7 +56,7 @@ public class ModItemGroups {
     public static final ItemGroup CLASSIC_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TextureMod.MOD_ID, "classic_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BEDROCK_CLASSIC_0_0_12a))
-                    .displayName(Text.translatable("itemgroup.texturemod.classic_blocks"))
+                    .displayName(Text.translatable("creativetab.texturemod.classic_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
 
@@ -134,7 +134,7 @@ public class ModItemGroups {
     public static final ItemGroup INDEV_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TextureMod.MOD_ID, "indev_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CRAFTING_TABLE_INDEV_0_31_20100129_2332))
-                    .displayName(Text.translatable("itemgroup.texturemod.indev_blocks"))
+                    .displayName(Text.translatable("creativetab.texturemod.indev_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.CRAFTING_TABLE_INDEV_0_31_20100129_2332);
                         entries.add(ModItems.TORCH_INDEV_0_31_20091223_1457);
