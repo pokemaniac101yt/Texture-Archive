@@ -52,12 +52,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pokemaniac101yt/Texture-Archive.git",
-    "accountId": "0f3d0b5a-aaf5-48f4-b91f-d15b3300c760"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pokemaniac101yt/Texture-Archive.git&quot;,
+    &quot;accountId&quot;: &quot;0f3d0b5a-aaf5-48f4-b91f-d15b3300c760&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
