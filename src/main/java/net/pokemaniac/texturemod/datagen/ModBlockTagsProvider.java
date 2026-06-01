@@ -15,7 +15,51 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider registries) {
+        valueLookupBuilder(BlockTags.ANIMALS_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.FOXES_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.FROGS_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.GRASS_BLOCKS)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.PARROTS_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.RABBITS_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.SLABS)
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.SNIFFER_DIGGABLE_BLOCK)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.SUPPORTS_BIG_DRIPLEAF)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.VALID_SPAWN)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.WALLS)
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
+
+        valueLookupBuilder(BlockTags.WOLVES_SPAWNABLE_ON)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
     }
 }

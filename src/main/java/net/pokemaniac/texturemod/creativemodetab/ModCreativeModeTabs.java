@@ -18,7 +18,11 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
                     .title(Component.translatable("creativetab.texturemod.pre_classic_blocks"))
                     .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
                     }).build());
 
     public static void registerModCreativeModeTabs() {

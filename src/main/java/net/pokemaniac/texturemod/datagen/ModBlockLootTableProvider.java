@@ -27,6 +27,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     @Override
     public void generate() {
         dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+        dropSelf(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+        dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
+        add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655, createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655));
+        dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
     }
 
 }

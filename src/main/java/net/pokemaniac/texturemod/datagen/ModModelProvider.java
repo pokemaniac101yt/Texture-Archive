@@ -16,7 +16,12 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-        blockModelGenerators.createTrivialCube(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+        blockModelGenerators.createTrivialCube(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        blockModelGenerators.family(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655)
+                .stairs(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
+                .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655)
+                .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
     }
 
     @Override
