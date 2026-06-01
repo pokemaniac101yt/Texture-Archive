@@ -1,0 +1,69 @@
+{
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-19 19:33:04 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-19 19:33:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-19 19:33:04 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-04-19 19:32:54 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

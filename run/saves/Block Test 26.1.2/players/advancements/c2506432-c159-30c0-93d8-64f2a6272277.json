@@ -1,0 +1,153 @@
+{
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-03-23 18:47:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-03-23 18:47:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-03-23 18:47:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-03-23 18:47:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-03-23 18:47:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-03-23 18:47:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-03-23 18:47:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-23 18:46:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-03-23 18:47:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-03-23 18:47:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-03-23 18:51:03 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-03-23 18:47:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-03-23 18:45:50 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-03-23 18:46:44 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

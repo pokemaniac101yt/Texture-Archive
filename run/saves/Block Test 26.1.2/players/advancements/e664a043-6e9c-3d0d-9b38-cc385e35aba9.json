@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-20 21:56:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-04-20 21:56:27 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/red_dye_from_poppy_classic_0_0_20a": {
+    "criteria": {
+      "has_poppy_classic_0_0_20a": "2026-04-20 21:56:40 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

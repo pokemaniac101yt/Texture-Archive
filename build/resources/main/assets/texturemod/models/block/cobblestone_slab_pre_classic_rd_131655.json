@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "texturemod:block/cobblestone_pre_classic_rd_131655",
+    "side": "texturemod:block/cobblestone_pre_classic_rd_131655",
+    "top": "texturemod:block/cobblestone_pre_classic_rd_131655"
+  }
+}
