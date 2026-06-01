@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/textures/block/grass_block_side_pre_classic_rd_20090515.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/textures/block/grass_block_top_pre_classic_rd_20090515.png" beforeDir="false" />
+>>>>>>> Stashed changes
+>>>>>>> common
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +184,15 @@
       <workItem from="1778551954630" duration="273000" />
       <workItem from="1778552289588" duration="12907000" />
       <workItem from="1780185667315" duration="368000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1780211459386" duration="248000" />
+      <workItem from="1780211718431" duration="130000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1780277790697" duration="3196000" />
+>>>>>>> Stashed changes
+>>>>>>> common
     </task>
     <servers />
   </component>

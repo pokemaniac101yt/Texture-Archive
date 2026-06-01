@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "texturemod:grass_block_pre_classic_rd_131655": 14,
+      "texturemod:cobblestone_wall_pre_classic_rd_131655": 6,
+      "texturemod:dirt_pre_classic_rd_20090515": 45,
+      "minecraft:dirt": 42,
+      "texturemod:grass_block_pre_classic_rd_20090515": 13
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1300,
+      "minecraft:time_since_rest": 7788,
+      "minecraft:walk_one_cm": 6482,
+      "minecraft:total_world_time": 7989,
+      "minecraft:leave_game": 4,
+      "minecraft:fly_one_cm": 23443,
+      "minecraft:crouch_one_cm": 11,
+      "minecraft:sneak_time": 42,
+      "minecraft:play_time": 7788,
+      "minecraft:jump": 36,
+      "minecraft:time_since_death": 7788
+    }
+  },
+  "DataVersion": 4790
+}

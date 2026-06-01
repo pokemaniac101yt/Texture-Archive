@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "texturemod:grass_block_pre_classic_rd_131655"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "texturemod:blocks/grass_block_pre_classic_rd_131655"
+}
