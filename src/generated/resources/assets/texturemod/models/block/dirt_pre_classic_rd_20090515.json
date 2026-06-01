@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "texturemod:block/dirt_pre_classic_rd_20090515"
+  }
+}

@@ -16,8 +16,12 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(ItemTags.DIRT)
+                .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.asItem());
+
         tag(ItemTags.GRASS_BLOCKS)
-                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.asItem());
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.asItem())
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.asItem());
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.asItem());
