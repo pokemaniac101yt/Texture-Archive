@@ -19,6 +19,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
+        valueLookupBuilder(BlockTags.BASE_STONE_OVERWORLD)
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
+
         valueLookupBuilder(BlockTags.CONVERTABLE_TO_MUD)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
 
@@ -37,10 +40,17 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
+        valueLookupBuilder(BlockTags.GOATS_SPAWNABLE_ON)
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
@@ -56,14 +66,22 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SLABS)
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515);
+
+        valueLookupBuilder(BlockTags.SNAPS_GOAT_HORN)
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SNIFFER_DIGGABLE_BLOCK)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.STAIRS)
-                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515);
+
+        valueLookupBuilder(BlockTags.STONE_ORE_REPLACEABLES)
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SUPPORTS_BIG_DRIPLEAF)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
@@ -75,7 +93,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.WALLS)
-                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655)
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.WOLVES_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)

@@ -34,6 +34,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
         add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515, block -> createSingleItemTableWithSilkTouch(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515, ModBlocks.DIRT_PRE_CLASSIC_RD_20090515));
         dropSelf(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
+
+        dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
+        add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515, block -> createSingleItemTableWithSilkTouch(ModBlocks.STONE_PRE_CLASSIC_RD_20090515, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515));
     }
 
 }

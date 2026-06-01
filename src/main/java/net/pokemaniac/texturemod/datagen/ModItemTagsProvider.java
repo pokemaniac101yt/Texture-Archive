@@ -31,10 +31,12 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.asItem());
 
         valueLookupBuilder(ItemTags.STONE_CRAFTING_MATERIALS)
-                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem());
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem())
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.asItem());
 
         valueLookupBuilder(ItemTags.STONE_TOOL_MATERIALS)
-                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem());
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem())
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.asItem());
 
         valueLookupBuilder(ItemTags.WALLS)
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.asItem());

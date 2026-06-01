@@ -34,10 +34,23 @@ public class ModModelProvider extends FabricModelProvider {
                                 .put(TextureSlot.BOTTOM,
                                         TextureMapping.getBlockTexture(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515)),
                         ModelTemplates.CUBE_BOTTOM_TOP));
+
+        blockModelGenerators.family(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515)
+                .stairs(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515)
+                .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
+                .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
+
+        blockModelGenerators.createRotatedMirroredVariantBlock(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.WOODEN_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.GOLDEN_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.COPPER_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.STONE_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.IRON_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.DIAMOND_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.NETHERITE_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }
