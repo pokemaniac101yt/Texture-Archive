@@ -18,11 +18,7 @@ import java.util.function.Function;
 public class ModBlocks {
 
     public static final Block COBBLESTONE_PRE_CLASSIC_RD_131655 = registerBlock("cobblestone_pre_classic_rd_131655",
-            properties -> new Block(properties
-                    .mapColor(MapColor.STONE)
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .requiresCorrectToolForDrops()
-                    .strength(2.0F, 6.0F)));
+            properties -> new Block(properties.mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name))));

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.fabricmc.fabric-api:fabric-rendering-v1:23.1.1+1403e82c4c" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.fabricmc.fabric-api" artifactId="fabric-rendering-v1" version="23.1.1+1403e82c4c" baseVersion="23.1.1+1403e82c4c" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-rendering-v1/23.1.1+1403e82c4c/d1ee1e88cc84a2a2de3d1bcb418de8d6e73afcba/fabric-rendering-v1-23.1.1+1403e82c4c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-rendering-v1/23.1.1+1403e82c4c/f0e9c4308052d0481533f7c86933f2f9d114c155/fabric-rendering-v1-23.1.1+1403e82c4c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
