@@ -34,7 +34,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("cobblestone_pre_classic_rd_131655")
                         .save(output);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
-                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+                wall(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
 
 
                 stairBuilder(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
@@ -42,7 +42,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("cobblestone_pre_classic_rd_20090515")
                         .save(output);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
-                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
+                wall(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
 
 
 
