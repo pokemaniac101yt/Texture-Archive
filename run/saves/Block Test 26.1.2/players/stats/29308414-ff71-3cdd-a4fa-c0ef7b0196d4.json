@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stone": 3,
+      "texturemod:wooden_chisel": 29
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 479,
+      "minecraft:time_since_rest": 806,
+      "minecraft:walk_one_cm": 1481,
+      "minecraft:total_world_time": 821,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 4509,
+      "minecraft:play_time": 806,
+      "minecraft:jump": 11,
+      "minecraft:time_since_death": 806
+    }
+  },
+  "DataVersion": 4790
+}

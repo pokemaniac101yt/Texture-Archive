@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "texturemod:cobblestone_pre_classic_rd_20090515": 3,
+      "texturemod:stone_pre_classic_rd_20090515": 6
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_furnace": 4,
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:sprint_one_cm": 2484,
+      "minecraft:time_since_rest": 3947,
+      "minecraft:fall_one_cm": 450,
+      "minecraft:walk_one_cm": 3312,
+      "minecraft:total_world_time": 3959,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 12883,
+      "minecraft:play_time": 3947,
+      "minecraft:jump": 35,
+      "minecraft:time_since_death": 3947
+    },
+    "minecraft:mined": {
+      "texturemod:stone_pre_classic_rd_20090515": 9
+    },
+    "minecraft:crafted": {
+      "minecraft:air": 0,
+      "texturemod:stone_pre_classic_rd_20090515": 2
+    },
+    "minecraft:used": {
+      "minecraft:diamond_pickaxe": 9,
+      "texturemod:cobblestone_pre_classic_rd_20090515": 1,
+      "texturemod:stone_pre_classic_rd_20090515": 10
+    }
+  },
+  "DataVersion": 4790
+}
