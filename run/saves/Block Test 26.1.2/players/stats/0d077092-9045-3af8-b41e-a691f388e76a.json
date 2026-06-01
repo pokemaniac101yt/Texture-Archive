@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "texturemod:wooden_chisel": 2,
+      "texturemod:dirt_pre_classic_rd_20090515": 1,
+      "texturemod:netherite_chisel": 6
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 235,
+      "minecraft:time_since_rest": 833,
+      "minecraft:walk_one_cm": 233,
+      "minecraft:total_world_time": 847,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 5279,
+      "minecraft:play_time": 833,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 833
+    }
+  },
+  "DataVersion": 4790
+}
