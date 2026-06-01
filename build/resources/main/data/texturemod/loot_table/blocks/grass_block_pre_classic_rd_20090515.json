@@ -30,11 +30,6 @@
             },
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ],
               "name": "texturemod:dirt_pre_classic_rd_20090515"
             }
           ]
@@ -42,6 +37,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "texturemod:blocks/grass_block_pre_classic_rd_20090515"
+  ]
 }

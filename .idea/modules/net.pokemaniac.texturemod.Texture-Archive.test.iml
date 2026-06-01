@@ -19,7 +19,7 @@
     <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test" />
-    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="temurin-25" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="net.pokemaniac.texturemod.Texture-Archive.main" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.17.0" level="project" />

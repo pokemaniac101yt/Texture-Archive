@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "bottom": "texturemod:block/dirt_pre_classic_rd_20090515",
-    "side": "texturemod:block/grass_block_side_pre_classic_rd_20090515",
-    "top": "texturemod:block/grass_block_top_pre_classic_rd_20090515"
+    "side": "texturemod:block/grass_block_pre_classic_rd_20090515_side",
+    "top": "texturemod:block/grass_block_pre_classic_rd_20090515_top"
   }
 }

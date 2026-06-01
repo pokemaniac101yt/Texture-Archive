@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "texturemod:block/iron_block_bottom_classic_0_26",
-    "side": "texturemod:block/iron_block_side_classic_0_26",
-    "top": "texturemod:block/iron_block_top_classic_0_26"
+    "bottom": "texturemod:block/iron_block_classic_0_26_bottom",
+    "side": "texturemod:block/iron_block_classic_0_26_side",
+    "top": "texturemod:block/iron_block_classic_0_26_top"
   }
 }

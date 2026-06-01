@@ -40,8 +40,8 @@ public class ModModelProvider extends FabricModelProvider {
 
 //        PRE-CLASSIC RD-20090515
         TextureMap grass_block_pre_classic_rd_20090515 = new TextureMap()
-                .put(TextureKey.TOP, Identifier.of("texturemod:block/grass_block_top_pre_classic_rd_20090515"))
-                .put(TextureKey.SIDE, Identifier.of("texturemod:block/grass_block_side_pre_classic_rd_20090515"))
+                .put(TextureKey.TOP, Identifier.of("texturemod:block/grass_block_pre_classic_rd_20090515_top"))
+                .put(TextureKey.SIDE, Identifier.of("texturemod:block/grass_block_pre_classic_rd_20090515_side"))
                 .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/dirt_pre_classic_rd_20090515"));
 
         blockStateModelGenerator.registerSingleton(
@@ -104,7 +104,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAVEL_CLASSIC_0_0_14a);
 
         TextureMap oak_log_classic_0_0_14a = new TextureMap()
-                .put(TextureKey.END, Identifier.of("texturemod:block/oak_log_top_classic_0_0_14a"))
+                .put(TextureKey.END, Identifier.of("texturemod:block/oak_log_classic_0_0_14a_top"))
                 .put(TextureKey.SIDE, Identifier.of("texturemod:block/oak_log_classic_0_0_14a"));
 
         blockStateModelGenerator.registerAxisRotated(
@@ -136,7 +136,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAVEL_CLASSIC_0_0_15a);
 
         TextureMap oak_log_classic_0_0_15a = new TextureMap()
-                .put(TextureKey.END, Identifier.of("texturemod:block/oak_log_top_classic_0_0_15a"))
+                .put(TextureKey.END, Identifier.of("texturemod:block/oak_log_classic_0_0_15a_top"))
                 .put(TextureKey.SIDE, Identifier.of("texturemod:block/oak_log_classic_0_0_15a"));
 
         blockStateModelGenerator.registerAxisRotated(
@@ -207,18 +207,18 @@ public class ModModelProvider extends FabricModelProvider {
         );
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRICKS_CLASSIC_0_26);
         TextureMap gold_block_classic_0_26 = new TextureMap()
-                .put(TextureKey.TOP, Identifier.of("texturemod:block/gold_block_top_classic_0_26"))
-                .put(TextureKey.SIDE, Identifier.of("texturemod:block/gold_block_side_classic_0_26"))
-                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/gold_block_bottom_classic_0_26"));
+                .put(TextureKey.TOP, Identifier.of("texturemod:block/gold_block_classic_0_26_top"))
+                .put(TextureKey.SIDE, Identifier.of("texturemod:block/gold_block_classic_0_26_side"))
+                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/gold_block_classic_0_26_bottom"));
 
         blockStateModelGenerator.registerSingleton(
                 ModBlocks.GOLD_BLOCK_CLASSIC_0_26,
                 TexturedModel.makeFactory(b -> gold_block_classic_0_26, Models.CUBE_BOTTOM_TOP)
         );
         TextureMap iron_block_classic_0_26 = new TextureMap()
-                .put(TextureKey.TOP, Identifier.of("texturemod:block/iron_block_top_classic_0_26"))
-                .put(TextureKey.SIDE, Identifier.of("texturemod:block/iron_block_side_classic_0_26"))
-                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/iron_block_bottom_classic_0_26"));
+                .put(TextureKey.TOP, Identifier.of("texturemod:block/iron_block_classic_0_26_top"))
+                .put(TextureKey.SIDE, Identifier.of("texturemod:block/iron_block_classic_0_26_side"))
+                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/iron_block_classic_0_26_bottom"));
 
         blockStateModelGenerator.registerSingleton(
                 ModBlocks.IRON_BLOCK_CLASSIC_0_26,
@@ -227,18 +227,18 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GOLD_ORE_CLASSIC_0_26);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_COBBLESTONE_CLASSIC_0_26);
         TextureMap tnt_classic_0_26 = new TextureMap()
-                .put(TextureKey.TOP, Identifier.of("texturemod:block/tnt_top_classic_0_26"))
-                .put(TextureKey.SIDE, Identifier.of("texturemod:block/tnt_side_classic_0_26"))
-                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/tnt_bottom_classic_0_26"));
+                .put(TextureKey.TOP, Identifier.of("texturemod:block/tnt_classic_0_26_top"))
+                .put(TextureKey.SIDE, Identifier.of("texturemod:block/tnt_classic_0_26_side"))
+                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/tnt_classic_0_26_bottom"));
 
         blockStateModelGenerator.registerSingleton(
                 ModBlocks.TNT_CLASSIC_0_26,
                 TexturedModel.makeFactory(b -> tnt_classic_0_26, Models.CUBE_BOTTOM_TOP)
         );
         TextureMap tnt_classic_0_28 = new TextureMap()
-                .put(TextureKey.TOP, Identifier.of("texturemod:block/tnt_top_classic_0_26"))
-                .put(TextureKey.SIDE, Identifier.of("texturemod:block/tnt_side_classic_0_28"))
-                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/tnt_bottom_classic_0_26"));
+                .put(TextureKey.TOP, Identifier.of("texturemod:block/tnt_classic_0_26_top"))
+                .put(TextureKey.SIDE, Identifier.of("texturemod:block/tnt_classic_0_28_side"))
+                .put(TextureKey.BOTTOM, Identifier.of("texturemod:block/tnt_classic_0_26_bottom"));
 
         blockStateModelGenerator.registerSingleton(
                 ModBlocks.TNT_CLASSIC_0_28,
@@ -248,13 +248,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OBSIDIAN_CLASSIC_0_28);
 
         TextureMap crafting_table_indev_0_31_20100129_2332 = new TextureMap()
-                .put(TextureKey.DOWN, Identifier.of("texturemod:block/classic_0_0_15a/oak_log_top_classic_0_0_15a"))
-                .put(TextureKey.EAST, Identifier.of("texturemod:block/crafting_table_side_indev_0_31_20100129_2332"))
-                .put(TextureKey.NORTH, Identifier.of("texturemod:block/crafting_table_front_indev_0_31_20100129_2332"))
-                .put(TextureKey.PARTICLE, Identifier.of("texturemod:block/crafting_table_front_indev_0_31_20100129_2332"))
-                .put(TextureKey.SOUTH, Identifier.of("texturemod:block/crafting_table_front_indev_0_31_20100129_2332"))
-                .put(TextureKey.UP, Identifier.of("texturemod:block/crafting_table_top_indev_0_31_20100129_2332"))
-                .put(TextureKey.WEST, Identifier.of("texturemod:block/crafting_table_side_indev_0_31_20100129_2332"));
+                .put(TextureKey.DOWN, Identifier.of("texturemod:block/classic_0_0_15a/oak_log_classic_0_0_15a_top"))
+                .put(TextureKey.EAST, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_side"))
+                .put(TextureKey.NORTH, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_front"))
+                .put(TextureKey.PARTICLE, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_front"))
+                .put(TextureKey.SOUTH, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_front"))
+                .put(TextureKey.UP, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_top"))
+                .put(TextureKey.WEST, Identifier.of("texturemod:block/crafting_table_indev_0_31_20100129_2332_side"));
 
         blockStateModelGenerator.registerSingleton(
                 ModBlocks.CRAFTING_TABLE_INDEV_0_31_20100129_2332,

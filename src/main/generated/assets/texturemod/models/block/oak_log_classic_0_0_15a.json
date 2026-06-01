@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "texturemod:block/oak_log_top_classic_0_0_15a",
+    "end": "texturemod:block/oak_log_classic_0_0_15a_top",
     "side": "texturemod:block/oak_log_classic_0_0_15a"
   }
 }

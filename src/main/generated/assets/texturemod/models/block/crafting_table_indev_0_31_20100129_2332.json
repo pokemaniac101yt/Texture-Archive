@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "down": "texturemod:block/classic_0_0_15a/oak_log_top_classic_0_0_15a",
-    "east": "texturemod:block/crafting_table_side_indev_0_31_20100129_2332",
-    "north": "texturemod:block/crafting_table_front_indev_0_31_20100129_2332",
-    "particle": "texturemod:block/crafting_table_front_indev_0_31_20100129_2332",
-    "south": "texturemod:block/crafting_table_front_indev_0_31_20100129_2332",
-    "up": "texturemod:block/crafting_table_top_indev_0_31_20100129_2332",
-    "west": "texturemod:block/crafting_table_side_indev_0_31_20100129_2332"
+    "down": "texturemod:block/classic_0_0_15a/oak_log_classic_0_0_15a_top",
+    "east": "texturemod:block/crafting_table_indev_0_31_20100129_2332_side",
+    "north": "texturemod:block/crafting_table_indev_0_31_20100129_2332_front",
+    "particle": "texturemod:block/crafting_table_indev_0_31_20100129_2332_front",
+    "south": "texturemod:block/crafting_table_indev_0_31_20100129_2332_front",
+    "up": "texturemod:block/crafting_table_indev_0_31_20100129_2332_top",
+    "west": "texturemod:block/crafting_table_indev_0_31_20100129_2332_side"
   }
 }
