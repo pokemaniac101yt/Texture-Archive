@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "texturemod:block/cobblestone_slab_pre_classic_rd_20090515"
+    },
+    "type=double": {
+      "model": "texturemod:block/cobblestone_pre_classic_rd_20090515"
+    },
+    "type=top": {
+      "model": "texturemod:block/cobblestone_slab_pre_classic_rd_20090515_top"
+    }
+  }
+}
