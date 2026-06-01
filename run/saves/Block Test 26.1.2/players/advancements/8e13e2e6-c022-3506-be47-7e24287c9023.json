@@ -1,0 +1,201 @@
+{
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-01 02:04:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 02:04:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/cobblestone_wall_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 02:04:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-06-01 02:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 02:04:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:05:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 02:04:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-06-01 02:04:58 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 4790
+}
