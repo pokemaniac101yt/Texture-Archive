@@ -4,8 +4,7 @@ import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
-import net.minecraft.client.data.models.model.ModelTemplate;
-import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.*;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.item.ModItems;
 
@@ -22,6 +21,19 @@ public class ModModelProvider extends FabricModelProvider {
                 .stairs(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
                 .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655)
                 .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
+
+        blockModelGenerators.createTrivialBlock(
+                ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515,
+                TexturedModel.createDefault(block -> new TextureMapping()
+                                .put(TextureSlot.SIDE,
+                                        TextureMapping.getBlockTexture(block, "_side"))
+                                .put(TextureSlot.TOP,
+                                        TextureMapping.getBlockTexture(block, "_top"))
+                                .put(TextureSlot.BOTTOM,
+                                        TextureMapping.getBlockTexture(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515)),
+                        ModelTemplates.CUBE_BOTTOM_TOP));
     }
 
     @Override

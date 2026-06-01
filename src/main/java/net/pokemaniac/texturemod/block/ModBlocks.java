@@ -17,6 +17,11 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
+
+    /*
+    PRE-CLASSIC RD-131655
+     */
+
     public static final Block GRASS_BLOCK_PRE_CLASSIC_RD_131655 = registerBlock("grass_block_pre_classic_rd_131655",
             properties -> new GrassBlock(properties
                     .mapColor(MapColor.GRASS)
@@ -52,6 +57,26 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(2.0F, 6.0F)
                     .forceSolidOn()));
+
+    /*
+    PRE-CLASSIC RD-20090515
+     */
+
+    public static final Block GRASS_BLOCK_PRE_CLASSIC_RD_20090515 =
+            registerBlock("grass_block_pre_classic_rd_20090515",
+                    properties -> new GrassBlock(properties
+                            .mapColor(MapColor.GRASS)
+                            .randomTicks()
+                            .strength(0.6F)
+                            .sound(SoundType.GRASS)));
+
+    public static final Block DIRT_PRE_CLASSIC_RD_20090515 =
+            registerBlock("dirt_pre_classic_rd_20090515",
+                    properties -> new Block(properties
+                            .mapColor(MapColor.DIRT)
+                            .strength(0.5F)
+                            .sound(SoundType.GRAVEL)));
+
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name))));
