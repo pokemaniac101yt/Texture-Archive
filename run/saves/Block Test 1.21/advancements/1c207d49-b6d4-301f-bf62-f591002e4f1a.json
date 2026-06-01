@@ -1,0 +1,201 @@
+{
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-01 23:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-05-01 23:47:46 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-01 23:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-05-01 23:49:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/gold_ingot_from_gold_block_classic_0_26": {
+    "criteria": {
+      "has_gold_block_classic_0_26": "2026-05-01 23:47:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-01 23:47:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-01 23:51:39 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-05-01 23:51:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-01 23:47:44 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

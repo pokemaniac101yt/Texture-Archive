@@ -1,0 +1,57 @@
+{
+  "texturemod:recipes/building_blocks/cobblestone_slab_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-02 00:25:52 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-02 00:25:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-05-02 00:18:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-02 00:18:07 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/iron_ingot_from_iron_block_classic_0_26": {
+    "criteria": {
+      "has_iron_block_classic_0_26": "2026-05-02 00:19:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-05-02 00:18:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-05-02 00:18:29 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-02 00:25:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-05-02 00:18:29 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

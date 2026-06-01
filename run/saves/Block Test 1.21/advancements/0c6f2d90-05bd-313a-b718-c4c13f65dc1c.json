@@ -1,0 +1,15 @@
+{
+  "texturemod:recipes/misc/gold_ingot_from_gold_block_classic_0_26": {
+    "criteria": {
+      "has_gold_block_classic_0_26": "2026-05-01 23:44:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-01 23:43:36 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

@@ -1,0 +1,87 @@
+{
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_classic_0_0_14a": {
+    "criteria": {
+      "has_cobblestone_classic_0_0_14a": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-05-03 17:07:31 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

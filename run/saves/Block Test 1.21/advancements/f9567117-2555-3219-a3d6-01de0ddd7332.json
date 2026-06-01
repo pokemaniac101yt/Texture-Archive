@@ -1,0 +1,345 @@
+{
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/glass_pane_classic_0_0_19a": {
+    "criteria": {
+      "has_glass": "2026-04-20 19:10:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/sand_classic_0_0_15a_from_smelting_glass_classic_0_0_19a": {
+    "criteria": {
+      "has_glass_classic_0_0_19a": "2026-04-20 19:10:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/glass_pane_classic_0_0_19a_01": {
+    "criteria": {
+      "has_glass": "2026-04-20 19:10:10 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/glass_pane_classic_0_0_19a_02": {
+    "criteria": {
+      "has_glass": "2026-04-20 19:10:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/gold_ingot_from_smelting_gold_ore_classic_0_0_14a": {
+    "criteria": {
+      "has_gold_ore_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_classic_0_0_14a": {
+    "criteria": {
+      "has_oak_planks_classic_0_0_14a": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/sand_classic_0_0_14a_from_smelting_glass_classic_0_0_19a": {
+    "criteria": {
+      "has_glass_classic_0_0_19a": "2026-04-20 19:10:09 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_161348": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 19:09:18 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}
