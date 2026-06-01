@@ -53,5 +53,59 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-06-01 01:21:21 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 01:31:18 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/cobblestone_wall_pre_classic_rd_131655": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_131655": "2026-06-01 01:43:06 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/misc/cobblestone_wall_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_cobblestone_pre_classic_rd_20090515": "2026-06-01 01:43:06 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 4790
 }

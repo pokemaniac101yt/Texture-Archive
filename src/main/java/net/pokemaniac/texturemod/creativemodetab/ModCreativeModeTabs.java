@@ -32,6 +32,11 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
                     }).build());
 
 

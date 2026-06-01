@@ -86,6 +86,47 @@ public class ModBlocks {
                             .strength(0.5F)
                             .sound(SoundType.GRAVEL)));
 
+    public static final DeferredBlock<Block> COBBLESTONE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("cobblestone_pre_classic_rd_20090515",
+                    properties -> new Block(properties
+                            .mapColor(MapColor.STONE)
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .requiresCorrectToolForDrops()
+                            .strength(2.0F, 6.0F)));
+
+    public static final DeferredBlock<Block> COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515 = registerBlock("cobblestone_stairs_pre_classic_rd_20090515",
+            properties -> new StairBlock(COBBLESTONE_PRE_CLASSIC_RD_131655.get().defaultBlockState(), properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)));
+
+    public static final DeferredBlock<Block> COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515 = registerBlock("cobblestone_slab_pre_classic_rd_20090515",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)));
+
+    public static final DeferredBlock<Block> COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515 = registerBlock("cobblestone_wall_pre_classic_rd_20090515",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)
+                    .forceSolidOn()));
+
+    public static final DeferredBlock<Block> STONE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("stone_pre_classic_rd_20090515",
+                    properties -> new Block(properties
+                            .mapColor(MapColor.STONE)
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .requiresCorrectToolForDrops()
+                            .strength(1.5F, 6.0F)
+                    ));
+
+
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn);

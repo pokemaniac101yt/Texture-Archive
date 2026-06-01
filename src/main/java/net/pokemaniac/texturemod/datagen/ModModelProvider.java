@@ -45,5 +45,12 @@ public class ModModelProvider extends ModelProvider {
                                         TextureMapping.getBlockTexture(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.get())),
                         ModelTemplates.CUBE_BOTTOM_TOP));
 
+        blockModels.family(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get())
+                .stairs(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.get())
+                .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get())
+                .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
+
+        blockModels.createRotatedMirroredVariantBlock(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get());
+
     }
 }

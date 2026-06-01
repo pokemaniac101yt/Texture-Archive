@@ -7,10 +7,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
-import net.pokemaniac.texturemod.datagen.ModBlockLootTableProvider;
-import net.pokemaniac.texturemod.datagen.ModBlockTagsProvider;
-import net.pokemaniac.texturemod.datagen.ModItemTagsProvider;
-import net.pokemaniac.texturemod.datagen.ModModelProvider;
+import net.pokemaniac.texturemod.datagen.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -29,7 +26,7 @@ public class TextureArchiveDataGen {
         generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
-
+        generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
     }
 
 }

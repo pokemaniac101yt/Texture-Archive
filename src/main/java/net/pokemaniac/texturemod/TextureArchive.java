@@ -34,6 +34,9 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.HashMap;
+import java.util.Map;
+
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TextureArchive.MOD_ID)
 public class TextureArchive {
@@ -41,6 +44,8 @@ public class TextureArchive {
     public static final String MOD_ID = "texturemod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
+
+    public static final Map<Block, Block> CHISEL_MAP = new HashMap<>();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -52,6 +57,7 @@ public class TextureArchive {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
 
 
         // Register ourselves for server and other game events we are interested in.
@@ -80,6 +86,7 @@ public class TextureArchive {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
+        CHISEL_MAP.clear();
+        CHISEL_MAP.putAll(BlockTextureCycleGenerator.load(event.getServer()));
     }
 }

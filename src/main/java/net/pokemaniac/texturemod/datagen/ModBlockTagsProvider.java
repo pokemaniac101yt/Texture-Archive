@@ -41,7 +41,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get())
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get());
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get())
+                .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get())
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.get())
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
@@ -57,14 +60,16 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.SLABS)
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get());
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get())
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.SNIFFER_DIGGABLE_BLOCK)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.STAIRS)
-                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get());
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get())
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.SUPPORTS_BIG_DRIPLEAF)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
@@ -76,7 +81,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.WALLS)
-                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get());
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get())
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.WOLVES_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
