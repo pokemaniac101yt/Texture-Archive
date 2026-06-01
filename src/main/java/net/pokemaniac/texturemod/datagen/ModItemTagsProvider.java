@@ -16,10 +16,22 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(ItemTags.GRASS_BLOCKS)
+                .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.asItem());
+
+        tag(ItemTags.SLABS)
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.asItem());
+
+        tag(ItemTags.STAIRS)
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.asItem());
+
         tag(ItemTags.STONE_CRAFTING_MATERIALS)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem());
 
         tag(ItemTags.STONE_TOOL_MATERIALS)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem());
+
+        tag(ItemTags.WALLS)
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.asItem());
     }
 }

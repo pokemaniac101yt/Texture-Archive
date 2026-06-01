@@ -1,7 +1,7 @@
 package net.pokemaniac.texturemod.block;
 
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -17,6 +17,15 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(TextureArchive.MOD_ID);
 
+
+    public static final DeferredBlock<Block> GRASS_BLOCK_PRE_CLASSIC_RD_131655 = registerBlock("grass_block_pre_classic_rd_131655",
+            properties -> new GrassBlock(properties
+                    .mapColor(MapColor.GRASS)
+                    .randomTicks()
+                    .strength(0.6F)
+                    .sound(SoundType.GRASS)));
+
+
     public static final DeferredBlock<Block> COBBLESTONE_PRE_CLASSIC_RD_131655 = registerBlock("cobblestone_pre_classic_rd_131655",
             properties -> new Block(properties
                     .mapColor(MapColor.STONE)
@@ -24,8 +33,27 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(2.0F, 6.0F)));
 
+    public static final DeferredBlock<Block> COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655 = registerBlock("cobblestone_stairs_pre_classic_rd_131655",
+            properties -> new StairBlock(COBBLESTONE_PRE_CLASSIC_RD_131655.get().defaultBlockState(), properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)));
 
+    public static final DeferredBlock<Block> COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655 = registerBlock("cobblestone_slab_pre_classic_rd_131655",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)));
 
+    public static final DeferredBlock<Block> COBBLESTONE_WALL_PRE_CLASSIC_RD_131655 = registerBlock("cobblestone_wall_pre_classic_rd_131655",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.STONE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 6.0F)
+                    .forceSolidOn()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

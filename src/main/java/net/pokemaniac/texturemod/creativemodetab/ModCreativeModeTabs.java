@@ -24,7 +24,11 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.texturemod.pre_classic_blocks"))
                     .withTabsAfter(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "classic_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
+                        output.accept(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
                     }).build());
 
 

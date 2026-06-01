@@ -19,6 +19,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get());
+        dropSelf(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get());
+        dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get());
+        add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get(), createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get()));
+        dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get());
     }
 
     @Override

@@ -21,6 +21,11 @@ public class ModModelProvider extends ModelProvider {
 
 
 
-        blockModels.createTrivialCube(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get());
+        blockModels.createTrivialCube(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get());
+
+        blockModels.family(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get())
+                .stairs(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get())
+                .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get())
+                .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get());
     }
 }

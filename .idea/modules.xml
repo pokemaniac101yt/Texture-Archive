@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" />
     </modules>
   </component>
 </project>
