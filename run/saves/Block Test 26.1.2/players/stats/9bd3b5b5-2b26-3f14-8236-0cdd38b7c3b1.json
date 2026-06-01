@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:smithing_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:interact_with_smithing_table": 2,
+      "minecraft:time_since_rest": 1645,
+      "minecraft:walk_one_cm": 394,
+      "minecraft:total_world_time": 1659,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1907,
+      "minecraft:play_time": 1645,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 1645
+    },
+    "minecraft:crafted": {
+      "texturemod:netherite_chisel": 1,
+      "texturemod:diamond_chisel": 1
+    }
+  },
+  "DataVersion": 4790
+}
