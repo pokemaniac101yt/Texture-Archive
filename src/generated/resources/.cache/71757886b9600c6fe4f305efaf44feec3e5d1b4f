@@ -1,2 +1,23 @@
+<<<<<<< HEAD
 // 26.1.2	2026-05-30T23:55:26.5251398	Tags for minecraft:block mod id texturemod
 bec598c8d7318646cb60180b7d9265708ea6d983 data/minecraft/tags/block/mineable/pickaxe.json
+=======
+// 26.1.2	2026-05-31T20:26:42.999648	Tags for minecraft:block mod id texturemod
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/animals_spawnable_on.json
+032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/convertable_to_mud.json
+032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/dirt.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/foxes_spawnable_on.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/frogs_spawnable_on.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/grass_blocks.json
+0ec55b6ffd69c3945a5920ff7bda629c2ba7d9fb data/minecraft/tags/block/mineable/pickaxe.json
+ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/mineable/shovel.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/parrots_spawnable_on.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/rabbits_spawnable_on.json
+85a17ae62db585d7fbbae6d461eda4881b80a4f2 data/minecraft/tags/block/slabs.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/sniffer_diggable_block.json
+71041f1a3dda88958fd9c89d14d52d101b946351 data/minecraft/tags/block/stairs.json
+ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/supports_big_dripleaf.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/valid_spawn.json
+5c48cd502099894dcd407111b95fae50d2ed098f data/minecraft/tags/block/walls.json
+5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/wolves_spawnable_on.json
+>>>>>>> common

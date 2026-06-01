@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 // 26.1.2	2026-05-30T23:55:26.5231466	Loot Tables
 94e64dde34b71a5bf2d70aabebc2b5ddf5d883b4 data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json
+=======
+// 26.1.2	2026-05-31T20:26:42.9951368	Loot Tables
+94e64dde34b71a5bf2d70aabebc2b5ddf5d883b4 data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json
+de3dc6ede58f73cd1aa6b1bc4f0790c735d517a2 data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_131655.json
+b2cfd9b72b38c780352e4ac3ed518efd851964aa data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_131655.json
+81b62285bdac95e3f2ff1b63687a358361a32696 data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_131655.json
+c836a2602c60969f64127572e5cd0e72e7f19b7e data/texturemod/loot_table/blocks/dirt_pre_classic_rd_20090515.json
+327a55149f91b5053da0966026b28adea7427055 data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_131655.json
+100b413ec6ab51029928157af901ba2d590dca01 data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_20090515.json
+>>>>>>> common

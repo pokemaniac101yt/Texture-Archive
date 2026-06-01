@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:glass": 1,
+      "minecraft:air": 0
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:sprint_one_cm": 884,
+      "minecraft:time_since_rest": 2401,
+      "minecraft:walk_one_cm": 4377,
+      "minecraft:total_world_time": 2412,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 13907,
+      "minecraft:play_time": 2401,
+      "minecraft:jump": 11,
+      "minecraft:time_since_death": 2401
+    },
+    "minecraft:used": {
+      "minecraft:stone": 10,
+      "texturemod:cobblestone_slab_pre_classic_rd_131655": 5,
+      "texturemod:grass_block_pre_classic_rd_131655": 1,
+      "texturemod:cobblestone_stairs_pre_classic_rd_131655": 4,
+      "minecraft:furnace": 1,
+      "minecraft:diamond_shovel": 1
+    }
+  },
+  "DataVersion": 4790
+}

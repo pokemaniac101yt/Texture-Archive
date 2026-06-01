@@ -1,0 +1,15 @@
+{
+  "texturemod:recipes/building_blocks/oak_planks_classic_0_0_14a": {
+    "criteria": {
+      "has_log": "2026-04-19 23:50:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-19 23:50:39 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}
