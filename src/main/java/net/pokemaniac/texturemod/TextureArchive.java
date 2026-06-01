@@ -1,5 +1,6 @@
 package net.pokemaniac.texturemod;
 
+import net.minecraft.world.item.*;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.creativemodetab.ModCreativeModeTabs;
 import net.pokemaniac.texturemod.item.ModItems;
@@ -11,10 +12,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -79,7 +76,23 @@ public class TextureArchive {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.WOODEN_CHISEL);
+            event.insertAfter(Items.WOODEN_AXE.getDefaultInstance(), ModItems.WOODEN_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.STONE_AXE.getDefaultInstance(), ModItems.STONE_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.GOLDEN_AXE.getDefaultInstance(), ModItems.GOLDEN_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.IRON_AXE.getDefaultInstance(), ModItems.IRON_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.DIAMOND_AXE.getDefaultInstance(), ModItems.DIAMOND_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.NETHERITE_AXE.getDefaultInstance(), ModItems.NETHERITE_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 
