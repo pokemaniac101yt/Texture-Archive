@@ -82,10 +82,13 @@ public class TextureArchive {
             event.insertAfter(Items.STONE_AXE.getDefaultInstance(), ModItems.STONE_CHISEL.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-            event.insertAfter(Items.GOLDEN_AXE.getDefaultInstance(), ModItems.GOLDEN_CHISEL.get().getDefaultInstance(),
+            event.insertAfter(Items.COPPER_AXE.getDefaultInstance(), ModItems.COPPER_CHISEL.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.insertAfter(Items.IRON_AXE.getDefaultInstance(), ModItems.IRON_CHISEL.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.insertAfter(Items.GOLDEN_AXE.getDefaultInstance(), ModItems.GOLDEN_CHISEL.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.insertAfter(Items.DIAMOND_AXE.getDefaultInstance(), ModItems.DIAMOND_CHISEL.get().getDefaultInstance(),
