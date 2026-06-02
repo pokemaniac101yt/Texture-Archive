@@ -5,14 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/recipe/stone_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/recipe/stone_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/recipe/stone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/recipe/stone_stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/TextureArchive.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/TextureArchive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModModelProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModRecipeProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/custom/ChiselItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/custom/ChiselItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/57d12640f9242e72975f13fe4558c9150d381ae8" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/57d12640f9242e72975f13fe4558c9150d381ae8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/71757886b9600c6fe4f305efaf44feec3e5d1b4f" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/71757886b9600c6fe4f305efaf44feec3e5d1b4f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/d8b4078215e80bf5ab34a3d9ccf1c1fadbbc68e4" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/d8b4078215e80bf5ab34a3d9ccf1c1fadbbc68e4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/.cache/dc1febd49c76641f511b18f11d27964cea1c7639" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/.cache/dc1febd49c76641f511b18f11d27964cea1c7639" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/block/stone_pre_classic_rd_20090515_mirrored.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ChiselItem.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModBlockTagsProvider.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModCreativeModeTabs.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModItemTagsProvider.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModItems.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModModelProvider.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeProvider$Runner.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeProvider.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchive.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchiveClient.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchiveDataGen.class.uniqueId9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-1.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-10.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-11.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-12.log.gz" afterDir="false" />
@@ -51,12 +88,32 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/TextureArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/TextureArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/57d12640f9242e72975f13fe4558c9150d381ae8" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/57d12640f9242e72975f13fe4558c9150d381ae8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/71757886b9600c6fe4f305efaf44feec3e5d1b4f" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/71757886b9600c6fe4f305efaf44feec3e5d1b4f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/d8b4078215e80bf5ab34a3d9ccf1c1fadbbc68e4" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/d8b4078215e80bf5ab34a3d9ccf1c1fadbbc68e4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/dc1febd49c76641f511b18f11d27964cea1c7639" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/dc1febd49c76641f511b18f11d27964cea1c7639" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/texturemod/models/block/stone_pre_classic_rd_20090515_mirrored.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/item/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/item/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/item/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/item/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/custom/ChiselItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/custom/ChiselItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,14 +334,14 @@
     <list>
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Data" />
-      <item itemvalue="Application.Data Generation" />
       <item itemvalue="Application.GameTestServer" />
-      <item itemvalue="Application.Minecraft Client" />
-      <item itemvalue="Application.Minecraft Server" />
       <item itemvalue="Application.Server" />
-      <item itemvalue="Gradle.Texture-Archive [runData]" />
       <item itemvalue="Gradle.Fabric 1.21 [runClient]" />
       <item itemvalue="Gradle.Fabric 1.21 [runServer]" />
+      <item itemvalue="Gradle.Texture-Archive [runData]" />
+      <item itemvalue="Application.Data Generation" />
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
     </list>
     <recent_temporary>
       <list>
@@ -313,6 +370,8 @@
       <workItem from="1780353017019" duration="1656000" />
       <workItem from="1780361467007" duration="1084000" />
       <workItem from="1780362746009" duration="699000" />
+      <workItem from="1780380465582" duration="3160000" />
+      <workItem from="1780383641918" duration="3000" />
     </task>
     <servers />
   </component>

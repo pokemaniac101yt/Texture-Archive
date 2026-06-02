@@ -35,11 +35,16 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.asItem())
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.asItem());
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.asItem())
+                .add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.asItem());
 
         tag(ItemTags.STAIRS)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.asItem())
-                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem());
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem())
+                .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem());
+
+        tag(ItemTags.STONE_BUTTONS)
+                .add(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515.asItem());
 
         tag(ItemTags.STONE_CRAFTING_MATERIALS)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.asItem())

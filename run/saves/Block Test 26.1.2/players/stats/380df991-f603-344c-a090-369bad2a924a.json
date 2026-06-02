@@ -1,29 +1,34 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 10,
+      "minecraft:sprint_one_cm": 7209,
+      "minecraft:time_since_rest": 43507,
+      "minecraft:walk_one_cm": 13591,
+      "minecraft:total_world_time": 43898,
+      "minecraft:leave_game": 11,
+      "minecraft:fly_one_cm": 59303,
+      "minecraft:crouch_one_cm": 11,
+      "minecraft:sneak_time": 159,
+      "minecraft:play_time": 43507,
+      "minecraft:jump": 151,
+      "minecraft:time_since_death": 43507
+    },
     "minecraft:used": {
       "texturemod:grass_block_pre_classic_rd_131655": 14,
       "texturemod:cobblestone_wall_pre_classic_rd_131655": 6,
-      "texturemod:cobblestone_pre_classic_rd_20090515": 1,
       "texturemod:dirt_pre_classic_rd_20090515": 45,
       "texturemod:netherite_chisel": 6,
+      "texturemod:stone_stairs_pre_classic_rd_20090515": 8,
+      "texturemod:stone_pressure_plate_pre_classic_rd_20090515": 2,
+      "texturemod:grass_block_pre_classic_rd_20090515": 13,
+      "texturemod:stone_button_pre_classic_rd_20090515": 3,
+      "texturemod:wooden_chisel": 42,
+      "texturemod:cobblestone_pre_classic_rd_20090515": 1,
       "texturemod:iron_chisel": 18,
       "texturemod:stone_pre_classic_rd_20090515": 1,
-      "minecraft:dirt": 42,
-      "texturemod:grass_block_pre_classic_rd_20090515": 13
-    },
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 7,
-      "minecraft:sprint_one_cm": 5793,
-      "minecraft:time_since_rest": 40452,
-      "minecraft:walk_one_cm": 9583,
-      "minecraft:total_world_time": 40794,
-      "minecraft:leave_game": 8,
-      "minecraft:fly_one_cm": 53398,
-      "minecraft:crouch_one_cm": 11,
-      "minecraft:sneak_time": 42,
-      "minecraft:play_time": 40452,
-      "minecraft:jump": 131,
-      "minecraft:time_since_death": 40452
+      "texturemod:stone_slab_pre_classic_rd_20090515": 1,
+      "minecraft:dirt": 42
     }
   },
   "DataVersion": 4790

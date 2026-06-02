@@ -56,7 +56,11 @@ public class ModModelProvider extends ModelProvider {
                 .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get())
                 .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
 
-        blockModels.createRotatedMirroredVariantBlock(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get());
+        blockModels.family(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get())
+                .stairs(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.get())
+                .slab(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.get())
+                .pressurePlate(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get())
+                .button(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515.get());
 
     }
 }

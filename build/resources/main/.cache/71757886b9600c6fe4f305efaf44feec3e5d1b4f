@@ -1,17 +1,19 @@
-// 26.1.2	2026-06-01T01:19:55.073603	Tags for minecraft:block mod id texturemod
+// 26.1.2	2026-06-02T00:40:41.7206225	Tags for minecraft:block mod id texturemod
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/animals_spawnable_on.json
 032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/convertable_to_mud.json
 032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/dirt.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/foxes_spawnable_on.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/frogs_spawnable_on.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/grass_blocks.json
-6d6000a04f5d7c0f4a5e7dc8a2a96a5db7d3a194 data/minecraft/tags/block/mineable/pickaxe.json
+b60ec9570d2e0a9ecdba1496c0b54af314a1f0dc data/minecraft/tags/block/mineable/pickaxe.json
 ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/mineable/shovel.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/parrots_spawnable_on.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/rabbits_spawnable_on.json
-7c314d2f5592e0ffb015b9a87533022b504139a2 data/minecraft/tags/block/slabs.json
+8be7e948e7c431406f7dfb3cd09e01495a21848a data/minecraft/tags/block/slabs.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/sniffer_diggable_block.json
-c9b317ce8d81f1ea1885f3a123dafd4fdc5c5009 data/minecraft/tags/block/stairs.json
+6e11d1f0f2eda03502559dd3ca8a729d69e56116 data/minecraft/tags/block/stairs.json
+284bf200f085f0f89fa9e66b127ab9d4f82536cd data/minecraft/tags/block/stone_buttons.json
+5eb6a8029d8318885c7709e9bec033967279f085 data/minecraft/tags/block/stone_pressure_plates.json
 ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/supports_big_dripleaf.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/valid_spawn.json
 5a13c98004e465993545865e6f7f6cfabb53d436 data/minecraft/tags/block/walls.json

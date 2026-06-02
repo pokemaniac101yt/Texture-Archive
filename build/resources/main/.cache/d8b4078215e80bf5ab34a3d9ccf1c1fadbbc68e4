@@ -1,9 +1,10 @@
-// 26.1.2	2026-06-01T19:05:14.0512928	Tags for minecraft:item mod id texturemod
+// 26.1.2	2026-06-02T00:40:41.7191146	Tags for minecraft:item mod id texturemod
 032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/item/dirt.json
 cb8d52246e4292fafd3990cfe2751cbd563f4419 data/minecraft/tags/item/enchantable/durability.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/item/grass_blocks.json
-7c314d2f5592e0ffb015b9a87533022b504139a2 data/minecraft/tags/item/slabs.json
-c9b317ce8d81f1ea1885f3a123dafd4fdc5c5009 data/minecraft/tags/item/stairs.json
+8be7e948e7c431406f7dfb3cd09e01495a21848a data/minecraft/tags/item/slabs.json
+5bf05d3fb0c9462e1fef57ec0742cd08805e53f2 data/minecraft/tags/item/stairs.json
+284bf200f085f0f89fa9e66b127ab9d4f82536cd data/minecraft/tags/item/stone_buttons.json
 8b2e1bd81ebc3858ae6d7240152c0d44581b5944 data/minecraft/tags/item/stone_crafting_materials.json
 8b2e1bd81ebc3858ae6d7240152c0d44581b5944 data/minecraft/tags/item/stone_tool_materials.json
 5a13c98004e465993545865e6f7f6cfabb53d436 data/minecraft/tags/item/walls.json
