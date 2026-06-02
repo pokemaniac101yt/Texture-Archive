@@ -1,1 +1,4 @@
 /enchant Player916 minecraft:silk_touch
+/enchant Dev minecraft:unbreaking 3
+/enchant Dev minecraft:mending
+/enchant Dev minecraft:efficiency

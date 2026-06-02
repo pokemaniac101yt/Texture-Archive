@@ -1,28 +1,29 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 7,
-      "minecraft:sprint_one_cm": 2018,
-      "minecraft:time_since_rest": 29275,
-      "minecraft:walk_one_cm": 7973,
-      "minecraft:total_world_time": 29525,
-      "minecraft:leave_game": 6,
-      "minecraft:fly_one_cm": 29340,
-      "minecraft:crouch_one_cm": 11,
-      "minecraft:sneak_time": 42,
-      "minecraft:play_time": 29275,
-      "minecraft:jump": 48,
-      "minecraft:time_since_death": 29275
-    },
     "minecraft:used": {
       "texturemod:grass_block_pre_classic_rd_131655": 14,
       "texturemod:cobblestone_wall_pre_classic_rd_131655": 6,
       "texturemod:cobblestone_pre_classic_rd_20090515": 1,
       "texturemod:dirt_pre_classic_rd_20090515": 45,
       "texturemod:netherite_chisel": 6,
+      "texturemod:iron_chisel": 6,
       "texturemod:stone_pre_classic_rd_20090515": 1,
       "minecraft:dirt": 42,
       "texturemod:grass_block_pre_classic_rd_20090515": 13
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 7,
+      "minecraft:sprint_one_cm": 2539,
+      "minecraft:time_since_rest": 30252,
+      "minecraft:walk_one_cm": 8253,
+      "minecraft:total_world_time": 30574,
+      "minecraft:leave_game": 7,
+      "minecraft:fly_one_cm": 33562,
+      "minecraft:crouch_one_cm": 11,
+      "minecraft:sneak_time": 42,
+      "minecraft:play_time": 30252,
+      "minecraft:jump": 55,
+      "minecraft:time_since_death": 30252
     }
   },
   "DataVersion": 4790
