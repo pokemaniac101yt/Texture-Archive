@@ -1,29 +1,29 @@
 {
-  "minecraft:recipes/decorations/magenta_carpet": {
-    "criteria": {
-      "has_magenta_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
       "has_purple_wool": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_banner": {
-    "criteria": {
-      "has_cyan_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_banner": {
+  "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
+  "minecraft:recipes/decorations/green_carpet": {
+    "criteria": {
+      "has_green_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
     "criteria": {
       "has_blue_wool": "2026-03-14 17:25:09 -0600"
     },
@@ -35,69 +35,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_banner": {
+  "minecraft:recipes/decorations/cyan_bed": {
     "criteria": {
-      "has_green_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_bed": {
-    "criteria": {
-      "has_pink_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_carpet": {
-    "criteria": {
-      "has_green_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_carpet": {
-    "criteria": {
-      "has_purple_wool": "2026-03-14 17:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2026-03-14 17:25:09 -0600"
+      "has_cyan_wool": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
@@ -113,9 +53,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_banner": {
     "criteria": {
       "has_pink_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
@@ -125,15 +107,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_banner": {
     "criteria": {
       "has_purple_wool": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_bed": {
+  "minecraft:recipes/decorations/green_banner": {
     "criteria": {
-      "has_cyan_wool": "2026-03-14 17:25:09 -0600"
+      "has_green_wool": "2026-03-14 17:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-14 17:25:09 -0600"
     },
     "done": true
   },
@@ -143,25 +143,13 @@
     },
     "done": true
   },
-  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_20090515": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_20090515": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_sign": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2026-04-20 01:49:04 -0600"
     },
@@ -173,19 +161,31 @@
     },
     "done": true
   },
-  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_161348": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
+      "has_lots_of_items": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "texturemod:recipes/redstone/oak_button_pre_classic_rd_20090515": {
+  "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
+      "has_stick": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-04-20 01:49:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-04-20 01:49:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2026-04-20 01:49:04 -0600"
     },
@@ -197,87 +197,9 @@
     },
     "done": true
   },
-  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_20090515": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_161348": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_161348": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_20090515": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
@@ -287,21 +209,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-04-20 01:49:04 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_161348": {
+  "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
-    },
-    "done": true
-  },
-  "texturemod:recipes/redstone/oak_button_pre_classic_rd_161348": {
-    "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
+      "has_planks": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
@@ -311,17 +233,23 @@
     },
     "done": true
   },
-  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_20090515": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_oak_planks_pre_classic_rd_20090515": "2026-04-20 01:49:04 -0600"
+      "has_stick": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_161348": {
+  "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
-      "has_oak_planks_pre_classic_rd_161348": "2026-04-20 01:49:04 -0600"
+      "has_planks": "2026-04-20 01:49:04 -0600"
     },
     "done": true
   },
-  "DataVersion": 3953
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-04-20 01:49:04 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 4790
 }

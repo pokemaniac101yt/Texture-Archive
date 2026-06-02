@@ -16,7 +16,9 @@ public class ChiselItem extends Item {
             ToolMaterial material,
             Properties properties
     ) {
-        super(properties.durability(material.durability()));
+        super(properties
+                .durability(material.durability())
+                .repairable(material.repairItems()));
         this.material = material;
     }
 

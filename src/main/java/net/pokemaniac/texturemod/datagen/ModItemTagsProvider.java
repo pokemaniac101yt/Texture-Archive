@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.pokemaniac.texturemod.block.ModBlocks;
+import net.pokemaniac.texturemod.item.ModItems;
 import org.jspecify.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -19,6 +20,15 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
     protected void addTags(HolderLookup.Provider registries) {
         valueLookupBuilder(ItemTags.DIRT)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.WOODEN_CHISEL)
+                .add(ModItems.STONE_CHISEL)
+                .add(ModItems.COPPER_CHISEL)
+                .add(ModItems.IRON_CHISEL)
+                .add(ModItems.GOLDEN_CHISEL)
+                .add(ModItems.DIAMOND_CHISEL)
+                .add(ModItems.NETHERITE_CHISEL);
 
         valueLookupBuilder(ItemTags.GRASS_BLOCKS)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.asItem())

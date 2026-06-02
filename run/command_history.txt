@@ -1,1 +1,11 @@
 /enchant Player916 minecraft:silk_touch
+/enchant Player245 minecraft:unbreaking 3
+/enchant Player614 minecraft:unbreaking 3
+/enchant Player18 minecraft:unbreaking 3
+/enchant Player18 minecraft:mending
+/give Player18 minecraft:experience_bottle 64
+/enchant Player707 minecraft:unbreaking 3
+/enchant Player707 minecraft:mending
+/enchant Player707 minecraft:efficiency 5
+/enchant Player884 minecraft:unbreaking 3
+/enchant Player884 minecraft:mending

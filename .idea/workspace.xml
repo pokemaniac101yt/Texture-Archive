@@ -4,112 +4,278 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="">
-<<<<<<< HEAD
+    <list default="true" id="29a4b595-ce7b-4f1d-90f7-122965dfb23f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/tooltip/ModTooltips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/tooltip/TooltipItemProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minecraft_minecraft_merged_043a8b3edf_26_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minecraft_minecraft_merged_043a8b3edf_26_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/texturemod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/texturemod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/texturemod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/texturemod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/texturemod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/texturemod.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/artifacts/minecraft-patched-26.1.2.68-beta-merged.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/artifacts/minecraft-patched-26.1.2.68-beta-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/artifacts/minecraft-patched-26.1.2.68-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/clientLog4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/clientRunProgramArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/clientRunVmArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/dataLog4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/dataRunProgramArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/dataRunVmArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/gameTestServerLog4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/gameTestServerRunProgramArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/gameTestServerRunVmArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/minecraft_assets.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/serverLog4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/serverRunProgramArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/moddev/serverRunVmArgs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/createMinecraftArtifacts/nfrt-problem-report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/createMinecraftArtifacts/nfrt_artifact_manifest.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/downloadAssets/nfrt_artifact_manifest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/custom/ChiselItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/item/custom/ChiselItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/blockstates/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/netherite_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/netherite_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/stone_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/wooden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/items/wooden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/netherite_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/netherite_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/models/item/stone_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/copper_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/copper_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/diamond_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/diamond_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/golden_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/golden_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/iron_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/iron_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/netherite_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/netherite_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/stone_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/stone_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/wooden_chisel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/texturemod/textures/item/wooden_chisel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/convertable_to_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/convertable_to_mud.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/foxes_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/foxes_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/frogs_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/frogs_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/grass_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/grass_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/mineable/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/parrots_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/parrots_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/rabbits_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/rabbits_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/sniffer_diggable_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/sniffer_diggable_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/supports_big_dripleaf.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/supports_big_dripleaf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/walls.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/walls.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/wolves_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/block/wolves_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/grass_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/grass_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stone_crafting_materials.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stone_crafting_materials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stone_tool_materials.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/stone_tool_materials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/walls.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/item/walls.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/loot_table/blocks/stone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ChiselItem.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModBlockTagsProvider.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModCreativeModeTabs.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModItemTagsProvider.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModItems.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModModelProvider.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeProvider$Runner.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeProvider.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModRecipeProvider.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchive.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchiveClient.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TextureArchiveDataGen.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-10.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-11.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-13.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-18.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-19.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-20.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-01-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-8.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-01-9.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/wandering_trader.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/wandering_trader.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/weather.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/weather.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/data/minecraft/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/poi/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_end/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_end/data/minecraft/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/2a68c4a4-c1ba-3396-a626-ac7041e25da5.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/2a68c4a4-c1ba-3396-a626-ac7041e25da5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/advancements/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/2a68c4a4-c1ba-3396-a626-ac7041e25da5.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/2a68c4a4-c1ba-3396-a626-ac7041e25da5.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/2a68c4a4-c1ba-3396-a626-ac7041e25da5.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/2a68c4a4-c1ba-3396-a626-ac7041e25da5.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/data/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/2a68c4a4-c1ba-3396-a626-ac7041e25da5.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/2a68c4a4-c1ba-3396-a626-ac7041e25da5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/6ef60f0d-ee89-3acd-9711-6e64aaf89fef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/players/stats/a73b0b5d-2d3b-3ddb-ba64-20632ca9f512.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/blockstates/stone_pre_classic_rd_20090515.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/netherite_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/netherite_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/stone_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/stone_pre_classic_rd_20090515.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/wooden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/items/wooden_chisel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_131655_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_131655_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_20090515_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_slab_pre_classic_rd_20090515_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655_inner.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655_inner.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655_outer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_131655_outer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515_inner.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515_inner.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515_outer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_stairs_pre_classic_rd_20090515_outer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_inventory.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_inventory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_side_tall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_131655_side_tall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_inventory.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_inventory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_side_tall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/cobblestone_wall_pre_classic_rd_20090515_side_tall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/stone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/stone_pre_classic_rd_20090515_mirrored.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/block/stone_pre_classic_rd_20090515_mirrored.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/netherite_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/netherite_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/stone_chisel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/wooden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/texturemod/models/item/wooden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/animals_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/animals_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/base_stone_overworld.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/base_stone_overworld.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/convertable_to_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/convertable_to_mud.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/foxes_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/foxes_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/frogs_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/frogs_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/goats_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/goats_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/grass_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/grass_blocks.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/mineable/shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/mineable/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/parrots_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/parrots_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/rabbits_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/rabbits_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/snaps_goat_horn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/snaps_goat_horn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/sniffer_diggable_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/sniffer_diggable_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/stairs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/stone_ore_replaceables.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/stone_ore_replaceables.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/supports_big_dripleaf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/supports_big_dripleaf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/valid_spawn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/valid_spawn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/walls.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/walls.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/wolves_spawnable_on.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/block/wolves_spawnable_on.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/grass_blocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/grass_blocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/slabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/slabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stairs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stairs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stone_crafting_materials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stone_crafting_materials.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stone_tool_materials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/stone_tool_materials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/walls.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/walls.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/building_blocks/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/combat/netherite_chisel_smithing.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/combat/netherite_chisel_smithing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/misc/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/stone_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/wooden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/advancement/recipes/tools/wooden_chisel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/dirt_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/dirt_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/grass_block_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/stone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/loot_table/blocks/stone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_slab_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_slab_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_slab_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_slab_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_stairs_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_stairs_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_stairs_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_stairs_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_wall_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_wall_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_wall_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/cobblestone_wall_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/copper_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/copper_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/diamond_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/diamond_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/golden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/golden_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/iron_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/iron_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/netherite_chisel_smithing.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/netherite_chisel_smithing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_131655.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/stone_pre_classic_rd_20090515_from_smelting_cobblestone_pre_classic_rd_20090515.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/wooden_chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/texturemod/recipe/wooden_chisel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/creativemodetab/ModCreativeModeTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockLootTableProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModBlockTagsProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModItemTagsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/datagen/ModModelProvider.java" afterDir="false" />
-=======
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/texturemod/lang/en_us.json" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/textures/block/grass_block_side_pre_classic_rd_20090515.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/texturemod/textures/block/grass_block_top_pre_classic_rd_20090515.png" beforeDir="false" />
->>>>>>> Stashed changes
->>>>>>> common
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/custom/ChiselItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/item/custom/ChiselItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="texturemod" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="texturemod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="texturemod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="fabric" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,144 +287,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;pokemaniac101yt&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pokemaniac101yt"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/pokemaniac101yt/Texture-Archive.git&quot;,
-    &quot;accountId&quot;: &quot;0f3d0b5a-aaf5-48f4-b91f-d15b3300c760&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pokemaniac101yt/Texture-Archive.git",
+    "accountId": "0f3d0b5a-aaf5-48f4-b91f-d15b3300c760"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3DZdrtTSuZFsQd4jdkrJBzzUa1l" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3EYYBy07uCt8bsxrrV7QP3jAykB" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.Fabric 1.21 [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
-    "Gradle.Fabric 1.21 [runClient].executor": "Run",
-    "Gradle.Fabric 1.21 [runServer].executor": "Run",
-    "Gradle.Texture-Archive [runClient].executor": "Run",
-    "Gradle.Texture-Archive [runDatagen].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Gradle.Texture-Archive [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Reverting in Fabric-26.1.2",
+    "git-widget-placeholder": "Fabric-26.1.2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Minecraft Dev/Desktop/Texture-Archive/Fabric 1.21/src/main/generated/assets/texturemod/models/block",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Minecraft Dev\Desktop\Texture-Archive\Fabric 1.21\src\main\generated\assets\texturemod\models\block" />
-      <recent name="C:\Users\Minecraft Dev\Desktop\Texture-Archive\Fabric 1.21\src\main\generated\assets\texturemod\models\item" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.pokemaniac.texturemod.tooltip" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Texture-Archive [runClient]">
-    <configuration name="Texture-Archive [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runClient" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Texture-Archive [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runDatagen" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.Texture-Archive [runClient]" />
-        <item itemvalue="Gradle.Texture-Archive [runDatagen]" />
-      </list>
-    </recent_temporary>
-  </component>
+  <component name="RunManager" selected="Application.Minecraft Client" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7b3aa8c-ecf3-4660-8536-c813f4682d2d" name="Changes" comment="" />
-      <created>1778493729039</created>
+      <changelist id="29a4b595-ce7b-4f1d-90f7-122965dfb23f" name="Changes" comment="" />
+      <created>1780356841457</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1778493729039</updated>
-      <workItem from="1778493730766" duration="459000" />
-      <workItem from="1778540804200" duration="3524000" />
-      <workItem from="1778551954630" duration="273000" />
-      <workItem from="1778552289588" duration="12907000" />
-      <workItem from="1780185667315" duration="368000" />
-      <workItem from="1780211459386" duration="248000" />
-      <workItem from="1780211718431" duration="130000" />
-<<<<<<< HEAD
-      <workItem from="1780274860475" duration="64000" />
-      <workItem from="1780274949338" duration="2751000" />
-=======
-<<<<<<< Updated upstream
-=======
-      <workItem from="1780277790697" duration="3196000" />
->>>>>>> Stashed changes
->>>>>>> common
+      <updated>1780356841457</updated>
+      <workItem from="1780356844764" duration="4429000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
