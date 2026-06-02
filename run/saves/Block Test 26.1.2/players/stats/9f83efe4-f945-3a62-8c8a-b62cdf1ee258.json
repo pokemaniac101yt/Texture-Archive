@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "texturemod:copper_chisel": 7
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:sprint_one_cm": 2534,
+      "minecraft:time_since_rest": 6000,
+      "minecraft:walk_one_cm": 541,
+      "minecraft:total_world_time": 6000,
+      "minecraft:fly_one_cm": 16584,
+      "minecraft:play_time": 6000,
+      "minecraft:jump": 31,
+      "minecraft:time_since_death": 6000
+    },
+    "minecraft:used": {
+      "texturemod:diamond_chisel": 8
+    }
+  },
+  "DataVersion": 4790
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stone_slabs",
+  "key": {
+    "#": "texturemod:stone_pre_classic_rd_20090515"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "texturemod:stone_slab_pre_classic_rd_20090515"
+  }
+}
