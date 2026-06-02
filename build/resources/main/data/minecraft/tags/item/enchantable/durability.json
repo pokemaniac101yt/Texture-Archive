@@ -1,0 +1,11 @@
+{
+  "values": [
+    "texturemod:wooden_chisel",
+    "texturemod:stone_chisel",
+    "texturemod:copper_chisel",
+    "texturemod:iron_chisel",
+    "texturemod:golden_chisel",
+    "texturemod:diamond_chisel",
+    "texturemod:netherite_chisel"
+  ]
+}
