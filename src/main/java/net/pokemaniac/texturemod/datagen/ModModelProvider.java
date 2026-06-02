@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.*;
+import net.minecraft.data.BlockFamily;
+import net.minecraft.world.level.block.Block;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.item.ModItems;
 
@@ -40,7 +42,20 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
                 .wall(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
 
-        blockModelGenerators.createRotatedMirroredVariantBlock(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
+
+        blockModelGenerators.family(ModBlocks.STONE_PRE_CLASSIC_RD_20090515)
+                .stairs(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515)
+                .slab(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515)
+                .pressurePlate(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
+                .button(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515);
+
+//        BlockFamily stone_pre_classic_rd_20090515_family = new BlockFamily.Builder(ModBlocks.STONE_PRE_CLASSIC_RD_20090515)
+//                .stairs(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515)
+//                .slab(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515)
+//                .pressurePlate(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
+//                .button(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515)
+//                .getFamily();
+
     }
 
     @Override
@@ -53,4 +68,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.DIAMOND_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.NETHERITE_CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
+
 }

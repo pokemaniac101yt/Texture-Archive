@@ -109,6 +109,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("cobblestone_walls")
                         .save(output);
 
+                stairBuilder(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .group("stone_stairs")
+                        .save(output);
+
+                slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .group("stone_slabs")
+                        .save(output);
+
+                pressurePlateBuilder(RecipeCategory.REDSTONE, ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .group("stone_pressure_plates")
+                        .save(output);
+
+                buttonBuilder(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                        .group("stone_buttons")
+                        .save(output);
+
 
 
 

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_mirrored_all",
-  "textures": {
-    "all": "texturemod:block/stone_pre_classic_rd_20090515"
-  }
-}

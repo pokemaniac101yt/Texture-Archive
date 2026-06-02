@@ -6,6 +6,8 @@ import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.Property;
 
 import static net.pokemaniac.texturemod.TextureArchive.CHISEL_MAP;
 
@@ -37,9 +39,19 @@ public class ChiselItem extends Item {
         if (CHISEL_MAP.containsKey(clickedBlock)) {
 
             if (!level.isClientSide()) {
+                BlockState oldState = level.getBlockState(context.getClickedPos());
+                BlockState newState = CHISEL_MAP.get(clickedBlock).defaultBlockState();
+
+                for (Property<?> property : oldState.getProperties()) {
+                    if (newState.hasProperty(property)) {
+                        newState = copyProperty(newState, oldState, property);
+                    }
+                }
+
+
                 level.setBlockAndUpdate(
                         context.getClickedPos(),
-                        CHISEL_MAP.get(clickedBlock).defaultBlockState()
+                        newState
                 );
 
                 context.getItemInHand().hurtAndBreak(
@@ -54,4 +66,13 @@ public class ChiselItem extends Item {
 
         return InteractionResult.PASS;
     }
+
+    private static <T extends Comparable<T>> BlockState copyProperty(
+            BlockState newState,
+            BlockState oldState,
+            Property<T> property
+    ) {
+        return newState.setValue(property, oldState.getValue(property));
+    }
+
 }

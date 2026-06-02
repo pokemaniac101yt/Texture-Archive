@@ -8,8 +8,10 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.pokemaniac.texturemod.TextureArchive;
 import net.pokemaniac.texturemod.tooltip.ModTooltips;
 import net.pokemaniac.texturemod.tooltip.TooltipItemProvider;
@@ -170,6 +172,59 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
                                     .strength(1.5F, 6.0F)),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block STONE_STAIRS_PRE_CLASSIC_RD_20090515 =
+            registerBlock("stone_stairs_pre_classic_rd_20090515",
+                    properties -> new StairBlock(
+                            STONE_PRE_CLASSIC_RD_20090515.defaultBlockState(),
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(1.5F, 6.0F)),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block STONE_SLAB_PRE_CLASSIC_RD_20090515 =
+            registerBlock("stone_slab_pre_classic_rd_20090515",
+                    properties -> new SlabBlock(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(1.5F, 6.0F)),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("stone_pressure_plate_pre_classic_rd_20090515",
+                    properties -> new PressurePlateBlock(
+                            BlockSetType.STONE,
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .pushReaction(PushReaction.DESTROY)),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block STONE_BUTTON_PRE_CLASSIC_RD_20090515 =
+            registerBlock("stone_button_pre_classic_rd_20090515",
+                    properties -> new ButtonBlock(
+                            BlockSetType.STONE,
+                            20,
+                            properties
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .pushReaction(PushReaction.DESTROY)),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );

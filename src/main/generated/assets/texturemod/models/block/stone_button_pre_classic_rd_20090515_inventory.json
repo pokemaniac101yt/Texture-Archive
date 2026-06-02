@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "texturemod:block/stone_pre_classic_rd_20090515"
+  }
+}

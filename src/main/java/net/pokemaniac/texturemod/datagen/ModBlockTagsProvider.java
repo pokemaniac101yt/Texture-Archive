@@ -50,7 +50,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
-                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
+                .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
@@ -67,7 +70,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         valueLookupBuilder(BlockTags.SLABS)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655)
-                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515);
+                .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SNAPS_GOAT_HORN)
                 .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
@@ -78,10 +82,17 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         valueLookupBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)
-                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515);
+                .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515);
+
+        valueLookupBuilder(BlockTags.STONE_BUTTONS)
+                .add(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.STONE_ORE_REPLACEABLES)
                 .add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
+
+        valueLookupBuilder(BlockTags.STONE_PRESSURE_PLATES)
+                .add(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SUPPORTS_BIG_DRIPLEAF)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
