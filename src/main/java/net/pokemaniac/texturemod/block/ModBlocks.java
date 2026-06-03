@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.pokemaniac.texturemod.TextureArchive;
@@ -32,7 +33,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.GRASS)
                                     .randomTicks()
                                     .strength(0.6F)
-                                    .sound(SoundType.GRASS)),
+                                    .sound(SoundType.GRASS)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -44,7 +46,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -57,7 +60,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -69,7 +73,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -82,7 +87,8 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
                                     .strength(2.0F, 6.0F)
-                                    .forceSolidOn()),
+                                    .forceSolidOn()
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -98,7 +104,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.GRASS)
                                     .randomTicks()
                                     .strength(0.6F)
-                                    .sound(SoundType.GRASS)),
+                                    .sound(SoundType.GRASS)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -109,7 +116,8 @@ public class ModBlocks {
                             properties
                                     .mapColor(MapColor.DIRT)
                                     .strength(0.5F)
-                                    .sound(SoundType.GRAVEL)),
+                                    .sound(SoundType.GRAVEL)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -121,7 +129,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -134,7 +143,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -146,7 +156,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -159,7 +170,8 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
                                     .strength(2.0F, 6.0F)
-                                    .forceSolidOn()),
+                                    .forceSolidOn()
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -171,7 +183,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -184,7 +197,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -196,7 +210,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -211,7 +226,8 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .noCollision()
                                     .strength(0.5F)
-                                    .pushReaction(PushReaction.DESTROY)),
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -224,7 +240,114 @@ public class ModBlocks {
                             properties
                                     .noCollision()
                                     .strength(0.5F)
-                                    .pushReaction(PushReaction.DESTROY)),
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+
+    public static final Block OAK_PLANKS_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_planks_pre_classic_rd_20090515",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.WOOD)
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_STAIRS_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_stairs_pre_classic_rd_20090515",
+                    properties -> new StairBlock(
+                            OAK_PLANKS_PRE_CLASSIC_RD_20090515.defaultBlockState(),
+                            properties
+                                    .mapColor(MapColor.WOOD)
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_SLAB_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_slab_pre_classic_rd_20090515",
+                    properties -> new SlabBlock(
+                            properties
+                                    .mapColor(MapColor.WOOD)
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_FENCE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_fence_pre_classic_rd_20090515",
+                    properties -> new FenceBlock(
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_fence_gate_pre_classic_rd_20090515",
+                    properties -> new FenceGateBlock(
+                            WoodType.OAK,
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_pressure_plate_pre_classic_rd_20090515",
+                    properties -> new PressurePlateBlock(
+                            BlockSetType.OAK,
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .ignitedByLava()
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final Block OAK_BUTTON_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_button_pre_classic_rd_20090515",
+                    properties -> new ButtonBlock(
+                            BlockSetType.OAK,
+                            30,
+                            properties
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );

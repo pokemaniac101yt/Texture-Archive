@@ -5,5 +5,251 @@
     },
     "done": true
   },
-  "DataVersion": 3953
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-06-02 23:34:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-06-02 23:36:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_fence_gate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/tools/wooden_chisel": {
+    "criteria": {
+      "has_wood_material": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/stone_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-06-02 23:34:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/decorations/oak_fence_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-06-02 23:34:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:13 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/stone_stairs_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_stone_pre_classic_rd_20090515": "2026-06-02 23:34:56 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/building_blocks/oak_slab_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-02 23:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-06-02 23:35:40 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 4790
 }

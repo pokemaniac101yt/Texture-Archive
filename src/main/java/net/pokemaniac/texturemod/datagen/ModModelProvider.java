@@ -100,7 +100,13 @@ public class ModModelProvider extends FabricModelProvider {
                 ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515,
                 ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
 
-
+        blockModelGenerators.family(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515)
+                .stairs(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515)
+                .slab(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515)
+                .fence(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515)
+                .fenceGate(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515)
+                .pressurePlate(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
+                .button(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
 
     }
 

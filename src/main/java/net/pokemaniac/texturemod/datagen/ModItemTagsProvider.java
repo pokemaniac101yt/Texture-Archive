@@ -30,9 +30,15 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItems.DIAMOND_CHISEL)
                 .add(ModItems.NETHERITE_CHISEL);
 
+        valueLookupBuilder(ItemTags.FENCE_GATES)
+                .add(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515.asItem());
+
         valueLookupBuilder(ItemTags.GRASS_BLOCKS)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.asItem())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515.asItem());
 
         valueLookupBuilder(ItemTags.SLABS)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.asItem())
@@ -58,6 +64,21 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(ItemTags.WALLS)
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.asItem())
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.WOODEN_BUTTONS)
+                .add(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.WOODEN_FENCES)
+                .add(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.WOODEN_SLABS)
+                .add(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515.asItem());
+
+        valueLookupBuilder(ItemTags.WOODEN_STAIRS)
+                .add(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515.asItem());
 
     }
 }

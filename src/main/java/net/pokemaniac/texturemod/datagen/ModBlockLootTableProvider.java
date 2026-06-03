@@ -26,23 +26,34 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
     @Override
     public void generate() {
-        dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
         dropSelf(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
+        dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
         dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
         add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655, createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655));
         dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655);
 
-        add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515, block -> createSingleItemTableWithSilkTouch(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515, ModBlocks.DIRT_PRE_CLASSIC_RD_20090515));
+        add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515, (block -> createSingleItemTableWithSilkTouch(block, ModBlocks.DIRT_PRE_CLASSIC_RD_20090515)));
         dropSelf(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
 
         dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
         dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515);
         add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515, createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515));
         dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
-        add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515, block -> createSingleItemTableWithSilkTouch(ModBlocks.STONE_PRE_CLASSIC_RD_20090515, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515));
+
+        add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515, block -> createSingleItemTableWithSilkTouch(block, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515));
         dropSelf(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515);
         add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515, createSlabItemTable(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515));
         dropSelf(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
-        dropSelf(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515);}
+        dropSelf(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515);
 
+        dropSelf(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515);
+        dropSelf(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515);
+        add(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515, createSlabItemTable(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515));
+        dropSelf(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515);
+        dropSelf(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515);
+        dropSelf(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
+        dropSelf(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
+
+    }
 }
