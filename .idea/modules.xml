@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.iml" />
     </modules>
   </component>
 </project>

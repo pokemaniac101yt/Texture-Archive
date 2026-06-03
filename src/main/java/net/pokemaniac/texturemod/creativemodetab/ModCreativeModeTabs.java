@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                     .withTabsAfter(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "classic_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655);
+
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655);
                         output.accept(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655);
                         output.accept(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655);
@@ -32,15 +33,25 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
+
                         output.accept(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515);
+
                         output.accept(ModBlocks.STONE_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
                         output.accept(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515);
+
+                        output.accept(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
+                        output.accept(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
                     }).build());
 
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "texturemod:oak_stairs_pre_classic_rd_20090515"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "texturemod:blocks/oak_stairs_pre_classic_rd_20090515"
+}

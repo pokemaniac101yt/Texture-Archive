@@ -26,6 +26,9 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.DIRT)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.get());
 
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515.get());
+
         tag(BlockTags.FOXES_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
@@ -56,6 +59,9 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.PARROTS_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.PLANKS)
+                .add(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.RABBITS_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
@@ -94,6 +100,21 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.WALLS)
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WOODEN_BUTTONS)
+                .add(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WOODEN_SLABS)
+                .add(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WOODEN_STAIRS)
+                .add(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.WOLVES_SPAWNABLE_ON)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())

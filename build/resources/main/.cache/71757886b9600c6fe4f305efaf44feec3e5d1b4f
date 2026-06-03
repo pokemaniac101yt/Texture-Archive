@@ -1,13 +1,15 @@
-// 26.1.2	2026-06-02T00:40:41.7206225	Tags for minecraft:block mod id texturemod
+// 26.1.2	2026-06-02T23:03:39.2170012	Tags for minecraft:block mod id texturemod
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/animals_spawnable_on.json
 032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/convertable_to_mud.json
 032d243e1739600550e306f04f2da31ea2d9df1b data/minecraft/tags/block/dirt.json
+bf5c9b7ea3f32dcbfc0ec556bc887f193a12e6ed data/minecraft/tags/block/fence_gates.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/foxes_spawnable_on.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/frogs_spawnable_on.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/grass_blocks.json
 b60ec9570d2e0a9ecdba1496c0b54af314a1f0dc data/minecraft/tags/block/mineable/pickaxe.json
 ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/mineable/shovel.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/parrots_spawnable_on.json
+027e4c3728aa322431b6f5769943ad1f70e205c1 data/minecraft/tags/block/planks.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/rabbits_spawnable_on.json
 8be7e948e7c431406f7dfb3cd09e01495a21848a data/minecraft/tags/block/slabs.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/sniffer_diggable_block.json
@@ -18,3 +20,8 @@ ef006da275155d3a712baa7f3252d998d0b5b92b data/minecraft/tags/block/supports_big_
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/valid_spawn.json
 5a13c98004e465993545865e6f7f6cfabb53d436 data/minecraft/tags/block/walls.json
 5177ddce870ec0800cc206c72855b4feade00c89 data/minecraft/tags/block/wolves_spawnable_on.json
+b00f7729a38d8f59ce7dfd663880897ce7a60746 data/minecraft/tags/block/wooden_buttons.json
+2f639f98e96b2bd00a8aeb2ff2e4874a54bf2c1f data/minecraft/tags/block/wooden_fences.json
+1d20c754e02f862ec25ee3088c0ecb6f123e51ce data/minecraft/tags/block/wooden_pressure_plates.json
+9948e3736e10c7228ac111b61eb591251e97c60f data/minecraft/tags/block/wooden_slabs.json
+b22966c7c772b5e7782385a0433e1c7becb4db37 data/minecraft/tags/block/wooden_stairs.json

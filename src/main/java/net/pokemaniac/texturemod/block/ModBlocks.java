@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
@@ -31,62 +32,67 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> GRASS_BLOCK_PRE_CLASSIC_RD_131655 =
             registerBlock("grass_block_pre_classic_rd_131655",
-            properties -> new GrassBlock(
-                    properties
-                            .mapColor(MapColor.GRASS)
-                            .randomTicks()
-                            .strength(0.6F)
-                            .sound(SoundType.GRASS)),
+                    properties -> new GrassBlock(
+                            properties
+                                    .mapColor(MapColor.GRASS)
+                                    .randomTicks()
+                                    .strength(0.6F)
+                                    .sound(SoundType.GRASS)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
 
     public static final DeferredBlock<Block> COBBLESTONE_PRE_CLASSIC_RD_131655 =
             registerBlock("cobblestone_pre_classic_rd_131655",
-            properties -> new Block(
-                    properties
-                            .mapColor(MapColor.STONE)
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresCorrectToolForDrops()
-                            .strength(2.0F, 6.0F)),
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
 
     public static final DeferredBlock<Block> COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655 =
             registerBlock("cobblestone_stairs_pre_classic_rd_131655",
-            properties -> new StairBlock(
-                    COBBLESTONE_PRE_CLASSIC_RD_131655.get().defaultBlockState(),
-                    properties
-                            .mapColor(MapColor.STONE)
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresCorrectToolForDrops()
-                            .strength(2.0F, 6.0F)),
+                    properties -> new StairBlock(
+                            COBBLESTONE_PRE_CLASSIC_RD_131655.get().defaultBlockState(),
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
 
     public static final DeferredBlock<Block> COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655 =
             registerBlock("cobblestone_slab_pre_classic_rd_131655",
-            properties -> new SlabBlock(
-                    properties
-                            .mapColor(MapColor.STONE)
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresCorrectToolForDrops()
-                            .strength(2.0F, 6.0F)),
+                    properties -> new SlabBlock(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
 
     public static final DeferredBlock<Block> COBBLESTONE_WALL_PRE_CLASSIC_RD_131655 =
             registerBlock("cobblestone_wall_pre_classic_rd_131655",
-            properties -> new WallBlock(
-                    properties
-                            .mapColor(MapColor.STONE)
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresCorrectToolForDrops()
-                            .strength(2.0F, 6.0F)
-                            .forceSolidOn()),
+                    properties -> new WallBlock(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                                    .forceSolidOn()
+                    ),
                     ModTooltips.CAVE_GAME_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_131655_TOOLTIP
             );
@@ -98,12 +104,13 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> GRASS_BLOCK_PRE_CLASSIC_RD_20090515 =
             registerBlock("grass_block_pre_classic_rd_20090515",
-            properties -> new GrassBlock(
-                    properties
-                            .mapColor(MapColor.GRASS)
-                            .randomTicks()
-                            .strength(0.6F)
-                            .sound(SoundType.GRASS)),
+                    properties -> new GrassBlock(
+                            properties
+                                    .mapColor(MapColor.GRASS)
+                                    .randomTicks()
+                                    .strength(0.6F)
+                                    .sound(SoundType.GRASS)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -114,7 +121,8 @@ public class ModBlocks {
                             properties
                                     .mapColor(MapColor.DIRT)
                                     .strength(0.5F)
-                                    .sound(SoundType.GRAVEL)),
+                                    .sound(SoundType.GRAVEL)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -126,7 +134,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -139,7 +148,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -151,7 +161,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(2.0F, 6.0F)),
+                                    .strength(2.0F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -164,7 +175,8 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
                                     .strength(2.0F, 6.0F)
-                                    .forceSolidOn()),
+                                    .forceSolidOn()
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -176,7 +188,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -189,7 +202,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
                     );
@@ -201,7 +215,8 @@ public class ModBlocks {
                                     .mapColor(MapColor.STONE)
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .requiresCorrectToolForDrops()
-                                    .strength(1.5F, 6.0F)),
+                                    .strength(1.5F, 6.0F)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
                     );
@@ -216,7 +231,8 @@ public class ModBlocks {
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .noCollision()
                                     .strength(0.5F)
-                                    .pushReaction(PushReaction.DESTROY)),
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
@@ -229,12 +245,116 @@ public class ModBlocks {
                             properties
                                     .noCollision()
                                     .strength(0.5F)
-                                    .pushReaction(PushReaction.DESTROY)),
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
 
+    public static final DeferredBlock<Block> OAK_PLANKS_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_planks_pre_classic_rd_20090515",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.WOOD)
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
 
+    public static final DeferredBlock<Block> OAK_STAIRS_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_stairs_pre_classic_rd_20090515",
+                    properties -> new StairBlock(
+                            OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultBlockState(),
+                            properties
+                                    .mapColor(MapColor.WOOD)
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final DeferredBlock<Block> OAK_SLAB_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_slab_pre_classic_rd_20090515",
+                    properties -> new SlabBlock(
+                            properties
+                                .mapColor(MapColor.WOOD)
+                                .instrument(NoteBlockInstrument.BASS)
+                                .strength(2.0F, 3.0F)
+                                .sound(SoundType.WOOD)
+                                .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final DeferredBlock<Block> OAK_FENCE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_fence_pre_classic_rd_20090515",
+                    properties -> new FenceBlock(
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .sound(SoundType.WOOD)
+                                    .ignitedByLava()
+
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final DeferredBlock<Block> OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_fence_gate_pre_classic_rd_20090515",
+                    properties -> new FenceGateBlock(
+                            WoodType.OAK,
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .strength(2.0F, 3.0F)
+                                    .ignitedByLava()
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final DeferredBlock<Block> OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_pressure_plate_pre_classic_rd_20090515",
+                    properties -> new PressurePlateBlock(
+                            BlockSetType.OAK,
+                            properties
+                                    .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultMapColor())
+                                    .forceSolidOn()
+                                    .instrument(NoteBlockInstrument.BASS)
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .ignitedByLava()
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    public static final DeferredBlock<Block> OAK_BUTTON_PRE_CLASSIC_RD_20090515 =
+            registerBlock("oak_button_pre_classic_rd_20090515",
+                    properties -> new ButtonBlock(
+                            BlockSetType.OAK,
+                            30,
+                            properties
+                                    .noCollision()
+                                    .strength(0.5F)
+                                    .pushReaction(PushReaction.DESTROY)
+                    ),
+                    ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
+                    ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);

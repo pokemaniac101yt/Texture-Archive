@@ -18,8 +18,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get());
         dropSelf(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get());
+
+        dropSelf(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get());
         dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get());
         add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get(), createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get()));
         dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get());
@@ -31,11 +32,20 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.get());
         add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get(), createSlabItemTable(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get()));
         dropSelf(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
+
         add(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get(), block -> createSingleItemTableWithSilkTouch(block, ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515));
         dropSelf(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.get());
         add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.get(), createSlabItemTable(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.get()));
         dropSelf(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get());
         dropSelf(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515.get());
+
+        dropSelf(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515.get());
+        dropSelf(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515.get());
+        add(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515.get(), createSlabItemTable(ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515.get()));
+        dropSelf(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515.get());
+        dropSelf(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515.get());
+        dropSelf(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get());
+        dropSelf(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.get());
     }
 
     @Override

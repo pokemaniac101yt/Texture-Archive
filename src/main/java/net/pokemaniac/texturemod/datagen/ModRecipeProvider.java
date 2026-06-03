@@ -10,6 +10,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.pokemaniac.texturemod.TextureArchive;
 import net.pokemaniac.texturemod.block.ModBlocks;
 
@@ -45,59 +46,79 @@ public class ModRecipeProvider extends RecipeProvider {
         CRAFTING
          */
 
-        stairBuilder(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+        stairBuilder(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
                 .group("cobblestone_stairs")
                 .save(output);
 
-        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
                 .group("cobblestone_slabs")
                 .save(output);
 
-        wallBuilder(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+        wallBuilder(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655))
                 .group("cobblestone_walls")
                 .save(output);
 
 
 
 
-        stairBuilder(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+        stairBuilder(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
                 .group("cobblestone_stairs")
                 .save(output);
 
-        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
                 .group("cobblestone_slabs")
                 .save(output);
 
-        wallBuilder(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+        wallBuilder(RecipeCategory.MISC, ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_20090515))
                 .group("cobblestone_walls")
                 .save(output);
 
 
 
-        stairBuilder(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+        stairBuilder(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
                 .group("stone_stairs")
                 .save(output);
 
-        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
                 .group("stone_slabs")
                 .save(output);
 
-        pressurePlateBuilder(RecipeCategory.REDSTONE, ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+        pressurePlateBuilder(RecipeCategory.REDSTONE, ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
                 .group("stone_pressure_plates")
                 .save(output);
 
-        buttonBuilder(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515.get(), Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()))
-                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515.get()), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+        buttonBuilder(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.STONE_PRE_CLASSIC_RD_20090515), has(ModBlocks.STONE_PRE_CLASSIC_RD_20090515))
                 .group("stone_buttons")
+                .save(output);
+
+        stairBuilder(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_stairs")
+                .save(output);
+        
+        slabBuilder(RecipeCategory.BUILDING_BLOCKS, ModBlocks.OAK_SLAB_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_slab")
+                .save(output);
+
+        fenceBuilder(ModBlocks.OAK_FENCE_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_fence")
+                .save(output);
+
+        fenceGateBuilder(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_fence_gate")
                 .save(output);
 
 
