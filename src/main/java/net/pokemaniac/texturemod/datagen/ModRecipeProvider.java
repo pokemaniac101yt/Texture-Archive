@@ -101,6 +101,8 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("stone_buttons")
                 .save(output);
 
+
+        
         stairBuilder(ModBlocks.OAK_STAIRS_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
                 .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
                 .group("wooden_stairs")
@@ -120,6 +122,16 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
                 .group("wooden_fence_gate")
                 .save(output);
+
+        pressurePlateBuilder(RecipeCategory.REDSTONE, ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_pressure_plate")
+                .save(output);
+
+        buttonBuilder(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515, Ingredient.of(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .unlockedBy(getHasName(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515), has(ModBlocks.OAK_PLANKS_PRE_CLASSIC_RD_20090515))
+                .group("wooden_button")
+                .save(output);        
 
 
         /*
