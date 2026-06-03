@@ -4,7 +4,7 @@
       "model": "texturemod:block/stone_slab_pre_classic_rd_20090515"
     },
     "type=double": {
-      "model": "texturemod:block/stone_pre_classic_rd_20090515_mirrored"
+      "model": "texturemod:block/stone_pre_classic_rd_20090515"
     },
     "type=top": {
       "model": "texturemod:block/stone_slab_pre_classic_rd_20090515_top"
