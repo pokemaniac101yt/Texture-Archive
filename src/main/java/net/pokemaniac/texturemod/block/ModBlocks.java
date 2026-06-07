@@ -1,5 +1,6 @@
 package net.pokemaniac.texturemod.block;
 
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -16,7 +17,10 @@ import net.minecraft.world.level.material.PushReaction;
 import net.pokemaniac.texturemod.TextureArchive;
 import net.pokemaniac.texturemod.tooltip.ModTooltips;
 import net.pokemaniac.texturemod.tooltip.TooltipItemProvider;
+import org.jspecify.annotations.Nullable;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.function.Function;
 
 public class ModBlocks {
@@ -338,6 +342,7 @@ public class ModBlocks {
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
 
+
     public static final Block OAK_BUTTON_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_button_pre_classic_rd_20090515",
                     properties -> new ButtonBlock(
@@ -353,13 +358,23 @@ public class ModBlocks {
             );
 
 
+    public record FlammableData(int igniteOdds, int burnOdds) {};
+
+    public static final Map<Block, FlammableData> FLAMMABLE_BLOCKS = Map.of(
+            OAK_PLANKS_PRE_CLASSIC_RD_20090515, new FlammableData(5, 20),
+            OAK_SLAB_PRE_CLASSIC_RD_20090515, new FlammableData(5, 20),
+            OAK_STAIRS_PRE_CLASSIC_RD_20090515, new FlammableData(5, 20),
+            OAK_FENCE_PRE_CLASSIC_RD_20090515, new FlammableData(5, 20),
+            OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515, new FlammableData(5, 20)
+    );
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function, String... tooltipKeys) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name))));
 
         registerBlockItem(name, toRegister, tooltipKeys);
+
         return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name), toRegister);
     }
-
 
     private static void registerBlockItem(String name, Block block, String[] tooltipKeys) {
         Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name), new TooltipItemProvider.TooltipBlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, name))), tooltipKeys));

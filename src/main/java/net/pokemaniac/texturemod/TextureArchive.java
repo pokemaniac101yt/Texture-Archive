@@ -3,6 +3,7 @@ package net.pokemaniac.texturemod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.world.level.block.Block;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.creativemodetab.ModCreativeModeTabs;
@@ -31,5 +32,14 @@ public class TextureArchive implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		registerFlammables();
+	}
+
+	private static void registerFlammables() {
+
+		ModBlocks.FLAMMABLE_BLOCKS.forEach(((block, flammableValues) -> {
+			FlammableBlockRegistry.getDefaultInstance().add(block, flammableValues.igniteOdds(), flammableValues.burnOdds());
+		}));
 	}
 }
