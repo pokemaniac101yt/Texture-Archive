@@ -13,7 +13,7 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="minecraftVersion" value="26.1.2" />
   </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../build/classes/java/main" />

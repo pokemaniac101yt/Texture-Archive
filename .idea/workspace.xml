@@ -10,33 +10,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/texturemod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/texturemod.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/texturemod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/texturemod.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/TextureArchive.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/TextureArchive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/pokemaniac/texturemod/block/ModBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/texturemod/chisel_cycles.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/texturemod/chisel_cycles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-02-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-02-2.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-02-3.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-02-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-02-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/wandering_trader.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/wandering_trader.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/weather.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/data/minecraft/weather.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/overworld/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_end/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_end/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/dimensions/minecraft/the_nether/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Block Test 26.1.2/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/TextureArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/TextureArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/pokemaniac/texturemod/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/texturemod/chisel_cycles.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/texturemod/chisel_cycles.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +38,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="texturemod" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="texturemod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="texturemod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="fabric" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -205,6 +172,7 @@
       <workItem from="1780448780762" duration="7220000" />
       <workItem from="1780464209690" duration="868000" />
       <workItem from="1780796015391" duration="5772000" />
+      <workItem from="1780802242255" duration="215000" />
     </task>
     <servers />
   </component>
