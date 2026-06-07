@@ -1,6 +1,5 @@
 package net.pokemaniac.texturemod.block;
 
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
@@ -12,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pokemaniac.texturemod.TextureArchive;
+import net.pokemaniac.texturemod.block.FlammableBlocks.*;
 import net.pokemaniac.texturemod.item.ModItems;
 import net.pokemaniac.texturemod.tooltip.ModTooltips;
 import net.pokemaniac.texturemod.tooltip.TooltipItemProvider;
@@ -253,28 +253,33 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> OAK_PLANKS_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_planks_pre_classic_rd_20090515",
-                    properties -> new Block(
+                    properties -> new FlammableBlock(
                             properties
                                     .mapColor(MapColor.WOOD)
                                     .instrument(NoteBlockInstrument.BASS)
                                     .strength(2.0F, 3.0F)
                                     .sound(SoundType.WOOD)
-                                    .ignitedByLava()
+                                    .ignitedByLava(),
+                            5,
+                            20
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
 
+
     public static final DeferredBlock<Block> OAK_STAIRS_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_stairs_pre_classic_rd_20090515",
-                    properties -> new StairBlock(
+                    properties -> new FlammableStairBlock(
                             OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultBlockState(),
                             properties
                                     .mapColor(MapColor.WOOD)
                                     .instrument(NoteBlockInstrument.BASS)
                                     .strength(2.0F, 3.0F)
                                     .sound(SoundType.WOOD)
-                                    .ignitedByLava()
+                                    .ignitedByLava(),
+                            5,
+                            20
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
@@ -282,13 +287,15 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> OAK_SLAB_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_slab_pre_classic_rd_20090515",
-                    properties -> new SlabBlock(
+                    properties -> new FlammableSlabBlock(
                             properties
                                 .mapColor(MapColor.WOOD)
                                 .instrument(NoteBlockInstrument.BASS)
                                 .strength(2.0F, 3.0F)
                                 .sound(SoundType.WOOD)
-                                .ignitedByLava()
+                                .ignitedByLava(),
+                            5,
+                            20
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
@@ -296,14 +303,16 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> OAK_FENCE_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_fence_pre_classic_rd_20090515",
-                    properties -> new FenceBlock(
+                    properties -> new FlammableFenceBlock(
                             properties
                                     .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultMapColor())
                                     .forceSolidOn()
                                     .instrument(NoteBlockInstrument.BASS)
                                     .strength(2.0F, 3.0F)
                                     .sound(SoundType.WOOD)
-                                    .ignitedByLava()
+                                    .ignitedByLava(),
+                            5,
+                            20
 
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
@@ -312,14 +321,16 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515 =
             registerBlock("oak_fence_gate_pre_classic_rd_20090515",
-                    properties -> new FenceGateBlock(
+                    properties -> new FlammableFenceGateBlock(
                             WoodType.OAK,
                             properties
                                     .mapColor(OAK_PLANKS_PRE_CLASSIC_RD_20090515.get().defaultMapColor())
                                     .forceSolidOn()
                                     .instrument(NoteBlockInstrument.BASS)
                                     .strength(2.0F, 3.0F)
-                                    .ignitedByLava()
+                                    .ignitedByLava(),
+                            5,
+                            20
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
