@@ -120,6 +120,8 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515.get())
                 .button(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.get());
 
+        blockModels.createTrivialCube(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
     }
 
     public void generateCustomFamily(

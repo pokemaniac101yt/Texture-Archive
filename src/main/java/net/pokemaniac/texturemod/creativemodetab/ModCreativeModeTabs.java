@@ -54,6 +54,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> CLASSIC_BLOCKS = CREATIVE_MODE_TABS.register("classic_blocks_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.BEDROCK_CLASSIC_0_0_12a))
+                    .title(Component.translatable("creativetab.texturemod.classic_blocks"))
+                    .withTabsAfter(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "indev_blocks_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
+                    }).build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

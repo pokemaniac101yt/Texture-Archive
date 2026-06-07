@@ -23,9 +23,6 @@ public class ModBlocks {
             DeferredRegister.createBlocks(TextureArchive.MOD_ID);
 
 
-
-
-
     /*
     PRE-CLASSIC RD-131655
      */
@@ -365,6 +362,23 @@ public class ModBlocks {
                     ),
                     ModTooltips.ORDER_OF_THE_STONE_TOOLTIP,
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
+            );
+
+    /*
+    CLASSIC 0.0.12a
+     */
+
+    public static final DeferredBlock<Block> BEDROCK_CLASSIC_0_0_12a =
+            registerBlock("bedrock_classic_0_0_12a",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(-1.0F, 3600000.0F)
+                                    .noLootTable()
+                                    .isValidSpawn(Blocks::never)
+                    ),
+                    ModTooltips.CLASSIC_0_0_12a_TOOLTIP
             );
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {

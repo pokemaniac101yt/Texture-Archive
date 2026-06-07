@@ -20,11 +20,20 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
 
+        tag(BlockTags.BLOCKS_WIND_CHARGE_EXPLOSIONS)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
         tag(BlockTags.CONVERTABLE_TO_MUD)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.get());
 
         tag(BlockTags.DIRT)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.DRAGON_IMMUNE)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
+        tag(BlockTags.FEATURES_CANNOT_REPLACE)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
 
         tag(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_FENCE_GATE_PRE_CLASSIC_RD_20090515.get());
@@ -37,9 +46,18 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
 
+        tag(BlockTags.GEODE_INVALID_BLOCKS)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
         tag(BlockTags.GRASS_BLOCKS)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.INFINIBURN_END)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
+        tag(BlockTags.INFINIBURN_OVERWORLD)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655.get())
@@ -100,6 +118,9 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.WALLS)
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.get())
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.get());
+
+        tag(BlockTags.WITHER_IMMUNE)
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
 
         tag(BlockTags.WOODEN_BUTTONS)
                 .add(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.get());
