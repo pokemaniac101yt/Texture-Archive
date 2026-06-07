@@ -108,6 +108,8 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
                 .button(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
 
+        blockModelGenerators.createTrivialCube(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
+
     }
 
     @Override

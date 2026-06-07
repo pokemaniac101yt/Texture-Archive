@@ -357,6 +357,23 @@ public class ModBlocks {
                     ModTooltips.PRE_CLASSIC_RD_20090515_TOOLTIP
             );
 
+    /*
+    CLASSIC 0.0.12a
+     */
+
+    public static final Block BEDROCK_CLASSIC_0_0_12a =
+            registerBlock("bedrock_classic_0_0_12a",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(-1.0F, 3600000.0F)
+                                    .noLootTable()
+                                    .isValidSpawn(Blocks::never)
+                    ),
+                    ModTooltips.CLASSIC_0_0_12a_TOOLTIP
+            );
+
 
     public record FlammableData(int igniteOdds, int burnOdds) {};
 

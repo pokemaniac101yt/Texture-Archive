@@ -1,1 +1,19 @@
-{"stats":{"minecraft:used":{"texturemod:tnt_classic_0_26":1,"texturemod:tnt_classic_0_28":1,"minecraft:flint_and_steel":2},"minecraft:custom":{"minecraft:jump":1,"minecraft:time_since_rest":262,"minecraft:leave_game":1,"minecraft:play_time":262,"minecraft:time_since_death":262,"minecraft:walk_one_cm":1192,"minecraft:total_world_time":277,"minecraft:fly_one_cm":206}},"DataVersion":3953}
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:flint_and_steel": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 150,
+      "minecraft:time_since_rest": 503,
+      "minecraft:walk_one_cm": 1318,
+      "minecraft:total_world_time": 531,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 3238,
+      "minecraft:play_time": 503,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 503
+    }
+  },
+  "DataVersion": 4790
+}
