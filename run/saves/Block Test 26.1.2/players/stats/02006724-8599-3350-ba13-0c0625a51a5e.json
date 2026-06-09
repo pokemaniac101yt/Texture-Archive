@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "texturemod:stone_chisel": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1116,
+      "minecraft:time_since_rest": 3809,
+      "minecraft:fall_one_cm": 325,
+      "minecraft:walk_one_cm": 1233,
+      "minecraft:total_world_time": 3882,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1008,
+      "minecraft:play_time": 3809,
+      "minecraft:jump": 5,
+      "minecraft:enchant_item": 4,
+      "minecraft:time_since_death": 3809
+    },
+    "minecraft:used": {
+      "minecraft:experience_bottle": 25,
+      "minecraft:enchanting_table": 1,
+      "texturemod:diamond_chisel": 201
+    }
+  },
+  "DataVersion": 4790
+}

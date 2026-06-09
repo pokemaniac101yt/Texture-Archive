@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:spruce_log": 17,
+      "minecraft:barrier": 2,
+      "texturemod:copper_chisel": 18,
+      "texturemod:stone_pre_classic_rd_20090515": 1,
+      "texturemod:stone_slab_pre_classic_rd_20090515": 2,
+      "texturemod:stone_stairs_pre_classic_rd_20090515": 2,
+      "texturemod:stone_pressure_plate_pre_classic_rd_20090515": 1,
+      "texturemod:stone_button_pre_classic_rd_20090515": 2
+    },
+    "minecraft:picked_up": {
+      "texturemod:stone_button_pre_classic_rd_20090515": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 741,
+      "minecraft:time_since_rest": 18715,
+      "minecraft:walk_one_cm": 2356,
+      "minecraft:total_world_time": 18715,
+      "minecraft:fly_one_cm": 3892,
+      "minecraft:walk_under_water_one_cm": 88,
+      "minecraft:crouch_one_cm": 13,
+      "minecraft:walk_on_water_one_cm": 531,
+      "minecraft:sneak_time": 121,
+      "minecraft:play_time": 18715,
+      "minecraft:jump": 9,
+      "minecraft:time_since_death": 18715
+    }
+  },
+  "DataVersion": 4790
+}

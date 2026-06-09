@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "stone_buttons",
+  "ingredients": [
+    "texturemod:stone_pre_classic_rd_20090515"
+  ],
+  "result": {
+    "id": "texturemod:stone_button_pre_classic_rd_20090515"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:enchanting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 384,
+      "minecraft:time_since_rest": 779,
+      "minecraft:walk_one_cm": 137,
+      "minecraft:total_world_time": 779,
+      "minecraft:play_time": 779,
+      "minecraft:time_since_death": 779
+    }
+  },
+  "DataVersion": 4790
+}

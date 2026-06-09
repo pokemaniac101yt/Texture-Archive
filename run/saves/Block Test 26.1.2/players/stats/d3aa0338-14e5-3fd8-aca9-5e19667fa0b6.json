@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "texturemod:stone_button_pre_classic_rd_20090515": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 72000,
+      "minecraft:walk_one_cm": 235,
+      "minecraft:total_world_time": 72000,
+      "minecraft:play_time": 72000,
+      "minecraft:time_since_death": 72000
+    }
+  },
+  "DataVersion": 4790
+}

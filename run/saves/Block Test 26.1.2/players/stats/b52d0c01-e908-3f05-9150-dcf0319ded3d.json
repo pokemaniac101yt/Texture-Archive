@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "texturemod:stone_pre_classic_rd_20090515": 8,
+      "texturemod:stone_slab_pre_classic_rd_20090515": 1,
+      "texturemod:stone_stairs_pre_classic_rd_20090515": 4,
+      "texturemod:stone_pressure_plate_pre_classic_rd_20090515": 1,
+      "texturemod:stone_button_pre_classic_rd_20090515": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1060,
+      "minecraft:walk_one_cm": 2918,
+      "minecraft:total_world_time": 1102,
+      "minecraft:play_time": 1060,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 1060
+    }
+  },
+  "DataVersion": 4790
+}

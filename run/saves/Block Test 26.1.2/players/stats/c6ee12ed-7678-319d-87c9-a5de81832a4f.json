@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:spruce_wood": 182,
+      "minecraft:spruce_log": 198,
+      "minecraft:water_bucket": 37,
+      "minecraft:barrier": 2,
+      "minecraft:redstone": 19,
+      "minecraft:target": 13,
+      "minecraft:stone_button": 1,
+      "minecraft:dispenser": 14
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 11133,
+      "minecraft:walk_one_cm": 14717,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 11133,
+      "minecraft:jump": 21,
+      "minecraft:time_since_death": 11133,
+      "minecraft:sprint_one_cm": 1446,
+      "minecraft:inspect_dispenser": 7,
+      "minecraft:total_world_time": 11769,
+      "minecraft:fly_one_cm": 43528,
+      "minecraft:walk_on_water_one_cm": 6010,
+      "minecraft:crouch_one_cm": 135,
+      "minecraft:sneak_time": 39
+    },
+    "minecraft:picked_up": {
+      "minecraft:bucket": 1
+    }
+  },
+  "DataVersion": 4790
+}
