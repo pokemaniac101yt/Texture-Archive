@@ -24,6 +24,7 @@ public class TextureArchiveDataGen {
         generator.addProvider(true, new ModModelProvider(packOutput));
         generator.addProvider(true, new ModBlockTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new ModFluidTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
         generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));

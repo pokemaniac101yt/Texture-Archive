@@ -4,11 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.iml" filepath="$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Desktop.Texture-Archive.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft Dev.Desktop.Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft Dev.Desktop.Texture-Archive.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Texture-Archive.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Texture-Archive.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.pokemaniac.texturemod.Texture-Archive.main.iml" />
     </modules>
   </component>
 </project>

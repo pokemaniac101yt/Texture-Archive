@@ -1,5 +1,20 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 10,
+      "minecraft:time_since_rest": 79470,
+      "minecraft:walk_one_cm": 27898,
+      "minecraft:leave_game": 20,
+      "minecraft:play_time": 79470,
+      "minecraft:jump": 218,
+      "minecraft:time_since_death": 79470,
+      "minecraft:sprint_one_cm": 12414,
+      "minecraft:total_world_time": 80002,
+      "minecraft:fly_one_cm": 114508,
+      "minecraft:walk_on_water_one_cm": 1194,
+      "minecraft:crouch_one_cm": 141,
+      "minecraft:sneak_time": 547
+    },
     "minecraft:used": {
       "minecraft:oak_fence": 8,
       "texturemod:grass_block_pre_classic_rd_131655": 14,
@@ -8,10 +23,11 @@
       "texturemod:dirt_pre_classic_rd_20090515": 45,
       "texturemod:oak_pressure_plate_pre_classic_rd_20090515": 6,
       "texturemod:oak_slab_pre_classic_rd_20090515": 13,
-      "texturemod:oak_planks_pre_classic_rd_20090515": 28,
+      "texturemod:oak_planks_pre_classic_rd_20090515": 69,
       "texturemod:stone_stairs_pre_classic_rd_20090515": 8,
       "texturemod:stone_button_pre_classic_rd_20090515": 10,
       "texturemod:wooden_chisel": 44,
+      "minecraft:water_bucket": 5,
       "texturemod:cobblestone_pre_classic_rd_20090515": 1,
       "texturemod:iron_chisel": 18,
       "texturemod:stone_pre_classic_rd_20090515": 1,
@@ -28,24 +44,12 @@
       "texturemod:grass_block_pre_classic_rd_20090515": 13,
       "minecraft:stone": 12,
       "minecraft:oak_stairs": 9,
+      "minecraft:barrier": 1,
       "minecraft:flint_and_steel": 38,
+      "minecraft:bucket": 1,
       "minecraft:oak_pressure_plate": 6,
       "minecraft:oak_planks": 20,
       "minecraft:oak_fence_gate": 12
-    },
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 10,
-      "minecraft:sprint_one_cm": 10926,
-      "minecraft:time_since_rest": 75775,
-      "minecraft:walk_one_cm": 25721,
-      "minecraft:total_world_time": 76222,
-      "minecraft:leave_game": 15,
-      "minecraft:fly_one_cm": 108839,
-      "minecraft:crouch_one_cm": 141,
-      "minecraft:sneak_time": 512,
-      "minecraft:play_time": 75775,
-      "minecraft:jump": 207,
-      "minecraft:time_since_death": 75775
     }
   },
   "DataVersion": 4790

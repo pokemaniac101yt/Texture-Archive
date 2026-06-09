@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "addition": "#minecraft:netherite_tool_materials",
-  "base": "texturemod:diamond_chisel",
-  "result": {
-    "id": "texturemod:netherite_chisel"
-  },
-  "template": "minecraft:netherite_upgrade_smithing_template"
-}

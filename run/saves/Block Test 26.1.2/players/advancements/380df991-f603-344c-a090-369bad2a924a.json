@@ -353,5 +353,23 @@
     },
     "done": true
   },
+  "texturemod:recipes/redstone/oak_button_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-08 23:02:15 -0600"
+    },
+    "done": true
+  },
+  "texturemod:recipes/redstone/oak_pressure_plate_pre_classic_rd_20090515": {
+    "criteria": {
+      "has_oak_planks_pre_classic_rd_20090515": "2026-06-08 23:02:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-06-08 23:40:56 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 4790
 }

@@ -17,6 +17,7 @@ import net.pokemaniac.texturemod.item.ModItems;
 import javax.annotation.Nullable;
 import java.util.Map;
 
+import static net.minecraft.client.data.models.BlockModelGenerators.createSimpleBlock;
 import static net.minecraft.client.data.models.BlockModelGenerators.plainVariant;
 
 public class ModModelProvider extends ModelProvider {
@@ -121,6 +122,8 @@ public class ModModelProvider extends ModelProvider {
                 .button(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.get());
 
         blockModels.createTrivialCube(ModBlocks.BEDROCK_CLASSIC_0_0_12a.get());
+
+        blockModels.createTrivialCube(ModBlocks.WATER_CLASSIC_0_0_12a.get());
 
     }
 

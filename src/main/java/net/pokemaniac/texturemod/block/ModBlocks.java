@@ -12,6 +12,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pokemaniac.texturemod.TextureArchive;
 import net.pokemaniac.texturemod.block.FlammableBlocks.*;
+import net.pokemaniac.texturemod.fluid.ModFluids;
 import net.pokemaniac.texturemod.item.ModItems;
 import net.pokemaniac.texturemod.tooltip.ModTooltips;
 import net.pokemaniac.texturemod.tooltip.TooltipItemProvider;
@@ -380,6 +381,22 @@ public class ModBlocks {
                     ),
                     ModTooltips.CLASSIC_0_0_12a_TOOLTIP
             );
+
+    public static final DeferredBlock<Block> WATER_CLASSIC_0_0_12a = registerBlock(
+            "water_classic_0_0_12a",
+            properties -> new LiquidBlock(
+                    ModFluids.WATER_CLASSIC_0_0_12a.get(),
+                    properties
+                            .mapColor(MapColor.WATER)
+                            .replaceable()
+                            .noCollision()
+                            .strength(100.0F)
+                            .pushReaction(PushReaction.DESTROY)
+                            .noLootTable()
+                            .liquid()
+                            .sound(SoundType.EMPTY)
+            )
+    );
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);

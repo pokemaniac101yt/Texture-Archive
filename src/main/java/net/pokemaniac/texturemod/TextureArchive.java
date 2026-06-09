@@ -3,6 +3,7 @@ package net.pokemaniac.texturemod;
 import net.minecraft.world.item.*;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.creativemodetab.ModCreativeModeTabs;
+import net.pokemaniac.texturemod.fluid.ModFluids;
 import net.pokemaniac.texturemod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -52,6 +53,7 @@ public class TextureArchive {
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModFluids.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
