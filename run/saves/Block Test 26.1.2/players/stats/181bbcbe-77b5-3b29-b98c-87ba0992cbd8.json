@@ -1,1 +1,22 @@
-{"stats":{"minecraft:custom":{"minecraft:jump":8,"minecraft:time_since_rest":296,"minecraft:leave_game":1,"minecraft:sprint_one_cm":435,"minecraft:play_time":296,"minecraft:walk_one_cm":522,"minecraft:time_since_death":296,"minecraft:total_world_time":330,"minecraft:fly_one_cm":3864},"minecraft:used":{"texturemod:oak_leaves_classic_0_0_14a":2}},"DataVersion":3953}
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:spruce_log": 3,
+      "minecraft:barrier": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 435,
+      "minecraft:time_since_rest": 535,
+      "minecraft:walk_one_cm": 522,
+      "minecraft:total_world_time": 569,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 3864,
+      "minecraft:walk_on_water_one_cm": 102,
+      "minecraft:sneak_time": 11,
+      "minecraft:play_time": 535,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 535
+    }
+  },
+  "DataVersion": 4790
+}

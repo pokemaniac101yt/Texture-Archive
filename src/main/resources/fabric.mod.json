@@ -18,6 +18,9 @@
 		"main": [
 			"net.pokemaniac.texturemod.TextureArchive"
 		],
+		"client": [
+			"net.pokemaniac.texturemod.TextureArchiveClient"
+		],
 		"fabric-datagen": [
 			"net.pokemaniac.texturemod.TextureArchiveDataGenerator"
 		]

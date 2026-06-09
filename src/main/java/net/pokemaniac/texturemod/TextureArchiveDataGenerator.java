@@ -13,6 +13,7 @@ public class TextureArchiveDataGenerator implements DataGeneratorEntrypoint {
 		var blockTags = pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider((output, registriesFuture) ->
 				new ModItemTagsProvider(output, registriesFuture, blockTags));
+		pack.addProvider(ModFluidTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 	}

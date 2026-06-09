@@ -1,0 +1,25 @@
+package net.pokemaniac.texturemod;
+
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.ModInitializer;
+
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.minecraft.world.level.block.Block;
+import net.pokemaniac.texturemod.block.ModBlocks;
+import net.pokemaniac.texturemod.creativemodetab.ModCreativeModeTabs;
+import net.pokemaniac.texturemod.fluid.ModFluids;
+import net.pokemaniac.texturemod.item.ModItems;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TextureArchiveClient implements ClientModInitializer {
+
+	@Override
+	public void onInitializeClient() {
+		ModFluids.initializeClient();
+	}
+}

@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.world.level.block.Block;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.creativemodetab.ModCreativeModeTabs;
+import net.pokemaniac.texturemod.fluid.ModFluids;
 import net.pokemaniac.texturemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +33,7 @@ public class TextureArchive implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFluids.register();
 
 		registerFlammables();
 	}
