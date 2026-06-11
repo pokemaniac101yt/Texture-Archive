@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:oak_stairs": 4,
+      "minecraft:oak_fence": 4,
+      "minecraft:flint_and_steel": 12,
+      "texturemod:oak_fence_pre_classic_rd_20090515": 10,
+      "texturemod:copper_chisel": 3,
+      "texturemod:oak_fence_gate_pre_classic_rd_20090515": 11,
+      "minecraft:oak_slab": 4,
+      "minecraft:oak_planks": 10,
+      "texturemod:oak_slab_pre_classic_rd_20090515": 10,
+      "minecraft:oak_fence_gate": 4,
+      "texturemod:oak_planks_pre_classic_rd_20090515": 17,
+      "texturemod:oak_stairs_pre_classic_rd_20090515": 9
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1940,
+      "minecraft:time_since_rest": 7856,
+      "minecraft:walk_one_cm": 1864,
+      "minecraft:total_world_time": 7870,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 16555,
+      "minecraft:crouch_one_cm": 67,
+      "minecraft:sneak_time": 67,
+      "minecraft:play_time": 7856,
+      "minecraft:jump": 18,
+      "minecraft:time_since_death": 7856
+    }
+  },
+  "DataVersion": 4790
+}
