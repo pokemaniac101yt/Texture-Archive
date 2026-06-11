@@ -26,7 +26,7 @@ public class ModFluidModels {
         Identifier water_classic_0_0_12a_flowing =
                 Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/water_classic_0_0_12a");
 
-        FluidModel.Unbaked model = new FluidModel.Unbaked(
+        FluidModel.Unbaked water_classic_0_0_12a = new FluidModel.Unbaked(
                 new Material(water_classic_0_0_12a_still),
                 new Material(water_classic_0_0_12a_flowing),
                 null,
@@ -34,9 +34,28 @@ public class ModFluidModels {
         );
 
         event.register(
-                model,
+                water_classic_0_0_12a,
                 ModFluids.WATER_CLASSIC_0_0_12a,
                 ModFluids.FLOWING_WATER_CLASSIC_0_0_12a
+        );
+
+        Identifier lava_classic_0_0_12a_still =
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_12a");
+
+        Identifier lava_classic_0_0_12a_flowing =
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_12a");
+
+        FluidModel.Unbaked lava_classic_0_0_12a = new FluidModel.Unbaked(
+                new Material(lava_classic_0_0_12a_still),
+                new Material(lava_classic_0_0_12a_flowing),
+                null,
+                null
+        );
+
+        event.register(
+                lava_classic_0_0_12a,
+                ModFluids.LAVA_CLASSIC_0_0_12a,
+                ModFluids.FLOWING_LAVA_CLASSIC_0_0_12a
         );
 
         System.out.println("Registered NeoForge fluid model");

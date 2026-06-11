@@ -35,9 +35,14 @@ public class ModFluids {
     public static final DeferredHolder<Fluid, ModWaterFluid.Source> WATER_CLASSIC_0_0_12a =
             FLUIDS.register("water_classic_0_0_12a", ModWaterFluid.Source::new);
 
-
     public static final DeferredHolder<Fluid, ModWaterFluid.Flowing> FLOWING_WATER_CLASSIC_0_0_12a =
             FLUIDS.register("flowing_water_classic_0_0_12a", ModWaterFluid.Flowing::new);
+
+    public static final DeferredHolder<Fluid, ModLavaFluid.ModSource> LAVA_CLASSIC_0_0_12a =
+            FLUIDS.register("lava_classic_0_0_12a", ModLavaFluid.ModSource::new);
+
+    public static final DeferredHolder<Fluid, ModLavaFluid.ModFlowing> FLOWING_LAVA_CLASSIC_0_0_12a =
+            FLUIDS.register("flowing_lava_classic_0_0_12a", ModLavaFluid.ModFlowing::new);
 
     public static void register(IEventBus bus) {
         FLUIDS.register(bus);

@@ -4,3 +4,6 @@
 /enchant Dev minecraft:efficiency
 /setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
 /setblock ~ ~ ~ texturemod:water_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_12a
+/setblock ~ ~ ~ lava
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_12a

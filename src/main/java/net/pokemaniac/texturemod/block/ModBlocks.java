@@ -398,6 +398,24 @@ public class ModBlocks {
             )
     );
 
+    public static final DeferredBlock<Block> LAVA_CLASSIC_0_0_12a = registerBlock(
+            "lava_classic_0_0_12a",
+            properties -> new LiquidBlock(
+                    ModFluids.LAVA_CLASSIC_0_0_12a.get(),
+                    properties
+                            .mapColor(MapColor.FIRE)
+                            .replaceable()
+                            .noCollision()
+                            .randomTicks()
+                            .strength(100.0F)
+                            .lightLevel(statex -> 15)
+                            .pushReaction(PushReaction.DESTROY)
+                            .noLootTable()
+                            .liquid()
+                            .sound(SoundType.EMPTY)
+            )
+    );
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn, tooltipKeys);
