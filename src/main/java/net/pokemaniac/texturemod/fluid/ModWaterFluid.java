@@ -36,20 +36,15 @@ import org.jspecify.annotations.Nullable;
 import java.util.Optional;
 
 public abstract class ModWaterFluid extends FlowingFluid {
+    Item Bucket = Items.WATER_BUCKET;
 
-    @Override
-    public Fluid getFlowing() {
-        return ModFluids.FLOWING_WATER_CLASSIC_0_0_12a;
-    }
-
-    @Override
-    public Fluid getSource() {
-        return ModFluids.WATER_CLASSIC_0_0_12a;
+    public void setBucket(Item Bucket) {
+        this.Bucket = Bucket;
     }
 
     @Override
     public Item getBucket() {
-        return Items.WATER_BUCKET;
+        return Bucket;
     }
 
     @Override
@@ -144,6 +139,22 @@ public abstract class ModWaterFluid extends FlowingFluid {
             builder.add(LEVEL);
         }
 
+        Fluid Source;
+
+        public void setSource(Fluid Source) {
+            this.Source = Source;
+        }
+
+        @Override
+        public Fluid getFlowing() {
+            return this;
+        }
+
+        @Override
+        public Fluid getSource() {
+            return Source;
+        }
+
         @Override
         public int getAmount(FluidState state) {
             return state.getValue(LEVEL);
@@ -156,10 +167,27 @@ public abstract class ModWaterFluid extends FlowingFluid {
     }
 
     public static class Source extends ModWaterFluid {
+        Fluid Flowing;
+
+        public void setFlowing(Fluid Flowing) {
+            this.Flowing = Flowing;
+        }
+
+        @Override
+        public Fluid getFlowing() {
+            return Flowing;
+        }
+
+        @Override
+        public Fluid getSource() {
+            return this;
+        }
+
         @Override
         public int getAmount(FluidState state) {
             return 8;
         }
+
 
         @Override
         public boolean isSource(FluidState state) {

@@ -27,18 +27,20 @@ import java.util.function.Function;
 
 public class ModFluids {
 
-    public static FlowingFluid WATER_CLASSIC_0_0_12a;
-    public static FlowingFluid FLOWING_WATER_CLASSIC_0_0_12a;
+    public static ModWaterFluid.Source WATER_CLASSIC_0_0_12a = new ModWaterFluid.Source();
+    public static ModWaterFluid.Flowing FLOWING_WATER_CLASSIC_0_0_12a = new ModWaterFluid.Flowing();
     public static Block WATER_BLOCK_CLASSIC_0_0_12a;
 
     public static void register() {
-        WATER_CLASSIC_0_0_12a = Registry.register(BuiltInRegistries.FLUID,
-                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "water_classic_0_0_12a"), new ModWaterFluid.Source());
-        System.out.println("Still fluid: " + ModFluids.WATER_CLASSIC_0_0_12a);
+        WATER_CLASSIC_0_0_12a.setFlowing(FLOWING_WATER_CLASSIC_0_0_12a);
+        FLOWING_WATER_CLASSIC_0_0_12a.setSource(WATER_CLASSIC_0_0_12a);
 
-        FLOWING_WATER_CLASSIC_0_0_12a = Registry.register(BuiltInRegistries.FLUID,
-                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "flowing_water_classic_0_0_12a"), new ModWaterFluid.Flowing());
-        System.out.println("Flowing fluid: " + ModFluids.FLOWING_WATER_CLASSIC_0_0_12a);
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "water_classic_0_0_12a"), WATER_CLASSIC_0_0_12a);
+
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "flowing_water_classic_0_0_12a"), FLOWING_WATER_CLASSIC_0_0_12a);
+
 
         WATER_BLOCK_CLASSIC_0_0_12a = registerBlock(
                 "water_block_classic_0_0_12a",
