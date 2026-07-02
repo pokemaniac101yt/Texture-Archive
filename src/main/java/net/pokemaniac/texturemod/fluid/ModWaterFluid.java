@@ -30,37 +30,17 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.world.level.material.*;
+import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 import net.neoforged.neoforge.fluids.FluidType;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import org.jspecify.annotations.Nullable;
 
 import java.util.Optional;
 
-public abstract class ModWaterFluid extends FlowingFluid {
+public abstract class ModWaterFluid extends BaseFlowingFluid {
 
-    @Override
-    public Fluid getFlowing() {
-        return ModFluids.FLOWING_WATER_CLASSIC_0_0_12a.get();
-    }
-
-    @Override
-    public Fluid getSource() {
-        return ModFluids.WATER_CLASSIC_0_0_12a.get();
-    }
-
-    @Override
-    public Item getBucket() {
-        return Items.WATER_BUCKET;
-    }
-
-    @Override
-    protected BlockState createLegacyBlock(FluidState state) {
-        return ModBlocks.WATER_CLASSIC_0_0_12a.get().defaultBlockState().setValue(LiquidBlock.LEVEL, getLegacyLevel(state));
-    }
-
-    @Override
-    public boolean isSame(Fluid fluid) {
-        return fluid == ModFluids.WATER_CLASSIC_0_0_12a.get() || fluid == ModFluids.FLOWING_WATER_CLASSIC_0_0_12a.get();
+    protected ModWaterFluid(Properties properties) {
+        super(properties);
     }
 
     @Override
@@ -92,35 +72,8 @@ public abstract class ModWaterFluid extends FlowingFluid {
     }
 
     @Override
-    protected boolean canConvertToSource(final ServerLevel level) {
-        return level.getGameRules().get(GameRules.WATER_SOURCE_CONVERSION);
-    }
-
-    @Override
-    protected void beforeDestroyingBlock(final LevelAccessor level, final BlockPos pos, final BlockState state) {
-        BlockEntity blockEntity = state.hasBlockEntity() ? level.getBlockEntity(pos) : null;
-        Block.dropResources(state, level, pos, blockEntity);
-    }
-
-    @Override
     protected void entityInside(final Level level, final BlockPos pos, final Entity entity, final InsideBlockEffectApplier effectApplier) {
         effectApplier.apply(InsideBlockEffectType.EXTINGUISH);
-    }
-
-    @Override
-    public int getSlopeFindDistance(final LevelReader level) {
-        return 4;
-    }
-
-
-    @Override
-    public int getDropOff(final LevelReader level) {
-        return 1;
-    }
-
-    @Override
-    public int getTickDelay(final LevelReader level) {
-        return 5;
     }
 
     @Override
@@ -128,22 +81,12 @@ public abstract class ModWaterFluid extends FlowingFluid {
         return direction == Direction.DOWN && !other.is(FluidTags.WATER);
     }
 
-    @Override
-    protected float getExplosionResistance() {
-        return 100.0F;
-    }
-
-    @Override
-    public Optional<SoundEvent> getPickupSound() {
-        return Optional.of(SoundEvents.BUCKET_FILL);
-    }
-
-    @Override
-    public FluidType getFluidType() {
-        return Fluids.WATER.getFluidType();
-    }
-
     public static class Flowing extends ModWaterFluid {
+        protected Flowing(Properties properties) {
+            super(properties);
+            registerDefaultState(getStateDefinition().any().setValue(LEVEL, 7));
+        }
+
         @Override
         protected void createFluidStateDefinition(StateDefinition.Builder<Fluid, FluidState> builder) {
             super.createFluidStateDefinition(builder);
@@ -162,6 +105,11 @@ public abstract class ModWaterFluid extends FlowingFluid {
     }
 
     public static class Source extends ModWaterFluid {
+
+        protected Source(Properties properties) {
+            super(properties);
+        }
+
         @Override
         public int getAmount(FluidState state) {
             return 8;

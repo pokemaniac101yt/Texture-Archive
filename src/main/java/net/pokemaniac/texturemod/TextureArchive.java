@@ -72,7 +72,6 @@ public class TextureArchive {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-
     }
 
     // Add the example block item to the building blocks tab

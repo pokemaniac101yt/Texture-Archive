@@ -1,20 +1,5 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 10,
-      "minecraft:time_since_rest": 85310,
-      "minecraft:walk_one_cm": 29989,
-      "minecraft:leave_game": 24,
-      "minecraft:play_time": 85310,
-      "minecraft:jump": 227,
-      "minecraft:time_since_death": 85310,
-      "minecraft:sprint_one_cm": 13268,
-      "minecraft:total_world_time": 86560,
-      "minecraft:fly_one_cm": 126944,
-      "minecraft:walk_on_water_one_cm": 1593,
-      "minecraft:crouch_one_cm": 159,
-      "minecraft:sneak_time": 617
-    },
     "minecraft:used": {
       "minecraft:oak_fence": 8,
       "texturemod:grass_block_pre_classic_rd_131655": 14,
@@ -50,6 +35,21 @@
       "minecraft:oak_pressure_plate": 6,
       "minecraft:oak_planks": 20,
       "minecraft:oak_fence_gate": 12
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 10,
+      "minecraft:time_since_rest": 85608,
+      "minecraft:walk_one_cm": 30032,
+      "minecraft:leave_game": 25,
+      "minecraft:play_time": 85608,
+      "minecraft:jump": 228,
+      "minecraft:time_since_death": 85608,
+      "minecraft:sprint_one_cm": 13268,
+      "minecraft:total_world_time": 86877,
+      "minecraft:fly_one_cm": 127612,
+      "minecraft:walk_on_water_one_cm": 1699,
+      "minecraft:crouch_one_cm": 159,
+      "minecraft:sneak_time": 617
     }
   },
   "DataVersion": 4790
