@@ -451,6 +451,10 @@ public class ModBlocks {
     NOTE: ALPHA 1.2 METAL BLOCKS USE TOP TEXTURE ALL AROUND
      */
 
+    /*
+    NOTE: PRE BETA 1.7 SLABS DIDN'T USE THE BOTTOM HALF
+    */
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn, tooltipKeys);
