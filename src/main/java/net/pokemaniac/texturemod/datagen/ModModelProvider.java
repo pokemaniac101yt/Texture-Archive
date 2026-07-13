@@ -125,6 +125,7 @@ public class ModModelProvider extends ModelProvider {
 
         blockModels.createTrivialCube(ModBlocks.WATER_CLASSIC_0_0_12a.get());
         blockModels.createTrivialCube(ModBlocks.LAVA_CLASSIC_0_0_12a.get());
+        blockModels.createTrivialCube(ModBlocks.LAVA_CLASSIC_0_0_13a.get());
 
     }
 

@@ -1,21 +1,5 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 10,
-      "minecraft:time_since_rest": 114238,
-      "minecraft:walk_one_cm": 37256,
-      "minecraft:leave_game": 28,
-      "minecraft:play_time": 114238,
-      "minecraft:jump": 255,
-      "minecraft:time_since_death": 114238,
-      "minecraft:drop": 6,
-      "minecraft:sprint_one_cm": 15281,
-      "minecraft:total_world_time": 120430,
-      "minecraft:fly_one_cm": 186469,
-      "minecraft:walk_on_water_one_cm": 2177,
-      "minecraft:crouch_one_cm": 159,
-      "minecraft:sneak_time": 689
-    },
     "minecraft:used": {
       "minecraft:oak_fence": 8,
       "texturemod:grass_block_pre_classic_rd_131655": 14,
@@ -29,7 +13,7 @@
       "texturemod:stone_stairs_pre_classic_rd_20090515": 8,
       "texturemod:stone_button_pre_classic_rd_20090515": 10,
       "texturemod:wooden_chisel": 44,
-      "minecraft:water_bucket": 5,
+      "minecraft:water_bucket": 6,
       "texturemod:cobblestone_pre_classic_rd_20090515": 1,
       "texturemod:iron_chisel": 18,
       "texturemod:stone_pre_classic_rd_20090515": 1,
@@ -53,10 +37,6 @@
       "minecraft:oak_planks": 64,
       "minecraft:oak_fence_gate": 12
     },
-    "minecraft:picked_up": {
-      "texturemod:oak_button_pre_classic_rd_20090515": 1,
-      "minecraft:flint_and_steel": 1
-    },
     "minecraft:dropped": {
       "minecraft:oak_fence_gate": 1,
       "minecraft:flint_and_steel": 1,
@@ -64,6 +44,26 @@
       "texturemod:oak_button_pre_classic_rd_20090515": 1,
       "minecraft:oak_fence": 1,
       "texturemod:oak_planks_pre_classic_rd_20090515": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 10,
+      "minecraft:time_since_rest": 115213,
+      "minecraft:walk_one_cm": 37362,
+      "minecraft:leave_game": 29,
+      "minecraft:play_time": 115213,
+      "minecraft:jump": 273,
+      "minecraft:time_since_death": 115213,
+      "minecraft:drop": 6,
+      "minecraft:sprint_one_cm": 17104,
+      "minecraft:total_world_time": 121423,
+      "minecraft:fly_one_cm": 200216,
+      "minecraft:walk_on_water_one_cm": 2177,
+      "minecraft:crouch_one_cm": 159,
+      "minecraft:sneak_time": 698
+    },
+    "minecraft:picked_up": {
+      "texturemod:oak_button_pre_classic_rd_20090515": 1,
+      "minecraft:flint_and_steel": 1
     }
   },
   "DataVersion": 4790
