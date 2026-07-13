@@ -7,3 +7,11 @@
 /setblock ~ ~ ~ texturemod:lava_classic_0_0_12a
 /setblock ~ ~ ~ lava
 /setblock ~ ~ ~ texturemod:lava_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_13a
+/setblock ~ ~ ~ minecraft:nether_portal
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:lava_classic_0_0_12a

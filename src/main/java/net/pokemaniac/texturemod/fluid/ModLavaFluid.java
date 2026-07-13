@@ -39,11 +39,14 @@ import org.jspecify.annotations.Nullable;
 import java.util.Optional;
 
 public abstract class ModLavaFluid extends BaseFlowingFluid {
+    public static final int LIGHT_EMISSION = 15;
+    public static final float MIN_LEVEL_CUTOFF = 0.44444445F;
 
     protected ModLavaFluid(Properties properties) {
         super(properties);
     }
 
+    @Override
     public void animateTick(Level level, BlockPos pos, FluidState fluidState, RandomSource random) {
         BlockPos above = pos.above();
         if (level.getBlockState(above).isAir() && !level.getBlockState(above).isSolidRender()) {
@@ -62,6 +65,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
 
     }
 
+    @Override
     public void randomTick(ServerLevel level, BlockPos pos, FluidState fluidState, RandomSource random) {
         if (level.canSpreadFireAround(pos)) {
             int passes = random.nextInt(3);
@@ -100,6 +104,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
 
     }
 
+    @Override
     protected void entityInside(Level level, BlockPos pos, Entity entity, InsideBlockEffectApplier effectApplier) {
         effectApplier.apply(InsideBlockEffectType.CLEAR_FREEZE);
         effectApplier.apply(InsideBlockEffectType.LAVA_IGNITE);
@@ -114,12 +119,6 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
         }
 
         return false;
-    }
-
-    /** @deprecated */
-    @Deprecated
-    private boolean isFlammable(LevelReader level, BlockPos pos) {
-        return level.isInsideBuildHeight(pos.getY()) && !level.hasChunkAt(pos) ? false : level.getBlockState(pos).ignitedByLava();
     }
 
     private boolean isFlammable(LevelReader level, BlockPos pos, Direction face) {
@@ -160,6 +159,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
         return isFastLava(level) ? 10 : 30;
     }
 
+    @Override
     public int getSpreadDelay(Level level, BlockPos pos, FluidState oldFluidState, FluidState newFluidState) {
         int result = this.getTickDelay(level);
         if (!oldFluidState.isEmpty() && !newFluidState.isEmpty() && !(Boolean)oldFluidState.getValue(FALLING) && !(Boolean)newFluidState.getValue(FALLING) && newFluidState.getHeight(level, pos) > oldFluidState.getHeight(level, pos) && level.getRandom().nextInt(4) != 0) {
@@ -178,6 +178,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
         return (Boolean)level.getGameRules().get(GameRules.LAVA_SOURCE_CONVERSION);
     }
 
+    @Override
     protected void spreadTo(LevelAccessor level, BlockPos pos, BlockState state, Direction direction, FluidState target) {
         if (direction == Direction.DOWN) {
             FluidState fluidState = level.getFluidState(pos);
@@ -194,6 +195,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
         super.spreadTo(level, pos, state, direction, target);
     }
 
+    @Override
     protected boolean isRandomlyTicking() {
         return true;
     }
@@ -210,6 +212,7 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
     public static class Flowing extends ModLavaFluid {
         protected Flowing(Properties properties) {
             super(properties);
+            registerDefaultState(getStateDefinition().any().setValue(LEVEL, 7));
         }
 
         @Override
@@ -219,29 +222,32 @@ public abstract class ModLavaFluid extends BaseFlowingFluid {
         }
 
         @Override
-        public int getAmount(FluidState fluidState) {
-            return fluidState.getValue(LEVEL);
+        public int getAmount(FluidState state) {
+            return state.getValue(LEVEL);
         }
 
         @Override
-        public boolean isSource(FluidState fluidState) {
+        public boolean isSource(FluidState state) {
             return false;
         }
     }
 
     public static class Source extends ModLavaFluid {
+
         protected Source(Properties properties) {
             super(properties);
         }
 
         @Override
-        public int getAmount(FluidState fluidState) {
+        public int getAmount(FluidState state) {
             return 8;
         }
 
         @Override
-        public boolean isSource(FluidState fluidState) {
+        public boolean isSource(FluidState state) {
             return true;
         }
     }
+
 }
+

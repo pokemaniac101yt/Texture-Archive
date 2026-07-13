@@ -58,6 +58,25 @@ public class ModFluidModels {
                 ModFluids.FLOWING_LAVA_CLASSIC_0_0_12a
         );
 
+        Identifier lava_classic_0_0_13a_still =
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_13a");
+
+        Identifier lava_classic_0_0_13a_flowing =
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_13a");
+
+        FluidModel.Unbaked lava_classic_0_0_13a = new FluidModel.Unbaked(
+                new Material(lava_classic_0_0_13a_still),
+                new Material(lava_classic_0_0_13a_flowing),
+                null,
+                null
+        );
+
+        event.register(
+                lava_classic_0_0_13a,
+                ModFluids.LAVA_CLASSIC_0_0_13a,
+                ModFluids.FLOWING_LAVA_CLASSIC_0_0_13a
+        );
+
         System.out.println("Registered NeoForge fluid model");
     }
 }

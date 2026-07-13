@@ -25,6 +25,8 @@ public class ModFluidTagsProvider extends FluidTagsProvider {
 
         tag(FluidTags.LAVA)
                 .add(ModFluids.LAVA_CLASSIC_0_0_12a.get())
-                .add(ModFluids.FLOWING_LAVA_CLASSIC_0_0_12a.get());
+                .add(ModFluids.FLOWING_LAVA_CLASSIC_0_0_12a.get())
+                .add(ModFluids.LAVA_CLASSIC_0_0_13a.get())
+                .add(ModFluids.FLOWING_LAVA_CLASSIC_0_0_13a.get());
     }
 }

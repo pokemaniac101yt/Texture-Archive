@@ -382,7 +382,7 @@ public class ModBlocks {
                     ModTooltips.CLASSIC_0_0_12a_TOOLTIP
             );
 
-    public static final DeferredBlock<Block> WATER_CLASSIC_0_0_12a = registerBlock(
+    public static final DeferredBlock<LiquidBlock> WATER_CLASSIC_0_0_12a = registerBlock(
             "water_classic_0_0_12a",
             properties -> new LiquidBlock(
                     ModFluids.WATER_CLASSIC_0_0_12a.get(),
@@ -398,10 +398,28 @@ public class ModBlocks {
             )
     );
 
-    public static final DeferredBlock<Block> LAVA_CLASSIC_0_0_12a = registerBlock(
+    public static final DeferredBlock<LiquidBlock> LAVA_CLASSIC_0_0_12a = registerBlock(
             "lava_classic_0_0_12a",
             properties -> new LiquidBlock(
                     ModFluids.LAVA_CLASSIC_0_0_12a.get(),
+                    properties
+                            .mapColor(MapColor.FIRE)
+                            .replaceable()
+                            .noCollision()
+                            .randomTicks()
+                            .strength(100.0F)
+                            .lightLevel(statex -> 15)
+                            .pushReaction(PushReaction.DESTROY)
+                            .noLootTable()
+                            .liquid()
+                            .sound(SoundType.EMPTY)
+            )
+    );
+
+    public static final DeferredBlock<LiquidBlock> LAVA_CLASSIC_0_0_13a = registerBlock(
+            "lava_classic_0_0_13a",
+            properties -> new LiquidBlock(
+                    ModFluids.LAVA_CLASSIC_0_0_13a.get(),
                     properties
                             .mapColor(MapColor.FIRE)
                             .replaceable()
