@@ -438,7 +438,17 @@ public class ModBlocks {
      /*
     NOTE:
     CRAFTING TABLE REARRANGES TEXTURES IN INDEV 0.31 20100131-2156
-    EASY MISS
+     */
+
+    
+     /*
+    NOTE:
+    FURNACES ORIGINALLY HAD STONE TOP TEXTURE THEN LATER NO FACE
+     */
+
+    
+     /*
+    NOTE: ALPHA 1.2 METAL BLOCKS USE TOP TEXTURE ALL AROUND
      */
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
