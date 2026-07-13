@@ -1,12 +1,27 @@
 {
   "stats": {
+    "minecraft:dropped": {
+      "minecraft:target": 1,
+      "minecraft:dispenser": 1,
+      "minecraft:redstone": 1,
+      "minecraft:stone_button": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 194,
-      "minecraft:total_world_time": 206,
+      "minecraft:time_since_rest": 12194,
+      "minecraft:walk_one_cm": 315,
+      "minecraft:total_world_time": 13762,
       "minecraft:leave_game": 1,
-      "minecraft:fly_one_cm": 313,
-      "minecraft:play_time": 194,
-      "minecraft:time_since_death": 194
+      "minecraft:fly_one_cm": 20594,
+      "minecraft:walk_on_water_one_cm": 1338,
+      "minecraft:sneak_time": 101,
+      "minecraft:play_time": 12194,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 12194,
+      "minecraft:drop": 4
+    },
+    "minecraft:used": {
+      "minecraft:spruce_wood": 40,
+      "minecraft:water_bucket": 2
     }
   },
   "DataVersion": 4790

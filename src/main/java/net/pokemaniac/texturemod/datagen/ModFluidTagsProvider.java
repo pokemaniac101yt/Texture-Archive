@@ -18,5 +18,11 @@ public class ModFluidTagsProvider extends FabricTagsProvider.FluidTagsProvider {
         valueLookupBuilder(FluidTags.WATER)
                 .add(ModFluids.WATER_CLASSIC_0_0_12a)
                 .add(ModFluids.FLOWING_WATER_CLASSIC_0_0_12a);
+
+        valueLookupBuilder(FluidTags.LAVA)
+                .add(ModFluids.LAVA_CLASSIC_0_0_12a)
+                .add(ModFluids.FLOWING_LAVA_CLASSIC_0_0_12a)
+                .add(ModFluids.LAVA_CLASSIC_0_0_13a)
+                .add(ModFluids.FLOWING_LAVA_CLASSIC_0_0_13a);
     }
 }

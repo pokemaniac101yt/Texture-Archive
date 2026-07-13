@@ -31,9 +31,23 @@ public class ModFluids {
     public static ModWaterFluid.Flowing FLOWING_WATER_CLASSIC_0_0_12a = new ModWaterFluid.Flowing();
     public static Block WATER_BLOCK_CLASSIC_0_0_12a;
 
+    public static ModLavaFluid.Source LAVA_CLASSIC_0_0_12a = new ModLavaFluid.Source();
+    public static ModLavaFluid.Flowing FLOWING_LAVA_CLASSIC_0_0_12a = new ModLavaFluid.Flowing();
+    public static Block LAVA_BLOCK_CLASSIC_0_0_12a;
+
+    public static ModLavaFluid.Source LAVA_CLASSIC_0_0_13a = new ModLavaFluid.Source();
+    public static ModLavaFluid.Flowing FLOWING_LAVA_CLASSIC_0_0_13a = new ModLavaFluid.Flowing();
+    public static Block LAVA_BLOCK_CLASSIC_0_0_13a;
+
     public static void register() {
         WATER_CLASSIC_0_0_12a.setFlowing(FLOWING_WATER_CLASSIC_0_0_12a);
         FLOWING_WATER_CLASSIC_0_0_12a.setSource(WATER_CLASSIC_0_0_12a);
+
+        LAVA_CLASSIC_0_0_12a.setFlowing(FLOWING_LAVA_CLASSIC_0_0_12a);
+        FLOWING_LAVA_CLASSIC_0_0_12a.setSource(LAVA_CLASSIC_0_0_12a);
+
+        LAVA_CLASSIC_0_0_13a.setFlowing(FLOWING_LAVA_CLASSIC_0_0_13a);
+        FLOWING_LAVA_CLASSIC_0_0_13a.setSource(LAVA_CLASSIC_0_0_13a);
 
         Registry.register(BuiltInRegistries.FLUID,
                 Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "water_classic_0_0_12a"), WATER_CLASSIC_0_0_12a);
@@ -57,6 +71,62 @@ public class ModFluids {
                                 .sound(SoundType.EMPTY)
                 )
         );
+
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "lava_classic_0_0_12a"), LAVA_CLASSIC_0_0_12a);
+
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "flowing_lava_classic_0_0_12a"), FLOWING_LAVA_CLASSIC_0_0_12a);
+
+
+        LAVA_BLOCK_CLASSIC_0_0_12a = registerBlock(
+                "lava_block_classic_0_0_12a",
+                properties -> new LiquidBlock(
+                        LAVA_CLASSIC_0_0_12a,
+                        properties
+                                .mapColor(MapColor.FIRE)
+                                .replaceable()
+                                .noCollision()
+                                .strength(100.0F)
+                                .pushReaction(PushReaction.DESTROY)
+                                .noLootTable()
+                                .liquid()
+                                .sound(SoundType.EMPTY)
+                )
+        );
+
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "lava_classic_0_0_13a"), LAVA_CLASSIC_0_0_13a);
+
+        Registry.register(BuiltInRegistries.FLUID,
+                Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "flowing_lava_classic_0_0_13a"), FLOWING_LAVA_CLASSIC_0_0_13a);
+
+
+        LAVA_BLOCK_CLASSIC_0_0_13a = registerBlock(
+                "lava_block_classic_0_0_13a",
+                properties -> new LiquidBlock(
+                        LAVA_CLASSIC_0_0_13a,
+                        properties
+                                .mapColor(MapColor.FIRE)
+                                .replaceable()
+                                .noCollision()
+                                .strength(100.0F)
+                                .pushReaction(PushReaction.DESTROY)
+                                .noLootTable()
+                                .liquid()
+                                .sound(SoundType.EMPTY)
+                )
+        );
+
+        WATER_CLASSIC_0_0_12a.setBlock(WATER_BLOCK_CLASSIC_0_0_12a);
+        FLOWING_WATER_CLASSIC_0_0_12a.setBlock(WATER_BLOCK_CLASSIC_0_0_12a);
+
+        LAVA_CLASSIC_0_0_12a.setBlock(LAVA_BLOCK_CLASSIC_0_0_12a);
+        FLOWING_LAVA_CLASSIC_0_0_12a.setBlock(LAVA_BLOCK_CLASSIC_0_0_12a);
+
+        LAVA_CLASSIC_0_0_13a.setBlock(LAVA_BLOCK_CLASSIC_0_0_13a);
+        FLOWING_LAVA_CLASSIC_0_0_13a.setBlock(LAVA_BLOCK_CLASSIC_0_0_13a);
+
     }
 
     public static void registerModFluids() {
@@ -78,7 +148,29 @@ public class ModFluids {
                         BlockTintSources.water()
                 )
         );
+        FluidRenderingRegistry.register(
+                LAVA_CLASSIC_0_0_12a,
+                FLOWING_LAVA_CLASSIC_0_0_12a,
+                new FluidModel.Unbaked(
+                        new Material(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_12a")),
+                        new Material(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_12a")),
+                        null,
+                        null
+                )
+        );
+        FluidRenderingRegistry.register(
+                LAVA_CLASSIC_0_0_13a,
+                FLOWING_LAVA_CLASSIC_0_0_13a,
+                new FluidModel.Unbaked(
+                        new Material(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_13a")),
+                        new Material(Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "block/lava_classic_0_0_13a")),
+                        null,
+                        null
+                )
+        );
 
         System.out.println("Registered fluid model: " + WATER_CLASSIC_0_0_12a);
+        System.out.println("Registered fluid model: " + LAVA_CLASSIC_0_0_12a);
+        System.out.println("Registered fluid model: " + LAVA_CLASSIC_0_0_13a);
     }
 }

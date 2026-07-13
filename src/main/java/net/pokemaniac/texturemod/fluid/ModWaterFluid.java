@@ -37,10 +37,13 @@ import java.util.Optional;
 
 public abstract class ModWaterFluid extends FlowingFluid {
     Item Bucket = Items.WATER_BUCKET;
+    Block Block;
 
     public void setBucket(Item Bucket) {
         this.Bucket = Bucket;
     }
+
+    public void setBlock(Block Block){this.Block = Block;}
 
     @Override
     public Item getBucket() {
@@ -49,12 +52,7 @@ public abstract class ModWaterFluid extends FlowingFluid {
 
     @Override
     protected BlockState createLegacyBlock(FluidState state) {
-        return ModFluids.WATER_BLOCK_CLASSIC_0_0_12a.defaultBlockState().setValue(LiquidBlock.LEVEL, getLegacyLevel(state));
-    }
-
-    @Override
-    public boolean isSame(Fluid fluid) {
-        return fluid == ModFluids.WATER_CLASSIC_0_0_12a || fluid == ModFluids.FLOWING_WATER_CLASSIC_0_0_12a;
+        return Block.defaultBlockState().setValue(LiquidBlock.LEVEL, getLegacyLevel(state));
     }
 
     @Override
@@ -145,6 +143,7 @@ public abstract class ModWaterFluid extends FlowingFluid {
             this.Source = Source;
         }
 
+
         @Override
         public Fluid getFlowing() {
             return this;
@@ -164,6 +163,13 @@ public abstract class ModWaterFluid extends FlowingFluid {
         public boolean isSource(FluidState state) {
             return false;
         }
+
+
+        @Override
+        public boolean isSame(Fluid fluid) {
+            return fluid == Source || fluid == this;
+        }
+
     }
 
     public static class Source extends ModWaterFluid {
@@ -193,5 +199,11 @@ public abstract class ModWaterFluid extends FlowingFluid {
         public boolean isSource(FluidState state) {
             return true;
         }
+
+        @Override
+        public boolean isSame(Fluid fluid) {
+            return fluid == this || fluid == Flowing;
+        }
+
     }
     }

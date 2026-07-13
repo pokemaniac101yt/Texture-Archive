@@ -13,3 +13,12 @@
 /setblock ~ ~ ~ minecraft:water
 /setblock ~ ~ ~ texturemod:water_classic_0_0_12a
 /setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_13a
+/setblock ~ ~ ~ minecraft:lava
+/setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_12a
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
