@@ -434,6 +434,13 @@ public class ModBlocks {
             )
     );
 
+
+     /*
+    NOTE:
+    CRAFTING TABLE REARRANGES TEXTURES IN INDEV 0.31 20100131-2156
+    EASY MISS
+     */
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function, String... tooltipKeys) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn, tooltipKeys);
