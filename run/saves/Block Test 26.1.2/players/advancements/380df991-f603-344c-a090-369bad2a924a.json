@@ -371,13 +371,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2026-07-12 21:00:00 -0600",
-      "minecraft:nether_wastes": "2026-07-12 21:00:27 -0600"
-    },
-    "done": false
-  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2026-07-12 20:59:59 -0600"
@@ -389,6 +382,13 @@
       "entered_nether": "2026-07-12 20:59:59 -0600"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-07-12 21:00:00 -0600",
+      "minecraft:nether_wastes": "2026-07-12 21:00:27 -0600"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
