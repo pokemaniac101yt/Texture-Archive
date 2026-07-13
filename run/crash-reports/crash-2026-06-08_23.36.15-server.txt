@@ -1,0 +1,206 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2026-06-08 23:36:15
+Description: Exception while updating neighbours
+
+java.lang.RuntimeException: Mod fluids must override getFluidType.
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.common.CommonHooks.getVanillaFluidType(CommonHooks.java:933) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.Fluid.getFluidType(Fluid.java:141) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.common.extensions.IFluidStateExtension.getFluidType(IFluidStateExtension.java:45) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.fluids.FluidInteractionRegistry.canInteract(FluidInteractionRegistry.java:60) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.block.LiquidBlock.neighborChanged(LiquidBlock.java:198) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.handleNeighborChanged(BlockBehaviour.java:720) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.NeighborUpdater.executeUpdate(NeighborUpdater.java:61) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:152) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:92) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:74) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:56) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1196) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1191) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:272) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:246) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:218) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spreadTo(FlowingFluid.java:279) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spread(FlowingFluid.java:129) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.tick(FlowingFluid.java:452) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FluidState.tick(FluidState.java:80) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.tickFluid(ServerLevel.java:827) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.runCollectedTicks(LevelTicks.java:190) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.tick(LevelTicks.java:87) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1150) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1003) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:146) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1035) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.processPacketsAndTick(IntegratedServer.java:119) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:776) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:300) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.common.CommonHooks.getVanillaFluidType(CommonHooks.java:933) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.Fluid.getFluidType(Fluid.java:141) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.common.extensions.IFluidStateExtension.getFluidType(IFluidStateExtension.java:45) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/neoforge@26.1.2.68-beta/net.neoforged.neoforge.fluids.FluidInteractionRegistry.canInteract(FluidInteractionRegistry.java:60) ~[neoforge-26.1.2.68-beta-universal.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.block.LiquidBlock.neighborChanged(LiquidBlock.java:198) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.handleNeighborChanged(BlockBehaviour.java:720) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.NeighborUpdater.executeUpdate(NeighborUpdater.java:61) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:152) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:92) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:74) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:56) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1196) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1191) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:272) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:246) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:218) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spreadTo(FlowingFluid.java:279) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spread(FlowingFluid.java:129) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.tick(FlowingFluid.java:452) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FluidState.tick(FluidState.java:80) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.tickFluid(ServerLevel.java:827) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.runCollectedTicks(LevelTicks.java:190) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.tick(LevelTicks.java:87) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+-- Block being updated --
+Details:
+	Source block type: ID #minecraft:air (block.minecraft.air // net.minecraft.world.level.block.AirBlock)
+	Block: Block{texturemod:water_block_classic_0_0_12a}[level=0]
+	Block location: World: (-29,-60,19), Section: (at 3,4,3 in -2,-4,1; chunk contains blocks -32,-64,16 to -17,319,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+Stacktrace:
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.NeighborUpdater.executeUpdate(NeighborUpdater.java:61) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:152) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:92) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:74) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:56) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1196) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1191) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:272) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:246) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.Level.setBlock(Level.java:218) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spreadTo(FlowingFluid.java:279) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.spread(FlowingFluid.java:129) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FlowingFluid.tick(FlowingFluid.java:452) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.level.material.FluidState.tick(FluidState.java:80) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.tickFluid(ServerLevel.java:827) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.runCollectedTicks(LevelTicks.java:190) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.world.ticks.LevelTicks.tick(LevelTicks.java:87) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1150) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1003) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:146) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1035) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.processPacketsAndTick(IntegratedServer.java:119) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:776) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:300) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; ServerPlayer{name=Dev, id=1, pos=(-28.06371186671032, -59.99299455526352, 19.87528032683018), mode=CREATIVE, permission=owner}
+	Chunk stats: 3481
+	Level dimension: minecraft:overworld
+	Level time: 1472595 game time, 6000 day time
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level name: Block Test
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Known server brands: fabric, neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 1
+	Server weather: Rain time: 12719 (now: true), thunder time: 19058 (now: false)
+Stacktrace:
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1863) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1153) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1003) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:146) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1035) ~[minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.client.server.IntegratedServer.processPacketsAndTick(IntegratedServer.java:119) ~[minecraft-patched-26.1.2.68-beta.jar:?] {}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:776) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at TRANSFORMER/minecraft@26.1.2/net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:300) [minecraft-patched-26.1.2.68-beta.jar:?] {neoforge:access_transformer}
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 26.1.2
+	Minecraft Version ID: 26.1.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 316994872 bytes (302 MiB) / 933232640 bytes (890 MiB) up to 4227858432 bytes (4032 MiB)
+	Memory (heap): init: 252MiB, used: 585MiB, committed: 890MiB, max: 4032MiB
+	Memory (non-head): init: 007MiB, used: 211MiB, committed: 216MiB, max: 000MiB
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i7-13700HX
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.30
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 4070 Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8188.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.9174
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation
+	Graphics card #1 VRAM (MiB): 2048.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.101.6733
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 42375.55
+	Virtual memory used (MiB): 22665.06
+	Swap memory total (MiB): 26251.69
+	Swap memory used (MiB): 1423.61
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 6349.31, total: 486109.00
+	Space in storage for workdir (MiB): available: 6349.31, total: 486109.00
+	JVM Flags: 0 total; 
+	Debug Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/1, l='ServerLevel[Block Test]', x=-28.06, y=-59.99, z=19.88]]
+	Active Data Packs: vanilla, mod_data, mod/texturemod, mod/neoforge
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/neoforge, mod/texturemod, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 3128884010780214771
+	Suppressed Exceptions: ~~NONE~~
+	Type: Integrated Server
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 26.1.2.68-beta
+	Class Processors: 
+		00.00%: neoforge:neoforge_dev_dist_cleaner
+		00.00%: neoforge:computing_frames (marker)
+		00.00%: neoforge:runtime_enum_extender
+		04.33%: neoforge:access_transformer
+		00.04%: neoforge:mixin
+		00.00%: neoforge:simple_processors_default (marker)
+		00.01%: neoforge.coremods:field_to_getter.net.minecraft.world.level.biome.biome
+		00.01%: neoforge.coremods:field_to_getter.net.minecraft.world.level.block.flowerpotblock
+		00.01%: neoforge.coremods:field_to_getter.net.minecraft.world.level.levelgen.structure.structure
+		00.28%: neoforge.coremods:method_redirector
+	Mod List: 
+		minecraft-patched-26.1.2.68-beta.jar              |Minecraft                     |minecraft                     |26.1.2              |Manifest: NOSIGNATURE
+		neoforge-26.1.2.68-beta-universal.jar             |NeoForge                      |neoforge                      |26.1.2.68-beta      |Manifest: NOSIGNATURE
+		main                                              |Texture Archive               |texturemod                    |1.0.0-26.1.2        |Manifest: NOSIGNATURE
+	Crash Report UUID: 6b087e2a-a9a6-4dac-a23e-25188db2ed90
+	FML: 11.0.13
+	NeoForge: 26.1.2.68-beta

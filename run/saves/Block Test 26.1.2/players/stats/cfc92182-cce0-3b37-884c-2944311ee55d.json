@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:spruce_wood": 5,
+      "minecraft:bucket": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1869,
+      "minecraft:time_since_rest": 1223,
+      "minecraft:walk_one_cm": 239,
+      "minecraft:total_world_time": 1223,
+      "minecraft:fly_one_cm": 17868,
+      "minecraft:walk_on_water_one_cm": 411,
+      "minecraft:sneak_time": 20,
+      "minecraft:play_time": 1223,
+      "minecraft:jump": 31,
+      "minecraft:time_since_death": 1223
+    }
+  },
+  "DataVersion": 4790
+}
