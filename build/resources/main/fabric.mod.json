@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "texturemod",
-	"version": "fabric_alpha_2026_09_13_01",
+	"version": "fabric-26.1.2_alpha_2026-09-13_01",
 	"name": "Texture Archive",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
