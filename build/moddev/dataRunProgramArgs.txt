@@ -12,6 +12,6 @@ net.neoforged.fml.startup.DataClient
 texturemod
 --all
 --output
-"C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\src\\generated\\resources"
+"C:\\Users\\Minecraft Dev\\OneDrive\\Desktop\\Texture-Archive\\src\\generated\\resources"
 --existing
-"C:\\Users\\Minecraft Dev\\Desktop\\Texture-Archive\\src\\main\\resources"
+"C:\\Users\\Minecraft Dev\\OneDrive\\Desktop\\Texture-Archive\\src\\main\\resources"

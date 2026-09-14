@@ -18,7 +18,7 @@ license="All Rights Reserved"
 modId="texturemod" #mandatory
 
 # The version number of the mod
-version="1.0.0-26.1.2" #mandatory
+version="0.1.0-alpha+2026-09-13.01" #mandatory
 
 # A display name for the mod
 displayName="Texture Archive" #mandatory
@@ -36,11 +36,11 @@ displayName="Texture Archive" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="Pokemaniac"
+authors="Pokemaniac_101"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Texture Archive
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
