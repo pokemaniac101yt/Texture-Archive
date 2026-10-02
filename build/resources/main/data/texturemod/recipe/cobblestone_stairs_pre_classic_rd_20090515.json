@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "cobblestone_stairs",
   "key": {
-    "#": "texturemod:cobblestone_pre_classic_rd_20090515"
+    "#": {
+      "item": "texturemod:cobblestone_pre_classic_rd_20090515"
+    }
   },
   "pattern": [
     "#  ",

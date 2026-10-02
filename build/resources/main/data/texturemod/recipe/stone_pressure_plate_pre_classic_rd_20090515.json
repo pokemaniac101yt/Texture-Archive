@@ -1,14 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
-  "group": "stone_pressure_plates",
   "key": {
-    "#": "texturemod:stone_pre_classic_rd_20090515"
+    "#": {
+      "item": "texturemod:stone_pre_classic_rd_20090515"
+    }
   },
   "pattern": [
     "##"
   ],
   "result": {
+    "count": 1,
     "id": "texturemod:stone_pressure_plate_pre_classic_rd_20090515"
   }
 }

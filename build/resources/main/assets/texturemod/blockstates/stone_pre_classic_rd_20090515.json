@@ -9,11 +9,11 @@
       },
       {
         "model": "texturemod:block/stone_pre_classic_rd_20090515",
-        "y": 180
+        "y" : 180
       },
       {
         "model": "texturemod:block/stone_pre_classic_rd_20090515_mirrored",
-        "y": 180
+        "y" : 180
       }
     ]
   }
