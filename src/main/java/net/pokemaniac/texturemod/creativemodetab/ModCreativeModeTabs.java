@@ -57,6 +57,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
                     }).build());
 
+    public static final CreativeModeTab BETA_BLOCKS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "04_beta_blocks"),
+            FabricCreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.SANDSTONE_BETA_1_2))
+                    .title(Component.translatable("creativetab.texturemod.classic_blocks"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.SANDSTONE_BETA_1_2);
+                        output.accept(ModBlocks.SANDSTONE_STAIRS_BETA_1_2);
+                        output.accept(ModBlocks.SANDSTONE_SLAB_BETA_1_2);
+                        output.accept(ModBlocks.SANDSTONE_WALL_BETA_1_2);
+                    }).build());
+
     public static void registerModCreativeModeTabs() {
         TextureArchive.LOGGER.info("Registering Creative Mode Tabs for " + TextureArchive.MOD_ID);
     }

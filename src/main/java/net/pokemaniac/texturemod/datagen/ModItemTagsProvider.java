@@ -43,12 +43,14 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(ItemTags.SLABS)
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_131655.asItem())
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515.asItem())
-                .add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.asItem());
+                .add(ModBlocks.STONE_SLAB_PRE_CLASSIC_RD_20090515.asItem())
+                .add(ModBlocks.SANDSTONE_SLAB_BETA_1_2.asItem());
 
         valueLookupBuilder(ItemTags.STAIRS)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655.asItem())
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem())
-                .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem());
+                .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515.asItem())
+                .add(ModBlocks.SANDSTONE_STAIRS_BETA_1_2.asItem());
 
         valueLookupBuilder(ItemTags.STONE_BUTTONS)
                 .add(ModBlocks.STONE_BUTTON_PRE_CLASSIC_RD_20090515.asItem());
@@ -63,7 +65,8 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
 
         valueLookupBuilder(ItemTags.WALLS)
                 .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_131655.asItem())
-                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.asItem());
+                .add(ModBlocks.COBBLESTONE_WALL_PRE_CLASSIC_RD_20090515.asItem())
+                .add(ModBlocks.SANDSTONE_WALL_BETA_1_2.asItem());
 
         valueLookupBuilder(ItemTags.WOODEN_BUTTONS)
                 .add(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515.asItem());

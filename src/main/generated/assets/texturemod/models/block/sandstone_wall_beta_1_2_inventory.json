@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "texturemod:block/sandstone_beta_1_2"
+  }
+}

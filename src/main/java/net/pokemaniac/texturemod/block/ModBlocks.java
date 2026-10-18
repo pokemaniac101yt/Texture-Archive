@@ -22,6 +22,7 @@ import net.pokemaniac.texturemod.tooltip.TooltipItemProvider;
 import org.jspecify.annotations.Nullable;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.function.Function;
 
@@ -374,6 +375,61 @@ public class ModBlocks {
                                     .isValidSpawn(Blocks::never)
                     ),
                     ModTooltips.CLASSIC_0_0_12a_TOOLTIP
+            );
+
+
+    /*
+    BETA 1.2
+     */
+
+    public static final Block SANDSTONE_BETA_1_2 =
+            registerBlock("sandstone_beta_1_2",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.SAND)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(0.8F)
+                    ),
+                    ModTooltips.BETA_1_2_TOOLTIP
+            );
+
+    public static final Block SANDSTONE_SLAB_BETA_1_2 =
+            registerBlock("sandstone_slab_beta_1_2",
+                    properties -> new SlabBlock(
+                            properties
+                                    .mapColor(MapColor.SAND)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                    ),
+                    ModTooltips.BETA_1_2_TOOLTIP
+            );
+
+    public static final Block SANDSTONE_STAIRS_BETA_1_2 =
+            registerBlock("sandstone_stairs_beta_1_2",
+                    properties -> new StairBlock(
+                            SANDSTONE_BETA_1_2.defaultBlockState(),
+                            properties
+                                    .mapColor(MapColor.SAND)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(2.0F, 6.0F)
+                    ),
+                    ModTooltips.BETA_1_2_TOOLTIP
+            );
+
+    public static final Block SANDSTONE_WALL_BETA_1_2 =
+            registerBlock("sandstone_wall_beta_1_2",
+                    properties -> new WallBlock(
+                            properties
+                                    .mapColor(MapColor.SAND)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(0.8F)
+                                    .forceSolidOn()
+                    ),
+                    ModTooltips.BETA_1_2_TOOLTIP
             );
 
 

@@ -61,4 +61,7 @@ public class ModTooltips {
 
     public static final String SNAPSHOT_20091231_1856_TOOLTIP =
             "tooltip.texturemod.snapshot_20091231_1856.tooltip";
+
+    public static final String BETA_1_2_TOOLTIP =
+            "tooltip.texturemod.beta_1_2_tooltip";
 }
