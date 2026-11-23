@@ -55,6 +55,7 @@
   "block.texturemod.oak_sapling_classic_0_0_13a" : "Sapling",
 
   "tooltip.texturemod.classic_0_0_14a.tooltip" : "Classic 0.0.14a",
+  "block.texturemod.end_stone_classic_0_0_14a" : "White Stone",
   "block.texturemod.coal_ore_classic_0_0_14a" : "Coal Ore",
   "block.texturemod.iron_ore_classic_0_0_14a" : "Iron Ore",
   "block.texturemod.gold_ore_classic_0_0_14a" : "Gold Ore",
@@ -138,7 +139,18 @@
   "tooltip.texturemod.snapshot_20091231_1856.tooltip" : "20091231-1856",
   "block.texturemod.torch_indev_0_31_20091231_1856" : "Torch",
 
+  "tooltip.texturemod.beta_1_2.tooltip" : "Beta 1.2",
+  "block.texturemod.sandstone_beta_1_2" : "Sandstone",
+  "block.texturemod.sandstone_stairs_beta_1_2" : "Sandstone Stairs",
+  "block.texturemod.sandstone_slab_beta_1_2" : "Sandstone Slab",
+  "block.texturemod.sandstone_wall_beta_1_2" : "Sandstone Wall",
+
   "creativetab.texturemod.pre_classic_blocks" : "Pre-Classic Blocks",
   "creativetab.texturemod.classic_blocks" : "Classic Blocks",
-  "creativetab.texturemod.indev_blocks" : "Indev Blocks"
+  "creativetab.texturemod.indev_blocks" : "Indev Blocks",
+
+
+
+  "block.texturemod.aneyra_sponge_demo" : "ANEYRA SPONGE DEMO",
+  "block.texturemod.aneyra_wet_sponge_demo" : "ANEYRA WET SPONGE DEMO"
 }

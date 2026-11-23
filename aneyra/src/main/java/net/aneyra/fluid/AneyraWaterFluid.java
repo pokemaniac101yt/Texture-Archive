@@ -1,4 +1,4 @@
-package net.pokemaniac.texturemod.fluid;
+package net.aneyra.fluid;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -10,12 +10,9 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.util.RandomSource;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.InsideBlockEffectType;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.BlockGetter;
@@ -23,21 +20,23 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.world.level.material.*;
-import net.pokemaniac.texturemod.block.ModBlocks;
 import org.jspecify.annotations.Nullable;
 
 import java.util.Optional;
 
-public abstract class ModWaterFluid extends FlowingFluid {
+public abstract class AneyraWaterFluid extends FlowingFluid {
     Item Bucket = Items.WATER_BUCKET;
     Block Block;
+
+    int slopeFindDistance = 4;
+    int dropOff = 1;
+    int tickDelay = 5;
 
     public void setBucket(Item Bucket) {
         this.Bucket = Bucket;
@@ -99,15 +98,35 @@ public abstract class ModWaterFluid extends FlowingFluid {
         effectApplier.apply(InsideBlockEffectType.EXTINGUISH);
     }
 
+    public void setSlopeFindDistance(int slopeFindDistance) {
+        this.slopeFindDistance = slopeFindDistance;
+    }
+
     @Override
     public int getSlopeFindDistance(final LevelReader level) {
         return 4;
     }
 
+    public void setDropOff(int dropOff) {
+        this.dropOff = dropOff;
+    }
 
     @Override
     public int getDropOff(final LevelReader level) {
+
+//        if (dropOff == 1) {
+//            dropOff = 0;
+//            return 1;
+//        }
+//        if (dropOff == 0) {
+//            dropOff = 1;
+//            return 0;
+//        }
         return 1;
+    }
+
+    public void setTickDelay(int tickDelay){
+        this.tickDelay = tickDelay;
     }
 
     @Override
@@ -130,7 +149,9 @@ public abstract class ModWaterFluid extends FlowingFluid {
         return Optional.of(SoundEvents.BUCKET_FILL);
     }
 
-    public static class Flowing extends ModWaterFluid {
+    public abstract Fluid getFlowing();
+
+    public static class Flowing extends AneyraWaterFluid {
         @Override
         protected void createFluidStateDefinition(StateDefinition.Builder<Fluid, FluidState> builder) {
             super.createFluidStateDefinition(builder);
@@ -172,7 +193,7 @@ public abstract class ModWaterFluid extends FlowingFluid {
 
     }
 
-    public static class Source extends ModWaterFluid {
+    public static class Source extends AneyraWaterFluid {
         Fluid Flowing;
 
         public void setFlowing(Fluid Flowing) {

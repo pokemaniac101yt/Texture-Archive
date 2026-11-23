@@ -1,4 +1,4 @@
-package net.pokemaniac.texturemod.fluid;
+package net.aneyra.fluid;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -24,7 +24,6 @@ import net.minecraft.world.level.block.BaseFireBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.gamerules.GameRules;
@@ -35,7 +34,7 @@ import org.jspecify.annotations.Nullable;
 
 import java.util.Optional;
 
-public abstract class ModLavaFluid extends FlowingFluid {
+public abstract class AneyraLavaFluid extends FlowingFluid {
     Item Bucket = Items.LAVA_BUCKET;
     Block Block;
 
@@ -232,7 +231,7 @@ public abstract class ModLavaFluid extends FlowingFluid {
         return level.environmentAttributes().getDimensionValue(EnvironmentAttributes.FAST_LAVA);
     }
 
-    public static class Flowing extends ModLavaFluid {
+    public static class Flowing extends AneyraLavaFluid {
         @Override
         protected void createFluidStateDefinition(StateDefinition.Builder<Fluid, FluidState> builder) {
             super.createFluidStateDefinition(builder);
@@ -272,7 +271,7 @@ public abstract class ModLavaFluid extends FlowingFluid {
 
     }
 
-    public static class Source extends ModLavaFluid {
+    public static class Source extends AneyraLavaFluid {
         Fluid Flowing;
 
 

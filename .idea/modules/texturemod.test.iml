@@ -24,6 +24,7 @@
     <orderEntry type="module" module-name="texturemod.main" />
     <orderEntry type="library" name="Gradle: net.fabricmc:fabric-loader:0.19.2" level="project" />
     <orderEntry type="library" name="Gradle: net.fabricmc.fabric-api:fabric-api:0.150.0+26.1.2" level="project" />
+    <orderEntry type="module" module-name="texturemod.aneyra.main" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:9.9" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:9.9" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:9.9" level="project" />

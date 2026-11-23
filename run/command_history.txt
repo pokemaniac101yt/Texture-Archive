@@ -22,3 +22,10 @@
 /setblock ~ ~ ~ texturemod:lava_block_classic_0_0_12a
 /setblock ~ ~ ~ texturemod:lava_block_classic_0_0_13a
 /setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
+/setblock -36 -60 37 texturemod:water_block_classic_0_0_12a
+/setblock -36 -60 37 texturemod:lava_block_classic_0_0_12a
+/setblock -36 -60 37 texturemod:lava_block_classic_0_0_13a
+/setblock ~ ~ ~ texturemod:water_block_classic_0_0_12a
+/setblock 118 -62 225
+/fill 118 -62 225 -206 -62 -117 minecraft:air replace texturemod:water_block_classic_0_0_12a
+/fill -149 -62 -65 -206 -62 -117 minecraft:air replace texturemod:water_block_classic_0_0_12a

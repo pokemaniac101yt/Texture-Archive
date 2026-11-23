@@ -1,11 +1,16 @@
 package net.pokemaniac.texturemod.block;
 
+import net.aneyra.block.AneyraBlockProperties;
+import net.aneyra.block.AneyraSpongeBlock;
+import net.aneyra.block.AneyraWetSpongeBlock;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -379,6 +384,35 @@ public class ModBlocks {
 
 
     /*
+    CLASSIC 0.0.14a
+     */
+
+    public static final Block END_STONE_CLASSIC_0_0_14a =
+            registerBlock("end_stone_classic_0_0_14a",
+                    properties -> new Block(
+                            properties
+                                    .mapColor(MapColor.SAND)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(3.0F, 9.0F)
+                    ),
+                    ModTooltips.CLASSIC_0_0_14a_TOOLTIP
+            );
+
+    public static final Block COAL_ORE_CLASSIC_0_0_14a =
+            registerBlock("coal_ore_classic_0_0_14a",
+                    properties -> new DropExperienceBlock(
+                            UniformInt.of(0, 2),
+                            properties
+                                    .mapColor(MapColor.STONE)
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .requiresCorrectToolForDrops()
+                                    .strength(3.0F, 3.0F)
+                    ),
+                    ModTooltips.CLASSIC_0_0_14a_TOOLTIP
+            );
+
+    /*
     BETA 1.2
      */
 
@@ -430,6 +464,33 @@ public class ModBlocks {
                                     .forceSolidOn()
                     ),
                     ModTooltips.BETA_1_2_TOOLTIP
+            );
+
+
+    public static final Block ANEYRA_SPONGE_DEMO =
+            registerBlock("aneyra_sponge_demo",
+                    properties -> new AneyraSpongeBlock(
+                            properties
+                                    .mapColor(MapColor.COLOR_YELLOW)
+                                    .strength(0.6F)
+                                    .sound(SoundType.SPONGE),
+                            AneyraBlockProperties.SpongeProperties.of()
+                                    .fluid(FluidTags.LAVA)
+                                    .wetSponge(() -> ModBlocks.ANEYRA_WET_SPONGE_DEMO)
+                    )
+            );
+
+    public static final Block ANEYRA_WET_SPONGE_DEMO =
+            registerBlock("aneyra_wet_sponge_demo",
+                    properties -> new AneyraWetSpongeBlock(
+                            properties
+                                    .mapColor(MapColor.COLOR_YELLOW)
+                                    .strength(0.6F)
+                                    .sound(SoundType.WET_SPONGE),
+
+                            AneyraBlockProperties.WetSpongeProperties.of()
+                                    .sponge(() -> ModBlocks.ANEYRA_SPONGE_DEMO)
+                    )
             );
 
 

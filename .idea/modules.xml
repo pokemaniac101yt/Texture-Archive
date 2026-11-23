@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/texturemod.iml" filepath="$PROJECT_DIR$/.idea/modules/texturemod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.iml" filepath="$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.test.iml" filepath="$PROJECT_DIR$/.idea/modules/aneyra/texturemod.aneyra.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/texturemod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/texturemod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/texturemod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/texturemod.test.iml" />
     </modules>

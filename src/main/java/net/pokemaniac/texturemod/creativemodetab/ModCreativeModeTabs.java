@@ -55,6 +55,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.texturemod.classic_blocks"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
+                        output.accept(ModBlocks.END_STONE_CLASSIC_0_0_14a);
+                        output.accept(ModBlocks.COAL_ORE_CLASSIC_0_0_14a);
                     }).build());
 
     public static final CreativeModeTab BETA_BLOCKS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -68,6 +70,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SANDSTONE_SLAB_BETA_1_2);
                         output.accept(ModBlocks.SANDSTONE_WALL_BETA_1_2);
                     }).build());
+
+    public static final CreativeModeTab ANEYRA_DEMO_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(TextureArchive.MOD_ID, "05_aneyra_demo"),
+            FabricCreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.ANEYRA_SPONGE_DEMO))
+                    .title(Component.literal("Aneyra DEMO"))
+                    .displayItems(((parameters, output) -> {
+                        output.accept(ModBlocks.ANEYRA_SPONGE_DEMO);
+                        output.accept(ModBlocks.ANEYRA_WET_SPONGE_DEMO);
+                    })).build());
 
     public static void registerModCreativeModeTabs() {
         TextureArchive.LOGGER.info("Registering Creative Mode Tabs for " + TextureArchive.MOD_ID);

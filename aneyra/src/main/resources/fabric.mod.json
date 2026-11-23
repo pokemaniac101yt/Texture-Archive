@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "aneyra",
+  "version": "${version}",
+  "name": "Aneyra",
+  "description": "A cross-loader Minecraft modding API.",
+  "environment": "*",
+  "license": "All-Rights-Reserved",
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "26.1.2",
+    "java": ">=25"
+  }
+}

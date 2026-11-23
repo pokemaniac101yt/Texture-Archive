@@ -55,10 +55,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.OAK_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515);
         dropSelf(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
 
+        dropSelf(ModBlocks.END_STONE_CLASSIC_0_0_14a);
+
         dropSelf(ModBlocks.SANDSTONE_BETA_1_2);
         dropSelf(ModBlocks.SANDSTONE_STAIRS_BETA_1_2);
         add(ModBlocks.SANDSTONE_SLAB_BETA_1_2, createSlabItemTable(ModBlocks.SANDSTONE_SLAB_BETA_1_2));
         dropSelf(ModBlocks.SANDSTONE_WALL_BETA_1_2);
+
+        dropSelf(ModBlocks.ANEYRA_SPONGE_DEMO);
 
     }
 }

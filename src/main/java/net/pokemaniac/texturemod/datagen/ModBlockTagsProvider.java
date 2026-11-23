@@ -29,7 +29,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.DRAGON_IMMUNE)
-                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
+                .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a)
+                .add(ModBlocks.END_STONE_CLASSIC_0_0_14a);
 
         valueLookupBuilder(BlockTags.FEATURES_CANNOT_REPLACE)
                 .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
@@ -67,6 +68,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.COBBLESTONE_SLAB_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.STONE_STAIRS_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.STONE_PRESSURE_PLATE_PRE_CLASSIC_RD_20090515)
+                .add(ModBlocks.END_STONE_CLASSIC_0_0_14a)
                 .add(ModBlocks.SANDSTONE_BETA_1_2)
                 .add(ModBlocks.SANDSTONE_STAIRS_BETA_1_2)
                 .add(ModBlocks.SANDSTONE_SLAB_BETA_1_2);
@@ -91,6 +93,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515);
 
         valueLookupBuilder(BlockTags.SCULK_REPLACEABLE)
+                .add(ModBlocks.END_STONE_CLASSIC_0_0_14a)
                 .add(ModBlocks.SANDSTONE_BETA_1_2);
 
         valueLookupBuilder(BlockTags.SLABS)
@@ -119,6 +122,12 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_20090515)
                 .add(ModBlocks.DIRT_PRE_CLASSIC_RD_20090515);
+
+        valueLookupBuilder(BlockTags.SUPPORTS_CHORUS_FLOWER)
+                .add(ModBlocks.END_STONE_CLASSIC_0_0_14a);
+
+        valueLookupBuilder(BlockTags.SUPPORTS_CHORUS_PLANT)
+                .add(ModBlocks.END_STONE_CLASSIC_0_0_14a);
 
         valueLookupBuilder(BlockTags.VALID_SPAWN)
                 .add(ModBlocks.GRASS_BLOCK_PRE_CLASSIC_RD_131655)

@@ -1,9 +1,8 @@
 
-package net.pokemaniac.texturemod.aneyra;
+package net.aneyra.datagen;
 
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.client.data.models.BlockModelGenerators;
-import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.*;
 import net.minecraft.client.renderer.block.dispatch.Variant;
 import net.minecraft.resources.Identifier;

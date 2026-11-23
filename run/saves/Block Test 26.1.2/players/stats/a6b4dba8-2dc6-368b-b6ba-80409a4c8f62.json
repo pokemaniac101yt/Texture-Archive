@@ -1,1 +1,25 @@
-{"stats":{"minecraft:custom":{"minecraft:jump":2,"minecraft:time_since_rest":558,"minecraft:leave_game":1,"minecraft:sprint_one_cm":783,"minecraft:play_time":558,"minecraft:time_since_death":558,"minecraft:walk_one_cm":1597,"minecraft:total_world_time":567,"minecraft:fly_one_cm":1233},"minecraft:used":{"texturemod:grass_block_pre_classic_rd_131655":3,"minecraft:cornflower":2,"texturemod:grass_block_pre_classic_rd_20090515":5,"texturemod:dirt_pre_classic_rd_20090515":2}},"DataVersion":3953}
+{
+  "stats": {
+    "minecraft:used": {
+      "texturemod:grass_block_pre_classic_rd_131655": 3,
+      "minecraft:barrier": 3,
+      "minecraft:cornflower": 2,
+      "texturemod:dirt_pre_classic_rd_20090515": 2,
+      "texturemod:grass_block_pre_classic_rd_20090515": 5
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 7210,
+      "minecraft:time_since_rest": 9596,
+      "minecraft:walk_one_cm": 3547,
+      "minecraft:total_world_time": 10711,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 333023,
+      "minecraft:crouch_one_cm": 12,
+      "minecraft:sneak_time": 26,
+      "minecraft:play_time": 9596,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 9596
+    }
+  },
+  "DataVersion": 4790
+}

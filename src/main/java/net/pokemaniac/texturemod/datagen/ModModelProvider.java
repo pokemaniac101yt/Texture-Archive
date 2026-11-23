@@ -1,19 +1,14 @@
 package net.pokemaniac.texturemod.datagen;
 
-import com.google.common.collect.ImmutableMap;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.*;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.pokemaniac.texturemod.block.ModBlocks;
 import net.pokemaniac.texturemod.item.ModItems;
 
-import java.util.Map;
-
-import static net.pokemaniac.texturemod.aneyra.AneyraBlockModelGenerators.generateCustomFamily;
+import static net.aneyra.datagen.AneyraBlockModelGenerators.generateCustomFamily;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricPackOutput output) {
@@ -68,6 +63,11 @@ public class ModModelProvider extends FabricModelProvider {
                 .button(ModBlocks.OAK_BUTTON_PRE_CLASSIC_RD_20090515);
 
         blockModelGenerators.createTrivialCube(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.END_STONE_CLASSIC_0_0_14a);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.ANEYRA_SPONGE_DEMO);
+        blockModelGenerators.createTrivialCube(ModBlocks.ANEYRA_WET_SPONGE_DEMO);
 
         generateCustomFamily(
                 blockModelGenerators,

@@ -5,7 +5,7 @@ Time: 2026-07-12 21:14:08
 Description: Exception ticking world
 
 java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.Block.defaultBlockState()" because "this.Block" is null
-	at knot//net.pokemaniac.texturemod.fluid.ModWaterFluid$Flowing.createLegacyBlock(ModWaterFluid.java:163)
+	at knot//net.aneyra.fluid.AneyraWaterFluid$Flowing.createLegacyBlock(ModWaterFluid.java:163)
 	at knot//net.minecraft.world.level.material.FluidState.createLegacyBlock(FluidState.java:100)
 	at knot//net.minecraft.world.level.material.FlowingFluid.spreadTo(FlowingFluid.java:277)
 	at knot//net.minecraft.world.level.material.FlowingFluid.spread(FlowingFluid.java:131)
@@ -31,7 +31,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at knot//net.pokemaniac.texturemod.fluid.ModWaterFluid$Flowing.createLegacyBlock(ModWaterFluid.java:163)
+	at knot//net.aneyra.fluid.AneyraWaterFluid$Flowing.createLegacyBlock(ModWaterFluid.java:163)
 	at knot//net.minecraft.world.level.material.FluidState.createLegacyBlock(FluidState.java:100)
 	at knot//net.minecraft.world.level.material.FlowingFluid.spreadTo(FlowingFluid.java:277)
 	at knot//net.minecraft.world.level.material.FlowingFluid.spread(FlowingFluid.java:131)
