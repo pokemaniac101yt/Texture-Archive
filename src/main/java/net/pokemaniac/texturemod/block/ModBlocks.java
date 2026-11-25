@@ -493,6 +493,32 @@ public class ModBlocks {
                     )
             );
 
+    public static final Block SPONGE_CLASSIC_0_0_19a =
+            registerBlock("sponge_classic_0_0_19a",
+                    properties -> new OriginalSpongeBlock(
+                            properties
+                                    .mapColor(MapColor.COLOR_YELLOW)
+                                    .strength(0.6F)
+                                    .sound(SoundType.SPONGE),
+
+                            AneyraBlockProperties.SpongeProperties.of()
+                                    .wetSponge(() -> ModBlocks.WET_SPONGE_CLASSIC_0_0_19a)
+                    )
+            );
+
+    public static final Block WET_SPONGE_CLASSIC_0_0_19a =
+            registerBlock("wet_sponge_classic_0_0_19a",
+                    properties -> new AneyraWetSpongeBlock(
+                            properties
+                                    .mapColor(MapColor.COLOR_YELLOW)
+                                    .strength(0.6F)
+                                    .sound(SoundType.WET_SPONGE),
+
+                            AneyraBlockProperties.WetSpongeProperties.of()
+                                    .sponge(() -> ModBlocks.SPONGE_CLASSIC_0_0_19a)
+                    )
+            );
+
 
     public record FlammableData(int igniteOdds, int burnOdds) {};
 

@@ -35,8 +35,8 @@ public abstract class AneyraWaterFluid extends FlowingFluid {
     Block Block;
 
     int slopeFindDistance = 4;
-    int dropOff = 1;
-    int tickDelay = 5;
+    int dropOff = 2;
+    int tickDelay = 10;
 
     public void setBucket(Item Bucket) {
         this.Bucket = Bucket;
@@ -47,6 +47,11 @@ public abstract class AneyraWaterFluid extends FlowingFluid {
     @Override
     public Item getBucket() {
         return Bucket;
+    }
+
+    @Override
+    public float getOwnHeight(FluidState fluidState) {
+        return fluidState.getAmount() / 8.0F;
     }
 
     @Override
@@ -122,7 +127,7 @@ public abstract class AneyraWaterFluid extends FlowingFluid {
 //            dropOff = 1;
 //            return 0;
 //        }
-        return 1;
+        return dropOff;
     }
 
     public void setTickDelay(int tickDelay){
@@ -131,7 +136,7 @@ public abstract class AneyraWaterFluid extends FlowingFluid {
 
     @Override
     public int getTickDelay(final LevelReader level) {
-        return 5;
+        return tickDelay;
     }
 
     @Override

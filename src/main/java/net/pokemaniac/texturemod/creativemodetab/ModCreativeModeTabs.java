@@ -57,6 +57,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
                         output.accept(ModBlocks.END_STONE_CLASSIC_0_0_14a);
                         output.accept(ModBlocks.COAL_ORE_CLASSIC_0_0_14a);
+                        output.accept(ModBlocks.SPONGE_CLASSIC_0_0_19a);
+                        output.accept(ModBlocks.WET_SPONGE_CLASSIC_0_0_19a);
                     }).build());
 
     public static final CreativeModeTab BETA_BLOCKS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

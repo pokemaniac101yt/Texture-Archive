@@ -17,7 +17,6 @@ import static net.minecraft.client.data.models.BlockModelGenerators.plainVariant
 public final class AneyraBlockModelGenerators {
 
     private AneyraBlockModelGenerators() {
-        // Utility class
     }
 
     private static final Map<Block, TexturedModel> TEXTURED_MODELS = ImmutableMap.<Block, TexturedModel>builder()

@@ -29,3 +29,8 @@
 /setblock 118 -62 225
 /fill 118 -62 225 -206 -62 -117 minecraft:air replace texturemod:water_block_classic_0_0_12a
 /fill -149 -62 -65 -206 -62 -117 minecraft:air replace texturemod:water_block_classic_0_0_12a
+/fill 29 -59 -25
+/fill 29 -59 -25 25 -62 -21 minecraft:water
+/fill 29 -59 -25 25 -62 -21 minecraft:water replace air
+/setblock ~ ~ ~ texturemod:water_block_aneyra_demo
+/setblock ~ ~ ~ texturemod:lava_block_classic_0_0_12a

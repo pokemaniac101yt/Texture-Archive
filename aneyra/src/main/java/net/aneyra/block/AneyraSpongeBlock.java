@@ -20,13 +20,14 @@ import org.jspecify.annotations.Nullable;
 import java.util.function.Supplier;
 
 public class AneyraSpongeBlock extends Block {
-    private final Supplier<Block> wetSponge;
-    private final int maxDepth;
-    private final int maxCount;
-    private final SoundEvent sound;
-    private final float volume;
-    private final float pitch;
-    private final TagKey<Fluid> fluid;
+    protected final Supplier<Block> wetSponge;
+    protected final int maxDepth;
+    protected final int maxCount;
+    protected final SoundEvent absorbSound;
+    protected final SoundSource absorbSoundSource;
+    protected final float absorbVolume;
+    protected final float absorbPitch;
+    protected final TagKey<Fluid> fluid;
     private static final Direction[] ALL_DIRECTIONS = Direction.values();
 
     public AneyraSpongeBlock(Properties properties, AneyraBlockProperties.SpongeProperties spongeProperties) {
@@ -34,9 +35,10 @@ public class AneyraSpongeBlock extends Block {
         this.wetSponge = spongeProperties.wetSponge();
         this.maxDepth = spongeProperties.maxDepth();
         this.maxCount = spongeProperties.maxCount();
-        this.sound = spongeProperties.sound();
-        this.volume = spongeProperties.volume();
-        this.pitch = spongeProperties.pitch();
+        this.absorbSound = spongeProperties.absorbSound();
+        this.absorbSoundSource = spongeProperties.absorbSoundSource();
+        this.absorbVolume = spongeProperties.absorbVolume();
+        this.absorbPitch = spongeProperties.absorbPitch();
         this.fluid = spongeProperties.fluid();
     }
 
@@ -58,11 +60,11 @@ public class AneyraSpongeBlock extends Block {
     protected void tryAbsorbWater(final Level level, final BlockPos pos) {
         if (this.removeWaterBreadthFirstSearch(level, pos)) {
             level.setBlock(pos, wetSponge.get().defaultBlockState(), 2);
-            level.playSound(null, pos, sound, SoundSource.BLOCKS, volume, pitch);
+            level.playSound(null, pos, absorbSound, absorbSoundSource, absorbVolume, absorbPitch);
         }
     }
 
-    private boolean removeWaterBreadthFirstSearch(final Level level, final BlockPos startPos) {
+    protected boolean removeWaterBreadthFirstSearch(final Level level, final BlockPos startPos) {
         return BlockPos.breadthFirstTraversal(startPos, maxDepth, maxCount + 1, (pos, consumer) -> {
             for (Direction direction : ALL_DIRECTIONS) {
                 consumer.accept(pos.relative(direction));

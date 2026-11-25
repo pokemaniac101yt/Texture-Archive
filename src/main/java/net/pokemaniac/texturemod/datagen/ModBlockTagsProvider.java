@@ -59,6 +59,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.INFINIBURN_OVERWORLD)
                 .add(ModBlocks.BEDROCK_CLASSIC_0_0_12a);
 
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_HOE)
+                .add(ModBlocks.SPONGE_CLASSIC_0_0_19a)
+                .add(ModBlocks.WET_SPONGE_CLASSIC_0_0_19a);
+
         valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.COBBLESTONE_PRE_CLASSIC_RD_131655)
                 .add(ModBlocks.COBBLESTONE_STAIRS_PRE_CLASSIC_RD_131655)

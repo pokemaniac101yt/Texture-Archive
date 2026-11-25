@@ -55,6 +55,11 @@ public abstract class AneyraLavaFluid extends FlowingFluid {
     }
 
     @Override
+    public float getOwnHeight(FluidState fluidState) {
+        return fluidState.getAmount() / 8.0F;
+    }
+
+    @Override
     public void animateTick(final Level level, final BlockPos pos, final FluidState fluidState, final RandomSource random) {
         BlockPos above = pos.above();
         if (level.getBlockState(above).isAir() && !level.getBlockState(above).isSolidRender()) {

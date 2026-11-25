@@ -69,6 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.ANEYRA_SPONGE_DEMO);
         blockModelGenerators.createTrivialCube(ModBlocks.ANEYRA_WET_SPONGE_DEMO);
 
+        blockModelGenerators.createTrivialCube(ModBlocks.SPONGE_CLASSIC_0_0_19a);
+        blockModelGenerators.createTrivialCube(ModBlocks.WET_SPONGE_CLASSIC_0_0_19a);
+
         generateCustomFamily(
                 blockModelGenerators,
                 2,

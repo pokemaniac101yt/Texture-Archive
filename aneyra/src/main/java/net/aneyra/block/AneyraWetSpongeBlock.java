@@ -4,6 +4,7 @@ import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
@@ -18,11 +19,19 @@ import net.minecraft.world.level.block.state.BlockState;
 import java.util.function.Supplier;
 
 public class AneyraWetSpongeBlock extends Block{
-    private final Supplier<Block> sponge;
+    protected final Supplier<Block> sponge;
+    protected final SoundEvent drySound;
+    protected final SoundSource drySoundSource;
+    protected final float dryVolume;
+    protected final float dryPitch;
 
     public AneyraWetSpongeBlock(final BlockBehaviour.Properties properties, AneyraBlockProperties.WetSpongeProperties wetSpongeProperties) {
         super(properties);
         this.sponge = wetSpongeProperties.sponge();
+        this.drySound = wetSpongeProperties.drySound();
+        this.drySoundSource = wetSpongeProperties.drySoundSource();
+        this.dryVolume = wetSpongeProperties.dryVolume();
+        this.dryPitch = wetSpongeProperties.dryPitch();
     }
 
     @Override
@@ -30,7 +39,7 @@ public class AneyraWetSpongeBlock extends Block{
         if (level.environmentAttributes().getValue(EnvironmentAttributes.WATER_EVAPORATES, pos)) {
             level.setBlock(pos, sponge.get().defaultBlockState(), 3);
             level.levelEvent(2009, pos, 0);
-            level.playSound(null, pos, SoundEvents.WET_SPONGE_DRIES, SoundSource.BLOCKS, 1.0F, (1.0F + level.getRandom().nextFloat() * 0.2F) * 0.7F);
+            level.playSound(null, pos, drySound, drySoundSource, dryVolume, (dryPitch + level.getRandom().nextFloat() * 0.2F) * 0.7F);
         }
     }
 

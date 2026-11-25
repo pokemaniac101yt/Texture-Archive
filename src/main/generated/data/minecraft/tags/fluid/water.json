@@ -1,6 +1,8 @@
 {
   "values": [
     "texturemod:water_classic_0_0_12a",
-    "texturemod:flowing_water_classic_0_0_12a"
+    "texturemod:flowing_water_classic_0_0_12a",
+    "texturemod:water_aneyra_demo",
+    "texturemod:flowing_water_aneyra_demo"
   ]
 }

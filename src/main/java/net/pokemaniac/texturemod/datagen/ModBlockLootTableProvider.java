@@ -63,6 +63,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.SANDSTONE_WALL_BETA_1_2);
 
         dropSelf(ModBlocks.ANEYRA_SPONGE_DEMO);
+        dropSelf(ModBlocks.SPONGE_CLASSIC_0_0_19a);
+        dropSelf(ModBlocks.WET_SPONGE_CLASSIC_0_0_19a);
 
     }
 }
